@@ -1,0 +1,1198 @@
+{
+ "updatedAt": "2026-11-17T09:31Z",
+ "since": "20261027",
+ "queries": 30,
+ "failed": {},
+ "fields": [
+  "publication-number",
+  "publication-date",
+  "notice-title",
+  "notice-type",
+  "buyer-name",
+  "buyer-country",
+  "classification-cpv",
+  "estimated-value-proc",
+  "estimated-value-cur-proc",
+  "deadline-receipt-tender-date-lot",
+  "place-of-performance"
+ ],
+ "notices": [
+  {
+   "pn": "797487-2026",
+   "date": "2026-11-17",
+   "title": "Netherlands – Financial leasing services – Fietslease",
+   "type": "can-standard",
+   "buyer": "Provincie Groningen",
+   "cc": "NLD",
+   "place": "NLD",
+   "cpv": [
+    "34432000",
+    "66114000"
+   ],
+   "value": 7500000.0,
+   "cur": "EUR",
+   "url": "https://ted.europa.eu/en/notice/-/detail/797487-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "797892-2026",
+   "date": "2026-11-17",
+   "title": "Germany – Financial leasing services – Fahrradleasing-Leistungen für Beschäftigte im öffentlichen Dienst im Landkreis Ansbach",
+   "type": "cn-standard",
+   "buyer": "Landratsamt Ansbach - Zentrale Vergabestelle",
+   "cc": "DEU",
+   "place": "DE256",
+   "cpv": [
+    "34430000",
+    "34432000",
+    "50100000",
+    "66114000"
+   ],
+   "deadline": "2026-12-22",
+   "url": "https://ted.europa.eu/en/notice/-/detail/797892-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "798039-2026",
+   "date": "2026-11-17",
+   "title": "Germany – Financial leasing services – Dienstradleasing-Leistungen",
+   "type": "can-standard",
+   "buyer": "ANregiomed gkU AöR",
+   "cc": "DEU",
+   "place": "DE251",
+   "cpv": [
+    "34422000",
+    "34431000",
+    "37400000",
+    "66000000",
+    "66114000"
+   ],
+   "value": 966000.0,
+   "cur": "EUR",
+   "url": "https://ted.europa.eu/en/notice/-/detail/798039-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "793199-2026",
+   "date": "2026-11-16",
+   "title": "Germany – Financial leasing services – Rahmenvereinbarung über das Leasing von Diensträdern",
+   "type": "cn-standard",
+   "buyer": "Team Vergabe Lieferungen/Dienstleistungen",
+   "cc": "DEU",
+   "place": "DEE02",
+   "cpv": [
+    "34422000",
+    "34430000",
+    "66114000"
+   ],
+   "deadline": "2026-11-16",
+   "url": "https://ted.europa.eu/en/notice/-/detail/793199-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "793225-2026",
+   "date": "2026-11-16",
+   "title": "Germany – Bicycles – Fahrradausstattung - Umbau Zweiradwerkstätten",
+   "type": "can-standard",
+   "buyer": "Berufsschulverband Straubing-Bogen",
+   "cc": "DEU",
+   "place": "DE223",
+   "cpv": [
+    "34430000",
+    "43800000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/793225-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "793288-2026",
+   "date": "2026-11-16",
+   "title": "Germany – Financial leasing services – Fahrrad-Leasing",
+   "type": "cn-standard",
+   "buyer": "F&W Fördern & Wohnen AöR",
+   "cc": "DEU",
+   "place": "DE600",
+   "cpv": [
+    "34430000",
+    "50000000",
+    "66114000"
+   ],
+   "deadline": "2026-12-03",
+   "url": "https://ted.europa.eu/en/notice/-/detail/793288-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "796391-2026",
+   "date": "2026-11-16",
+   "title": "France – Provision of services to the community – INSTRUCTION DES DEMANDES D'AIDES RÉGIONALES À LA MOBILITÉ DURABLE",
+   "type": "cn-standard",
+   "buyer": "REGION CENTRE VAL DE LOIRE",
+   "cc": "FRA",
+   "place": "FRB06",
+   "cpv": [
+    "75200000"
+   ],
+   "deadline": "2026-12-14",
+   "url": "https://ted.europa.eu/en/notice/-/detail/796391-2026",
+   "hits": [
+    "vélos à assistance électrique"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "790086-2026",
+   "date": "2026-11-13",
+   "title": "Sweden – Bicycles – Cyklar, elcyklar och cykelreparationer Katrineholm",
+   "type": "cn-standard",
+   "buyer": "Telge Inköp AB",
+   "cc": "SWE",
+   "place": "SE110",
+   "cpv": [
+    "34430000"
+   ],
+   "value": 5000000.0,
+   "cur": "SEK",
+   "deadline": "2026-11-30",
+   "url": "https://ted.europa.eu/en/notice/-/detail/790086-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "790920-2026",
+   "date": "2026-11-13",
+   "title": "Germany – Financial leasing services – 2026-0556 Rahmenvereinbarung über das Leasing von Fahrrädern und E-Bikes für Mitarbeitende der Stadt Duisburg",
+   "type": "cn-standard",
+   "buyer": "Einkauf der Stadt Duisburg (10-31)",
+   "cc": "DEU",
+   "place": "DEA12",
+   "cpv": [
+    "34422000",
+    "34430000",
+    "66114000"
+   ],
+   "deadline": "2026-11-19",
+   "url": "https://ted.europa.eu/en/notice/-/detail/790920-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "791700-2026",
+   "date": "2026-11-13",
+   "title": "Netherlands – Support services for road transport – 2026-1020 Marktconsultatie Regionale deeltweewielers regio Holland Rijnland",
+   "type": "pmc",
+   "buyer": "Gemeente Leiden namens Regio Holland Rijnland",
+   "cc": "NLD",
+   "place": "NL363",
+   "cpv": [
+    "63712000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/791700-2026",
+   "hits": [
+    "deelfietsen"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "786522-2026",
+   "date": "2026-11-12",
+   "title": "Germany – Repair, maintenance and associated services of vehicles and related equipment – RV Fahrradleasing für die Landeshauptstadt Dresden",
+   "type": "cn-standard",
+   "buyer": "Landeshauptstadt Dresden, GB Wirtschaft, Digitales, Personal und Sicherheit, Haupt- und Personalamt",
+   "cc": "DEU",
+   "place": "DED21",
+   "cpv": [
+    "34422000",
+    "34431000",
+    "34432000",
+    "50100000"
+   ],
+   "deadline": "2026-12-01",
+   "url": "https://ted.europa.eu/en/notice/-/detail/786522-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "788056-2026",
+   "date": "2026-11-12",
+   "title": "Germany – Financial leasing services – Fahrradleasing",
+   "type": "cn-standard",
+   "buyer": "Stadt Recklinghausen",
+   "cc": "DEU",
+   "place": "DEA36",
+   "cpv": [
+    "34422000",
+    "34430000",
+    "34431000",
+    "66114000"
+   ],
+   "deadline": "2026-12-14",
+   "url": "https://ted.europa.eu/en/notice/-/detail/788056-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "783716-2026",
+   "date": "2026-11-11",
+   "title": "Germany – Financial leasing services – Rahmenvereinbarung über die Bereitstellung von Fahrrädern im Wege des Dienstradleasings für die Beschäftigten der Stadt Waiblingen",
+   "type": "cn-standard",
+   "buyer": "Stadt Waiblingen",
+   "cc": "DEU",
+   "place": "DE116",
+   "cpv": [
+    "34422000",
+    "34430000",
+    "66114000"
+   ],
+   "value": 1250000.0,
+   "cur": "EUR",
+   "deadline": "2026-12-14",
+   "url": "https://ted.europa.eu/en/notice/-/detail/783716-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "784969-2026",
+   "date": "2026-11-11",
+   "title": "Germany – Financial leasing services – Rahmenvereinbarung über das Leasing von Diensträdern",
+   "type": "cn-standard",
+   "buyer": "Team Vergabe Lieferungen/Dienstleistungen",
+   "cc": "DEU",
+   "place": "DEE02",
+   "cpv": [
+    "34422000",
+    "34430000",
+    "66114000"
+   ],
+   "deadline": "2026-11-13",
+   "url": "https://ted.europa.eu/en/notice/-/detail/784969-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "785672-2026",
+   "date": "2026-11-11",
+   "title": "Czechia – Miscellaneous services – Sdílení jízdních kol ve městech Uherské Hradiště a Kunovice",
+   "type": "cn-standard",
+   "buyer": "Město Uherské Hradiště",
+   "cc": "CZE",
+   "place": "CZ072",
+   "cpv": [
+    "34430000",
+    "98300000"
+   ],
+   "value": 6000000.0,
+   "cur": "CZK",
+   "deadline": "2026-11-30",
+   "url": "https://ted.europa.eu/en/notice/-/detail/785672-2026",
+   "hits": [
+    "cpv",
+    "sdílená kola"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "779264-2026",
+   "date": "2026-11-10",
+   "title": "Belgium – Bicycles – een meerjarige raamovereenkomst voor leveringen betreffende de (operationele) leasing van fietsen ten behoeve van de personeelsleden van de Geïntegreerde Politie, AIG en SSDGPI opgesteld op basis van de Wet van 17 juin 2016 (inzake klassieke sectoren)",
+   "type": "cn-standard",
+   "buyer": "Police Fédérale",
+   "cc": "BEL",
+   "place": "BEL",
+   "cpv": [
+    "34430000",
+    "66114000"
+   ],
+   "deadline": "2026-12-03",
+   "url": "https://ted.europa.eu/en/notice/-/detail/779264-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "779557-2026",
+   "date": "2026-11-10",
+   "title": "Spain – Repair, maintenance and associated services of vehicles and related equipment – Suministro, instalación y explotación de un sistema público de alquiler de bicicletas de pedaleo asistido en la ciudad de Zaragoza, en el marco de la estrategia del plan de recuperación, transformación y resilien",
+   "type": "can-modif",
+   "buyer": "Gobierno de Zaragoza",
+   "cc": "ESP",
+   "place": "ES243",
+   "cpv": [
+    "34422000",
+    "34432000",
+    "50100000",
+    "50111100"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/779557-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "779629-2026",
+   "date": "2026-11-10",
+   "title": "Sweden – Financial leasing services – Förmånscyklar",
+   "type": "cn-standard",
+   "buyer": "REGION HALLAND",
+   "cc": "SWE",
+   "place": "SE231",
+   "cpv": [
+    "34430000",
+    "66000000",
+    "66114000"
+   ],
+   "value": 30000000.0,
+   "cur": "SEK",
+   "deadline": "2026-11-29",
+   "url": "https://ted.europa.eu/en/notice/-/detail/779629-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "779795-2026",
+   "date": "2026-11-10",
+   "title": "Sweden – Recreational, cultural and sporting services – Koncessionsavtal förmånscyklar 2026",
+   "type": "cn-standard",
+   "buyer": "Uppsala kommun",
+   "cc": "SWE",
+   "place": "SE121",
+   "cpv": [
+    "34430000",
+    "34432000",
+    "50100000",
+    "92000000",
+    "98000000"
+   ],
+   "value": 85000000.0,
+   "cur": "SEK",
+   "url": "https://ted.europa.eu/en/notice/-/detail/779795-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "780362-2026",
+   "date": "2026-11-10",
+   "title": "Netherlands – Bicycles – EA Bedrijfsfietsen en handhavingsfietsen Gemeente Zwolle",
+   "type": "cn-standard",
+   "buyer": "Gemeente Zwolle",
+   "cc": "NLD",
+   "place": "NL211",
+   "cpv": [
+    "34422000",
+    "34430000",
+    "34431000"
+   ],
+   "value": 676508.0,
+   "cur": "EUR",
+   "deadline": "2026-11-30",
+   "url": "https://ted.europa.eu/en/notice/-/detail/780362-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "780498-2026",
+   "date": "2026-11-10",
+   "title": "Greece – Repair and maintenance services of motor vehicles and associated equipment – Συμφωνία - Πλαίσιο Υπηρεσίας Συντήρησης και Επισκευής Μεταφορικών Μέσων με την Προμήθεια Ανταλλακτικών",
+   "type": "cn-standard",
+   "buyer": "ΔΗΜΟΣ ΔΙΟΝΥΣΟΥ",
+   "cc": "GRC",
+   "place": "EL305",
+   "cpv": [
+    "34330000",
+    "34350000",
+    "34432000",
+    "34913000",
+    "50110000",
+    "50116500"
+   ],
+   "value": 240000.0,
+   "cur": "EUR",
+   "deadline": "2026-12-21",
+   "url": "https://ted.europa.eu/en/notice/-/detail/780498-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "781454-2026",
+   "date": "2026-11-10",
+   "title": "Germany – Financial leasing services – 2026-0556 Rahmenvereinbarung über das Leasing von Fahrrädern und E-Bikes für Mitarbeitende der Stadt Duisburg",
+   "type": "cn-standard",
+   "buyer": "Einkauf der Stadt Duisburg (10-31)",
+   "cc": "DEU",
+   "place": "DEA12",
+   "cpv": [
+    "34422000",
+    "34430000",
+    "66114000"
+   ],
+   "deadline": "2026-11-13",
+   "url": "https://ted.europa.eu/en/notice/-/detail/781454-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "781897-2026",
+   "date": "2026-11-10",
+   "title": "Germany – Financial leasing services – Stadt Wolfenbüttel, Rahmenvertrag Fahrradleasing",
+   "type": "cn-standard",
+   "buyer": "Stadt Wolfenbüttel",
+   "cc": "DEU",
+   "place": "DE91B",
+   "cpv": [
+    "34430000",
+    "66114000"
+   ],
+   "value": 486000.0,
+   "cur": "EUR",
+   "deadline": "2026-11-16",
+   "url": "https://ted.europa.eu/en/notice/-/detail/781897-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "782444-2026",
+   "date": "2026-11-10",
+   "title": "Slovenia – Bicycles – Sistem izposoje koles v MO Ptuj - PECIKL 2",
+   "type": "can-standard",
+   "buyer": "MESTNA OBČINA PTUJ",
+   "cc": "SVN",
+   "place": "SI032",
+   "cpv": [
+    "34430000"
+   ],
+   "value": 234239.8,
+   "cur": "EUR",
+   "url": "https://ted.europa.eu/en/notice/-/detail/782444-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "782632-2026",
+   "date": "2026-11-10",
+   "title": "Bulgaria – Bicycles – Надграждане на система за споделяне на електрически велосипеди с нови такива за нуждите на Община Бургас",
+   "type": "cn-standard",
+   "buyer": "ОБЩИНА БУРГАС",
+   "cc": "BGR",
+   "place": "BG341",
+   "cpv": [
+    "34430000"
+   ],
+   "value": 233500.0,
+   "cur": "EUR",
+   "deadline": "2026-12-08",
+   "url": "https://ted.europa.eu/en/notice/-/detail/782632-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "779987-2026",
+   "date": "2026-11-10",
+   "title": "France – Parts and accessories for vehicles and their engines – RELANCE FOURNITURE DE PIECES DETACHEES, PNEUMATIQUES, PEINTURES CARROSSERIE, ACCESSOIRES ET ARTICLES DIVERS POUR LA REPARATION ET LA MAINTENANCE DU PARC DE VEHICULES ET D'ENGINS, ET POUR LES CONTROLES REGLEMENTAIRES",
+   "type": "can-standard",
+   "buyer": "Ville de Chambéry",
+   "cc": "FRA",
+   "place": "FRK27",
+   "cpv": [
+    "34300000",
+    "34310000",
+    "34350000",
+    "34351000"
+   ],
+   "value": 2264000.0,
+   "cur": "EUR",
+   "url": "https://ted.europa.eu/en/notice/-/detail/779987-2026",
+   "hits": [
+    "vélos à assistance électrique"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "778038-2026",
+   "date": "2026-11-09",
+   "title": "Belgium – Bicycles – Raamovereenkomst voor het aanbieden van fietslease binnen een cafetariaplan",
+   "type": "cn-standard",
+   "buyer": "Poolstok (Vlaams Selectiecentrum voor het Overheidspersoneel cvba)",
+   "cc": "BEL",
+   "place": "BEL",
+   "cpv": [
+    "34422000",
+    "34430000",
+    "34431000"
+   ],
+   "deadline": "2026-12-07",
+   "url": "https://ted.europa.eu/en/notice/-/detail/778038-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "778892-2026",
+   "date": "2026-11-09",
+   "title": "Sweden – Motor scooters and cycles with auxiliary motors – Tjänstecyklar, El-cyklar, service och tillbehör",
+   "type": "cn-standard",
+   "buyer": "Norrköpings kommun",
+   "cc": "SWE",
+   "place": "SE123",
+   "cpv": [
+    "34420000",
+    "34430000",
+    "34431000",
+    "34432000"
+   ],
+   "value": 3000000.0,
+   "cur": "SEK",
+   "deadline": "2026-12-08",
+   "url": "https://ted.europa.eu/en/notice/-/detail/778892-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "772536-2026",
+   "date": "2026-11-06",
+   "title": "Netherlands – Bicycles – EA Bedrijfsfietsen en handhavingsfietsen Gemeente Zwolle",
+   "type": "cn-standard",
+   "buyer": "Gemeente Zwolle",
+   "cc": "NLD",
+   "place": "NL211",
+   "cpv": [
+    "34422000",
+    "34430000",
+    "34431000"
+   ],
+   "value": 676508.0,
+   "cur": "EUR",
+   "deadline": "2026-11-30",
+   "url": "https://ted.europa.eu/en/notice/-/detail/772536-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "774128-2026",
+   "date": "2026-11-06",
+   "title": "Denmark – Refuse and waste related services – Markedsdialog om genbrug af cykler",
+   "type": "pin-only",
+   "buyer": "Københavns Kommune",
+   "cc": "DNK",
+   "place": "DNK",
+   "cpv": [
+    "34430000",
+    "90500000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/774128-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "767597-2026",
+   "date": "2026-11-05",
+   "title": "Netherlands – Financial leasing services – WFRL-11-40631 Digitaal platform fietslease, fietsplan en bedrijfsfitness",
+   "type": "can-standard",
+   "buyer": "Wetterskip Fryslân",
+   "cc": "NLD",
+   "place": "NLD",
+   "cpv": [
+    "34430000",
+    "66114000",
+    "92600000"
+   ],
+   "value": 600000.0,
+   "cur": "EUR",
+   "url": "https://ted.europa.eu/en/notice/-/detail/767597-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "768038-2026",
+   "date": "2026-11-05",
+   "title": "Sweden – Recreational, cultural and sporting services – Koncessionsavtal förmånscyklar 2026",
+   "type": "cn-standard",
+   "buyer": "Uppsala kommun",
+   "cc": "SWE",
+   "place": "SE121",
+   "cpv": [
+    "34430000",
+    "34432000",
+    "50100000",
+    "92000000",
+    "98000000"
+   ],
+   "value": 85000000.0,
+   "cur": "SEK",
+   "url": "https://ted.europa.eu/en/notice/-/detail/768038-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "768345-2026",
+   "date": "2026-11-05",
+   "title": "Sweden – Bicycles – Standardcyklar, Elcyklar och Lastcyklar",
+   "type": "cn-standard",
+   "buyer": "Stockholms läns sjukvårdsområde",
+   "cc": "SWE",
+   "place": "SE110",
+   "cpv": [
+    "34430000"
+   ],
+   "value": 4000000.0,
+   "cur": "SEK",
+   "deadline": "2026-12-08",
+   "url": "https://ted.europa.eu/en/notice/-/detail/768345-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "768527-2026",
+   "date": "2026-11-05",
+   "title": "Germany – Financial leasing services – Rahmenvertrag Fahrradleasing",
+   "type": "cn-standard",
+   "buyer": "Stadtverwaltung Schmalkalden",
+   "cc": "DEU",
+   "place": "DEG0Q",
+   "cpv": [
+    "34422000",
+    "34431000",
+    "66114000"
+   ],
+   "deadline": "2026-11-17",
+   "url": "https://ted.europa.eu/en/notice/-/detail/768527-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "770532-2026",
+   "date": "2026-11-05",
+   "title": "Germany – Financial and insurance services – Rahmenvertrag Jobrad-Leasing",
+   "type": "cn-standard",
+   "buyer": "Rheinisch-Bergischer Kreis",
+   "cc": "DEU",
+   "place": "DEA2B",
+   "cpv": [
+    "34422000",
+    "34431000",
+    "37400000",
+    "50100000",
+    "66000000",
+    "66114000"
+   ],
+   "deadline": "2026-12-07",
+   "url": "https://ted.europa.eu/en/notice/-/detail/770532-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "770748-2026",
+   "date": "2026-11-05",
+   "title": "Croatia – Bicycles – Sustav dijeljenih bicikala u sklopu ITU projekta \"Unaprjeđenje sustava javnog prijevoza na urbanom području Koprivnica\"",
+   "type": "cn-standard",
+   "buyer": "GRAD KOPRIVNICA",
+   "cc": "HRV",
+   "place": "HR063",
+   "cpv": [
+    "34430000"
+   ],
+   "value": 646840.0,
+   "cur": "EUR",
+   "deadline": "2026-12-07",
+   "url": "https://ted.europa.eu/en/notice/-/detail/770748-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "763978-2026",
+   "date": "2026-11-04",
+   "title": "Romania – Bicycles – Furnizare, transport, instalare și punere în funcțiune Sistem de închiriere biciclete (Bike-Sharing) în Municipiul Gheorgheni",
+   "type": "cn-standard",
+   "buyer": "Municipiul Gheorgheni",
+   "cc": "ROU",
+   "place": "RO124",
+   "cpv": [
+    "31600000",
+    "34430000",
+    "48000000",
+    "51100000"
+   ],
+   "value": 4017951.0,
+   "cur": "RON",
+   "deadline": "2026-12-09",
+   "url": "https://ted.europa.eu/en/notice/-/detail/763978-2026",
+   "hits": [
+    "bike sharing",
+    "bike-sharing",
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "765063-2026",
+   "date": "2026-11-04",
+   "title": "Italy – Motorcycles, bicycles and sidecars – PROCEDURA APERTA AI SENSI DELL&#8217;ART. 71 DEL D. LGS. N. 36/23 PER L&#8217;AFFIDAMENTO DI FORNITURE E LAVORI RELATIVI ALL'INTERVENTO DENOMINATO \"BIKE SHARING\"",
+   "type": "cn-standard",
+   "buyer": "Comune dell'Aquila",
+   "cc": "ITA",
+   "place": "ITF11",
+   "cpv": [
+    "34400000"
+   ],
+   "value": 389991.42,
+   "cur": "EUR",
+   "deadline": "2026-11-30",
+   "url": "https://ted.europa.eu/en/notice/-/detail/765063-2026",
+   "hits": [
+    "bike sharing",
+    "bike-sharing"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "760870-2026",
+   "date": "2026-11-03",
+   "title": "Belgium – Bicycles – een meerjarige raamovereenkomst voor leveringen betreffende de (operationele) leasing van fietsen ten behoeve van de personeelsleden van de Geïntegreerde Politie, AIG en SSDGPI opgesteld op basis van de Wet van 17 juin 2016 (inzake klassieke sectoren)",
+   "type": "cn-standard",
+   "buyer": "Police Fédérale",
+   "cc": "BEL",
+   "place": "BEL",
+   "cpv": [
+    "34430000",
+    "66114000"
+   ],
+   "deadline": "2026-11-12",
+   "url": "https://ted.europa.eu/en/notice/-/detail/760870-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "761452-2026",
+   "date": "2026-11-03",
+   "title": "Germany – Bicycles – Einführung Dienstradleasing",
+   "type": "cn-standard",
+   "buyer": "Medizinischer Dienst Nord",
+   "cc": "DEU",
+   "place": "DE600",
+   "cpv": [
+    "34430000"
+   ],
+   "deadline": "2026-12-07",
+   "url": "https://ted.europa.eu/en/notice/-/detail/761452-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "761467-2026",
+   "date": "2026-11-03",
+   "title": "Germany – Miscellaneous business and business-related services – Rahmenvereinbarung Dienstradleasing",
+   "type": "cn-standard",
+   "buyer": "Stadt Osnabrück - FD Öffentliche Aufträge",
+   "cc": "DEU",
+   "place": "DE944",
+   "cpv": [
+    "34430000",
+    "66114000",
+    "66510000",
+    "79900000"
+   ],
+   "deadline": "2026-12-03",
+   "url": "https://ted.europa.eu/en/notice/-/detail/761467-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "761489-2026",
+   "date": "2026-11-03",
+   "title": "Germany – Financial leasing services – Rahmenvereinbarung für das Dienstradleasing der Stadt Delmenhorst",
+   "type": "cn-standard",
+   "buyer": "Stadt Delmenhorst",
+   "cc": "DEU",
+   "place": "DE941",
+   "cpv": [
+    "34422000",
+    "34430000",
+    "50100000",
+    "66114000"
+   ],
+   "deadline": "2026-12-10",
+   "url": "https://ted.europa.eu/en/notice/-/detail/761489-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "762522-2026",
+   "date": "2026-11-03",
+   "title": "Netherlands – Bicycles – EA Bedrijfsfietsen en handhavingsfietsen Gemeente Zwolle",
+   "type": "cn-standard",
+   "buyer": "Gemeente Zwolle",
+   "cc": "NLD",
+   "place": "NL211",
+   "cpv": [
+    "34422000",
+    "34430000",
+    "34431000"
+   ],
+   "value": 676508.0,
+   "cur": "EUR",
+   "deadline": "2026-11-27",
+   "url": "https://ted.europa.eu/en/notice/-/detail/762522-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "756467-2026",
+   "date": "2026-11-02",
+   "title": "Sweden – Recreational, cultural and sporting services – Koncessionsavtal förmånscyklar 2026",
+   "type": "cn-standard",
+   "buyer": "Uppsala kommun",
+   "cc": "SWE",
+   "place": "SE121",
+   "cpv": [
+    "34430000",
+    "34432000",
+    "50100000",
+    "92000000",
+    "98000000"
+   ],
+   "value": 85000000.0,
+   "cur": "SEK",
+   "url": "https://ted.europa.eu/en/notice/-/detail/756467-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "759015-2026",
+   "date": "2026-11-02",
+   "title": "Sweden – Bicycles – Cyklar, elcyklar och cykelreparationer Katrineholm",
+   "type": "cn-standard",
+   "buyer": "Telge Inköp AB",
+   "cc": "SWE",
+   "place": "SE110",
+   "cpv": [
+    "34430000"
+   ],
+   "value": 5000000.0,
+   "cur": "SEK",
+   "deadline": "2026-11-30",
+   "url": "https://ted.europa.eu/en/notice/-/detail/759015-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "759032-2026",
+   "date": "2026-11-02",
+   "title": "Romania – Urban furniture – Furnizare și montaj boxuri securizate pentru parcarea bicicletelor în Municipiul Buzău",
+   "type": "cn-standard",
+   "buyer": "MUNICIPIUL BUZAU",
+   "cc": "ROU",
+   "place": "RO222",
+   "cpv": [
+    "34928400",
+    "39151100",
+    "39522120",
+    "51000000"
+   ],
+   "value": 2975206.61,
+   "cur": "RON",
+   "deadline": "2026-12-07",
+   "url": "https://ted.europa.eu/en/notice/-/detail/759032-2026",
+   "hits": [
+    "bike sharing",
+    "bike-sharing"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "752870-2026",
+   "date": "2026-10-30",
+   "title": "Germany – Financial leasing services – Dienstrad-Leasing bei der Stadtverwaltung Troisdorf",
+   "type": "cn-standard",
+   "buyer": "Stadt Troisdorf",
+   "cc": "DEU",
+   "place": "DEA2C",
+   "cpv": [
+    "34422000",
+    "34430000",
+    "66114000"
+   ],
+   "deadline": "2026-11-30",
+   "url": "https://ted.europa.eu/en/notice/-/detail/752870-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "753663-2026",
+   "date": "2026-10-30",
+   "title": "Romania – Construction work – Execuție lucrări pentru realizarea obiectivului de investiții ,,Reducerea emisiilor de carbon in Municipiul Alexandria, prin adoptarea unui transport public ecologic- Obiectul 1 – Realizare piste de ciclisti, inclusiv statii de inchiriat biciclete, statii de autobuz si ",
+   "type": "can-modif",
+   "buyer": "MUNICIPIUL ALEXANDRIA",
+   "cc": "ROU",
+   "place": "RO317",
+   "cpv": [
+    "30231100",
+    "34430000",
+    "45000000",
+    "45213311",
+    "45233162",
+    "48211000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/753663-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "754478-2026",
+   "date": "2026-10-30",
+   "title": "Denmark – Baby care products – EU-udbud vedrørende indkøb og levering af babyudstyr til Jysk Fællesindkøb",
+   "type": "cn-standard",
+   "buyer": "Syddjurs Kommune - Stab og Økonomi",
+   "cc": "DNK",
+   "place": "DK041",
+   "cpv": [
+    "18410000",
+    "33750000",
+    "34115200",
+    "34422000",
+    "34432000",
+    "34911000",
+    "34912100",
+    "39143112"
+   ],
+   "value": 23000000.0,
+   "cur": "DKK",
+   "deadline": "2026-11-04",
+   "url": "https://ted.europa.eu/en/notice/-/detail/754478-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "754756-2026",
+   "date": "2026-10-30",
+   "title": "Germany – Financial leasing services – Cloppenburg_Rahmenvereinbarung_Dienstradleasing",
+   "type": "cn-standard",
+   "buyer": "Landkreis Cloppenburg",
+   "cc": "DEU",
+   "place": "DE948",
+   "cpv": [
+    "34430000",
+    "66114000"
+   ],
+   "deadline": "2026-12-01",
+   "url": "https://ted.europa.eu/en/notice/-/detail/754756-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "755051-2026",
+   "date": "2026-10-30",
+   "title": "Greece – Bicycles – ΑΝΟΙΚΤΟ ΚΕΝΤΡΟ ΕΜΠΟΡΙΟΥ ΔΗΜΟΥ ΚΑΛΑΜΑΡΙΑΣ",
+   "type": "can-standard",
+   "buyer": "ΔΗΜΟΣ ΚΑΛΑΜΑΡΙΑΣ",
+   "cc": "GRC",
+   "place": "EL522",
+   "cpv": [
+    "31681500",
+    "31700000",
+    "32440000",
+    "32441200",
+    "32510000",
+    "34144512",
+    "34430000",
+    "34924000"
+   ],
+   "value": 448043.25,
+   "cur": "EUR",
+   "url": "https://ted.europa.eu/en/notice/-/detail/755051-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "748583-2026",
+   "date": "2026-10-28",
+   "title": "France – Repair and maintenance services of motor vehicles and associated equipment – MARCHE PUBLIC DE FOURNITURE DE PIECES DETACHEES ET PRESTATIONS DE REPARATION POUR L’ENSEMBLE DE LA FLOTTE AUTOMOBILE DE LA VILLE DE GENTILLY",
+   "type": "cn-standard",
+   "buyer": "Ville de GENTILLY",
+   "cc": "FRA",
+   "place": "FR107",
+   "cpv": [
+    "34300000",
+    "50110000",
+    "50111000",
+    "50112000",
+    "50116100"
+   ],
+   "deadline": "2026-11-30",
+   "url": "https://ted.europa.eu/en/notice/-/detail/748583-2026",
+   "hits": [
+    "vélos à assistance électrique"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "741495-2026",
+   "date": "2026-10-27",
+   "title": "Germany – Financial leasing services – Rahmenvereinbarung zur Überlassung von Fahrrädern im Wege der Entgeltumwandlung",
+   "type": "cn-standard",
+   "buyer": "Kreis Mettmann - Die Landrätin, Amt 10 -Zentrale Vergabestelle-",
+   "cc": "DEU",
+   "place": "DEA1C",
+   "cpv": [
+    "34422000",
+    "34431000",
+    "37400000",
+    "50100000",
+    "66000000",
+    "66114000"
+   ],
+   "deadline": "2026-11-26",
+   "url": "https://ted.europa.eu/en/notice/-/detail/741495-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "742128-2026",
+   "date": "2026-10-27",
+   "title": "Belgium – Bicycles – Raamovereenkomst voor operationele fietsenlease door personeelsleden van het Ziekenhuis Oost-Limburg",
+   "type": "cn-standard",
+   "buyer": "Ziekenhuis Oost-Limburg",
+   "cc": "BEL",
+   "place": "BE100",
+   "cpv": [
+    "34430000"
+   ],
+   "deadline": "2026-11-09",
+   "url": "https://ted.europa.eu/en/notice/-/detail/742128-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "743328-2026",
+   "date": "2026-10-27",
+   "title": "France – Motor vehicles – Renouvellement du parc automobile et acquisition de vélos à assistance électrique pour la Ville et le CCAS de Bayonne - Création d'un système d'acquisition dynamique pour l'achat de véhicules neufs et d'occasion ainsi que de vélos à assistance électrique",
+   "type": "cn-standard",
+   "buyer": "Commune de Bayonne",
+   "cc": "FRA",
+   "place": "FRI15",
+   "cpv": [
+    "34100000",
+    "34134200",
+    "34144900",
+    "34430000"
+   ],
+   "value": 7116000.0,
+   "cur": "EUR",
+   "url": "https://ted.europa.eu/en/notice/-/detail/743328-2026",
+   "hits": [
+    "cpv",
+    "vélos à assistance électrique"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "743614-2026",
+   "date": "2026-10-27",
+   "title": "Czechia – Recreational, cultural and sporting services – Zajištění provozu sdílených kol ve Frýdku-Místku 2027–2029",
+   "type": "can-standard",
+   "buyer": "Statutární město Frýdek-Místek",
+   "cc": "CZE",
+   "place": "CZ080",
+   "cpv": [
+    "92000000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/743614-2026",
+   "hits": [
+    "Bikesharing"
+   ],
+   "seen": "2026-11-17T09:31Z"
+  }
+ ]
+}
