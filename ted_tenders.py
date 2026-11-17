@@ -43,7 +43,7 @@ PHRASES = [
     "velosipēdu koplietošana", "dviračių dalijimosi",
     # Central and Eastern Europe
     "rower miejski", "rowery miejskie", "sdílená kola", "sdílení jízdních kol", "zdieľané bicykle",
-    "kerékpármegosztó", "közbringa", "izposoja koles", "javni bicikli", "dijeljenih bicikala",
+    "kerékpármegosztó", "izposoja koles", "javni bicikli", "dijeljenih bicikala",
     "biciclete partajate", "închiriere biciclete", "споделени велосипеди", "κοινόχρηστα ποδήλατα",
 ]
 FIELDS_FULL = ["publication-number", "publication-date", "notice-title", "notice-type", "buyer-name", "buyer-country",
