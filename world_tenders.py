@@ -243,12 +243,22 @@ def src_br_pncp():
     for page in list(range(start, 700)) + list(range(1, start)):
         st["next_page"] = page  # where to pick up if we run out of time
         url = "https://pncp.gov.br/api/consulta/v1/contratacoes/proposta?" + urllib.parse.urlencode({"dataFinal": end, "pagina": page, "tamanhoPagina": 50})
-        try:
-            data = get_json(url, timeout=90)
-        except urllib.error.HTTPError as e:
-            if e.code == 429:
-                raise OutOfTime("rate-limited; will continue from page %d next run" % page)
-            raise
+        data = None
+        for attempt in range(2):
+            try:
+                data = get_json(url, timeout=90)
+                break
+            except urllib.error.HTTPError as e:
+                if e.code == 429:
+                    raise OutOfTime("rate-limited; will continue from page %d next run" % page)
+                if e.code >= 500 and attempt == 0:
+                    time.sleep(5)
+                    continue
+                if e.code >= 500:
+                    break  # skip a page the portal can't serve
+                raise
+        if data is None:
+            continue
         items = data.get("data") or []
         if page == 1:
             print("  br-pncp pages:", data.get("totalPaginas"), "records:", data.get("totalRegistros"), flush=True)
