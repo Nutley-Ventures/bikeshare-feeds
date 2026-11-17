@@ -394,7 +394,8 @@ def src_es_place():
     url = "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3.atom"
     out = []
     st = STATE.setdefault("es-place", {})
-    stop = max(SINCE.isoformat(), st.get("done_to") or "")  # notices older than the last complete walk are already saved
+    first = (NOW.date() - dt.timedelta(days=3)).isoformat()  # it runs daily, so a first run only needs the last few days
+    stop = max(SINCE.isoformat(), st.get("done_to") or first)  # notices older than the last complete walk are already saved
     top = None
     for _ in range(12):  # each page holds the most recent notices; walk back until we reach notices already seen
         root = ET.fromstring(get(url, accept="application/atom+xml", timeout=180))
@@ -460,7 +461,7 @@ def main():
             for n in part:
                 n["seen"] = notices.get(n["id"], {}).get("seen", stamp)
                 notices[n["id"]] = n
-            print(f"{name}: FAILED {msg} (kept {len(part)} found before stopping)", flush=True)
+            print(f"{name}: {'PARTIAL' if isinstance(e, OutOfTime) else 'FAILED'} {msg} (kept {len(part)} found before stopping)", flush=True)
     oldest = (NOW.date() - dt.timedelta(days=KEEP_DAYS)).isoformat()
     keep = sorted((n for n in notices.values() if (n.get("date") or "9999") >= oldest), key=lambda n: n.get("date", ""), reverse=True)
     doc = {"updatedAt": stamp, "since": SINCE.isoformat(), "sources": status, "state": STATE, "notices": keep}
