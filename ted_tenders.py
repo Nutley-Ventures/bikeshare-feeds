@@ -54,7 +54,7 @@ PHRASES = [
     # Micromobility and mobility hubs
     "micromobility", "micromobilité", "micromovilidad", "micromobilità", "micromobilidade", "Mikromobilität",
     "mikromobilność", "mikromobilita", "shared mobility", "mobilité partagée", "movilidad compartida",
-    "mobility hubs", "Mobilitätsstationen", "mobipunten", "mobiliteitshubs", "deelmobiliteit",
+    "Mobilitätsstationen", "mobipunten", "mobiliteitshubs", "deelmobiliteit",
     # Bike subscription and long-term rental for residents
     "bike subscription", "e-bike subscription", "long-term e-bike rental", "location longue durée de vélos électriques",
     "location de vélos à assistance électrique", "location de vélos électriques", "abonnement vélo",
