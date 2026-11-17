@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-11-17T09:37Z",
+ "updatedAt": "2026-11-17T09:41Z",
  "since": "20261027",
- "queries": 30,
+ "queries": 52,
  "failed": {},
  "fields": [
   "publication-number",
@@ -80,6 +80,25 @@
     "cpv"
    ],
    "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "797206-2026",
+   "date": "2026-11-17",
+   "title": "Liechtenstein – Special-purpose road passenger-transport services – LIEmobil Velo",
+   "type": "can-standard",
+   "buyer": "LIECHTENSTEINmobil",
+   "cc": "LIE",
+   "place": "LI000",
+   "cpv": [
+    "60130000"
+   ],
+   "value": 1500000.0,
+   "cur": "CHF",
+   "url": "https://ted.europa.eu/en/notice/-/detail/797206-2026",
+   "hits": [
+    "Fahrradverleih"
+   ],
+   "seen": "2026-11-17T09:41Z"
   },
   {
    "pn": "793199-2026",
@@ -215,6 +234,30 @@
    "seen": "2026-11-17T09:31Z"
   },
   {
+   "pn": "789879-2026",
+   "date": "2026-11-13",
+   "title": "Romania – Landscaping work for green areas – “Servicii de proiectare și execuție lucrări pentru obiectivul ”Parc Lac Buftea”, Buftea, Judetul Ilfov”",
+   "type": "cn-standard",
+   "buyer": "Primaria Orasului Buftea",
+   "cc": "ROU",
+   "place": "RO322",
+   "cpv": [
+    "34928400",
+    "43325000",
+    "45112710",
+    "71322000",
+    "79933000"
+   ],
+   "value": 28582145.96,
+   "cur": "RON",
+   "deadline": "2026-11-27",
+   "url": "https://ted.europa.eu/en/notice/-/detail/789879-2026",
+   "hits": [
+    "închiriere biciclete"
+   ],
+   "seen": "2026-11-17T09:41Z"
+  },
+  {
    "pn": "786522-2026",
    "date": "2026-11-12",
    "title": "Germany – Repair, maintenance and associated services of vehicles and related equipment – RV Fahrradleasing für die Landeshauptstadt Dresden",
@@ -316,7 +359,8 @@
    "url": "https://ted.europa.eu/en/notice/-/detail/785672-2026",
    "hits": [
     "cpv",
-    "sdílená kola"
+    "sdílená kola",
+    "sdílení jízdních kol"
    ],
    "seen": "2026-11-17T09:31Z"
   },
@@ -759,9 +803,30 @@
    "deadline": "2026-12-07",
    "url": "https://ted.europa.eu/en/notice/-/detail/770748-2026",
    "hits": [
-    "cpv"
+    "cpv",
+    "dijeljenih bicikala"
    ],
    "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "768642-2026",
+   "date": "2026-11-05",
+   "title": "Poland – IT services: consulting, software development, Internet and support – Zakup usług informatycznych do oprogramowania do kas rrPOS i rPOSnetty Server oraz usług serwisowych dotyczących FSS",
+   "type": "can-standard",
+   "buyer": "POLREGIO S.A.",
+   "cc": "POL",
+   "place": "POL",
+   "cpv": [
+    "50312000",
+    "72000000",
+    "72253200",
+    "72267000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/768642-2026",
+   "hits": [
+    "közbringa"
+   ],
+   "seen": "2026-11-17T09:41Z"
   },
   {
    "pn": "763978-2026",
@@ -784,7 +849,8 @@
    "hits": [
     "bike sharing",
     "bike-sharing",
-    "cpv"
+    "cpv",
+    "închiriere biciclete"
    ],
    "seen": "2026-11-17T09:31Z"
   },
@@ -808,6 +874,23 @@
     "bike-sharing"
    ],
    "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "764564-2026",
+   "date": "2026-11-04",
+   "title": "Poland – Repair and maintenance services of trucks – Usługa naprawy pojazdu VOLVO",
+   "type": "can-standard",
+   "buyer": "Jednostka Wojskowa nr 3940",
+   "cc": "POL",
+   "place": "PL228",
+   "cpv": [
+    "50114000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/764564-2026",
+   "hits": [
+    "közbringa"
+   ],
+   "seen": "2026-11-17T09:41Z"
   },
   {
    "pn": "760870-2026",
@@ -1087,7 +1170,8 @@
    "cur": "EUR",
    "url": "https://ted.europa.eu/en/notice/-/detail/755051-2026",
    "hits": [
-    "cpv"
+    "cpv",
+    "κοινόχρηστα ποδήλατα"
    ],
    "seen": "2026-11-17T09:31Z"
   },
@@ -1190,7 +1274,8 @@
    ],
    "url": "https://ted.europa.eu/en/notice/-/detail/743614-2026",
    "hits": [
-    "Bikesharing"
+    "Bikesharing",
+    "sdílení jízdních kol"
    ],
    "seen": "2026-11-17T09:31Z"
   }
