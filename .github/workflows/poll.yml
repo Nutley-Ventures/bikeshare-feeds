@@ -7,7 +7,7 @@ on:
   workflow_dispatch: {}     # adds a "Run workflow" button
   push:
     branches: [main]
-    paths: ["poll_feeds.py", "ted_tenders.py", ".github/workflows/poll.yml"]   # first run as soon as the files land
+    paths: ["poll_feeds.py", "ted_tenders.py", "split_for_db.py", ".github/workflows/poll.yml"]   # first run as soon as the files land
 
 permissions:
   contents: write
@@ -25,6 +25,9 @@ jobs:
       - name: Poll GBFS feeds
         if: github.event.schedule != '47 10 * * 3'
         run: python3 poll_feeds.py
+      - name: Split counts for the database
+        if: github.event.schedule != '47 10 * * 3'
+        run: python3 split_for_db.py
       - name: Search TED
         run: python3 ted_tenders.py
         continue-on-error: true   # a TED outage mustn't lose the feed counts
@@ -32,6 +35,6 @@ jobs:
         run: |
           git config user.name "bikeshare-feeds bot"
           git config user.email "actions@users.noreply.github.com"
-          git add counts.json tenders.json 2>/dev/null || true
+          for p in counts.json tenders.json db; do [ -e "$p" ] && git add -A "$p"; done
           git diff --cached --quiet || git commit -m "Data $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
