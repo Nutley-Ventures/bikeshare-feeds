@@ -37,6 +37,17 @@ OUT = os.environ.get("WORLD_FILE", "world_tenders.json")
 DAYS_BACK = int(os.environ.get("WORLD_DAYS_BACK", "21"))
 KEEP_DAYS = 120
 MAX_PER_SOURCE = 300
+SOURCE_BUDGET = int(os.environ.get("WORLD_SOURCE_SECS", "150"))  # each portal gets this long, then we move on
+_t0 = [time.time()]
+
+
+class OutOfTime(Exception):
+    pass
+
+
+def budget():
+    if time.time() - _t0[0] > SOURCE_BUDGET:
+        raise OutOfTime(f"stopped after {SOURCE_BUDGET}s")
 UA = "bikeshare-feeds/1.0 (bikeshare and micromobility tender monitor; github.com/Nutley-Ventures/bikeshare-feeds)"
 
 NOW = dt.datetime.now(dt.timezone.utc)
@@ -65,7 +76,8 @@ def hit(*texts):
     return bool(KW.search(norm(" ".join(t for t in texts if t))))
 
 
-def get(url, accept="application/json", data=None, timeout=90):
+def get(url, accept="application/json", data=None, timeout=60):
+    budget()
     headers = {"User-Agent": UA, "Accept": accept}
     if data is not None:
         headers["Content-Type"] = "application/json"
@@ -96,6 +108,9 @@ def num(v):
         return None
 
 
+PARTIAL = []
+
+
 def rec(src, nid, date, title, url, **kw):
     r = {"src": src, "id": f"{src}:{nid}", "date": day(date), "title": re.sub(r"\s+", " ", str(title or "")).strip()[:300], "url": url}
     for k, v in kw.items():
@@ -103,7 +118,9 @@ def rec(src, nid, date, title, url, **kw):
             r[k] = (re.sub(r"\s+", " ", v).strip()[:400] if isinstance(v, str) else v)
     if r.get("deadline"):
         r["deadline"] = day(r["deadline"]) or None
-    return {k: v for k, v in r.items() if v not in (None, "", [])}
+    r = {k: v for k, v in r.items() if v not in (None, "", [])}
+    PARTIAL.append(r)
+    return r
 
 
 # ---------- OCDS helpers (UK, Quebec, Germany) ----------
@@ -189,7 +206,7 @@ def src_ca_seao():
     res = [r for r in pkg["result"]["resources"] if r.get("url", "").lower().endswith(".json")]
     res.sort(key=lambda r: r.get("last_modified") or r.get("created") or "", reverse=True)
     out = []
-    for r in res[:3]:  # the latest weekly files
+    for r in res[:2]:  # the latest weekly files
         data = get_json(r["url"], timeout=300)
         rels = data.get("releases") or [rl for p in data.get("records", []) for rl in ([p.get("compiledRelease")] if p.get("compiledRelease") else [])]
         for rel in rels:
@@ -279,7 +296,7 @@ def src_fr_boamp():
 
 def src_de_doe():
     out = []
-    for i in range(min(DAYS_BACK, 14)):  # daily exports for the last two weeks
+    for i in range(min(DAYS_BACK, 7)):  # daily exports for the last week
         d = (NOW.date() - dt.timedelta(days=i + 1)).isoformat()
         try:
             raw = get(f"https://oeffentlichevergabe.de/api/notice-exports?pubDay={d}&format=ocds.zip", accept="application/zip", timeout=300)
@@ -309,7 +326,7 @@ def src_es_place():
     ns = {"a": "http://www.w3.org/2005/Atom"}
     url = "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3.atom"
     out = []
-    for _ in range(25):  # each page holds the most recent notices; walk back until older than SINCE
+    for _ in range(12):  # each page holds the most recent notices; walk back until older than SINCE
         root = ET.fromstring(get(url, accept="application/atom+xml", timeout=180))
         oldest = None
         for e in root.findall("a:entry", ns):
@@ -348,18 +365,23 @@ def main():
     for name, fn in SOURCES:
         if only and name not in only:
             continue
-        t0 = time.time()
+        t0 = time.time(); _t0[0] = t0; PARTIAL.clear()
+        print(f"{name}: starting", flush=True)
         try:
             found = fn()[:MAX_PER_SOURCE]
             status[name] = {"ok": True, "found": len(found), "at": stamp, "secs": round(time.time() - t0)}
             for n in found:
                 n["seen"] = notices.get(n["id"], {}).get("seen", stamp)
                 notices[n["id"]] = n
-            print(f"{name}: {len(found)} matching notices ({round(time.time() - t0)}s)")
+            print(f"{name}: {len(found)} matching notices ({round(time.time() - t0)}s)", flush=True)
         except Exception as e:  # one portal failing must not stop the rest
             msg = f"{type(e).__name__}: {e}"[:300]
-            status[name] = {"ok": False, "error": msg, "at": stamp}
-            print(f"{name}: FAILED {msg}")
+            part = PARTIAL[:MAX_PER_SOURCE]
+            status[name] = {"ok": False, "error": msg, "at": stamp, "found": len(part)}
+            for n in part:
+                n["seen"] = notices.get(n["id"], {}).get("seen", stamp)
+                notices[n["id"]] = n
+            print(f"{name}: FAILED {msg} (kept {len(part)} found before stopping)", flush=True)
     oldest = (NOW.date() - dt.timedelta(days=KEEP_DAYS)).isoformat()
     keep = sorted((n for n in notices.values() if (n.get("date") or "9999") >= oldest), key=lambda n: n.get("date", ""), reverse=True)
     doc = {"updatedAt": stamp, "since": SINCE.isoformat(), "sources": status, "notices": keep}

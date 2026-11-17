@@ -32,9 +32,11 @@ jobs:
         run: python3 ted_tenders.py
         continue-on-error: true   # a TED outage mustn't lose the feed counts
       - name: Search national tender portals
-        run: python3 world_tenders.py
+        run: python3 -u world_tenders.py
+        timeout-minutes: 25
         continue-on-error: true   # each portal is independent; failures are recorded in the file
       - name: Save
+        if: always()
         run: |
           git config user.name "bikeshare-feeds bot"
           git config user.email "actions@users.noreply.github.com"
