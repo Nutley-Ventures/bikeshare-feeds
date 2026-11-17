@@ -3,7 +3,8 @@ name: Poll GBFS feeds and tenders
 on:
   schedule:
     - cron: "17 3 * * 1"    # Mondays 03:17 UTC: feeds (night in Europe, bikes parked) and TED, ahead of the 05:35 UK database refresh
-    - cron: "47 10 * * 3"   # Wednesdays 10:47 UTC: TED only, ahead of the 12:23 UK tender alert
+    - cron: "47 10 * * 3"   # Wednesdays 10:47 UTC: TED and portals, ahead of the 12:23 UK tender alert
+    - cron: "41 6 * * *"    # daily 06:41 UTC: the slow portals only (UK Find a Tender, Brazil, Spain), a slice at a time
   workflow_dispatch: {}     # adds a "Run workflow" button
   push:
     branches: [main]
@@ -23,16 +24,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Poll GBFS feeds
-        if: github.event.schedule != '47 10 * * 3'
+        if: github.event.schedule != '47 10 * * 3' && github.event.schedule != '41 6 * * *'
         run: python3 poll_feeds.py
       - name: Split counts for the database
-        if: github.event.schedule != '47 10 * * 3'
+        if: github.event.schedule != '47 10 * * 3' && github.event.schedule != '41 6 * * *'
         run: python3 split_for_db.py
       - name: Search TED
+        if: github.event.schedule != '41 6 * * *'
         run: python3 ted_tenders.py
         continue-on-error: true   # a TED outage mustn't lose the feed counts
       - name: Search national tender portals
-        run: python3 -u world_tenders.py
+        run: |
+          if [ "${{ github.event.schedule }}" = "41 6 * * *" ]; then python3 -u world_tenders.py uk-fts br-pncp es-place; else python3 -u world_tenders.py; fi
         timeout-minutes: 25
         continue-on-error: true   # each portal is independent; failures are recorded in the file
       - name: Save
