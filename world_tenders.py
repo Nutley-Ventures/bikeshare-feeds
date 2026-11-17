@@ -171,7 +171,33 @@ def src_uk_fts():
     return out
 
 
+CF_WORDS = ["bike share", "bike hire", "cycle hire", "bicycle", "bicycles", "e-bike", "e-bikes", "cycle parking", "e-scooter", "micromobility", "cargo bike"]
+
+
 def src_uk_cf():
+    """Contracts Finder keyword search (v2 API): asks the portal for our words instead of paging through every notice."""
+    out, seen = [], set()
+    try:
+        for w in CF_WORDS:
+            body = {"searchCriteria": {"keyword": w, "publishedFrom": SINCE.strftime("%Y-%m-%dT00:00:00"), "publishedTo": NOW.strftime("%Y-%m-%dT%H:%M:%S")}, "size": 1000}
+            data = get_json("https://www.contractsfinder.service.gov.uk/api/rest/2/search_notices/json", data=body, timeout=90)
+            items = [x.get("item") or x for x in (data.get("noticeList") or [])]
+            print(f"  uk-cf '{w}': {data.get('hitCount', len(items))} hits", flush=True)
+            for it in items:
+                nid = it.get("id") or it.get("noticeIdentifier")
+                title, desc = it.get("title") or "", it.get("description") or ""
+                if not nid or nid in seen or not hit(title, desc):
+                    continue
+                seen.add(nid)
+                r = rec("uk-cf", nid, it.get("publishedDate"), title, "https://www.contractsfinder.service.gov.uk/Notice/" + str(nid),
+                        buyer=it.get("organisationName"), cc="GBR", value=num(it.get("valueHigh") or it.get("valueLow") or it.get("awardedValue")), cur="GBP",
+                        deadline=it.get("deadlineDate"), type="award" if it.get("awardedDate") else "tender", text=desc[:300])
+                if r:
+                    out.append(r)
+            time.sleep(1)
+        return out
+    except (urllib.error.HTTPError, urllib.error.URLError, ValueError, KeyError) as e:
+        print("  uk-cf keyword search unavailable, falling back to the OCDS feed:", str(e)[:200], flush=True)
     out = []
     url = ("https://www.contractsfinder.service.gov.uk/Published/Notices/OCDS/Search?limit=100&publishedFrom="
            + SINCE.strftime("%Y-%m-%dT00:00:00") + "&publishedTo=" + NOW.strftime("%Y-%m-%dT%H:%M:%S"))
@@ -185,6 +211,7 @@ def src_uk_cf():
                 out.append(r)
         nxt = (pkg.get("links") or {}).get("next")
         if not nxt or not pkg.get("releases"):
+            print(f"  uk-cf OCDS pages read: {i + 1}", flush=True)
             break
         url = nxt
         time.sleep(0.5)
@@ -366,11 +393,15 @@ def src_es_place():
     ns = {"a": "http://www.w3.org/2005/Atom"}
     url = "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3.atom"
     out = []
-    for _ in range(8):  # each page holds the most recent notices; walk back until older than SINCE
+    st = STATE.setdefault("es-place", {})
+    stop = max(SINCE.isoformat(), st.get("done_to") or "")  # notices older than the last complete walk are already saved
+    top = None
+    for _ in range(12):  # each page holds the most recent notices; walk back until we reach notices already seen
         root = ET.fromstring(get(url, accept="application/atom+xml", timeout=180))
         oldest = None
         for e in root.findall("a:entry", ns):
             upd = (e.findtext("a:updated", "", ns) or "")[:10]
+            top = upd if top is None or upd > top else top
             oldest = upd if oldest is None or upd < oldest else oldest
             title, summ = e.findtext("a:title", "", ns), e.findtext("a:summary", "", ns)
             if not hit(title, summ):
@@ -381,10 +412,12 @@ def src_es_place():
                            value=num(m.group(1).replace(".", "").replace(",", ".")) if m else None, cur=(m.group(2) if m and m.group(2) else "EUR") if m else None,
                            buyer=(re.search(r"Órgano de Contratación:\s*([^;]+)", summ or "") or [None, None])[1], type="tender", text=summ[:300]))
         nxt = next((l.get("href") for l in root.findall("a:link", ns) if l.get("rel") == "next"), None)
-        if not nxt or (oldest and oldest < SINCE.isoformat()):
+        if not nxt or (oldest and oldest < stop):
             break
         url = nxt
         time.sleep(1)
+    if top:
+        st["done_to"] = top  # the walk finished: next time stop here
     return out
 
 
@@ -402,7 +435,8 @@ def main():
         prev = {}
     notices = {n["id"]: n for n in prev.get("notices", [])}
     STATE.update(prev.get("state") or {})
-    status = dict(prev.get("sources", {}))
+    names = {n for n, _ in SOURCES}
+    status = {k: v for k, v in (prev.get("sources") or {}).items() if k in names}  # portals we no longer use drop off the list
     stamp = NOW.strftime("%Y-%m-%dT%H:%MZ")
     for name, fn in SOURCES:
         if only and name not in only:
@@ -419,7 +453,10 @@ def main():
         except Exception as e:  # one portal failing must not stop the rest
             msg = f"{type(e).__name__}: {e}"[:300]
             part = PARTIAL[:MAX_PER_SOURCE]
-            status[name] = {"ok": False, "error": msg, "at": stamp, "found": len(part)}
+            if isinstance(e, OutOfTime):  # a slow portal that answered: what we read is saved and the next run carries on
+                status[name] = {"ok": True, "partial": True, "note": "Slow portal: read part of it this run and carries on next run", "at": stamp, "found": len(part), "secs": round(time.time() - t0)}
+            else:
+                status[name] = {"ok": False, "error": msg, "at": stamp, "found": len(part)}
             for n in part:
                 n["seen"] = notices.get(n["id"], {}).get("seen", stamp)
                 notices[n["id"]] = n
