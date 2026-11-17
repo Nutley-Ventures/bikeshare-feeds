@@ -59,6 +59,11 @@ PHRASES = [
     "bike subscription", "e-bike subscription", "long-term e-bike rental", "location longue durée de vélos électriques",
     "location de vélos à assistance électrique", "location de vélos électriques", "abonnement vélo",
     "fietsabonnement", "alquiler de bicicletas eléctricas", "noleggio a lungo termine biciclette",
+    # Staff bike leasing (salary sacrifice and benefit bikes)
+    "Dienstradleasing", "Dienstrad-Leasing", "Fahrradleasing", "JobRad", "Entgeltumwandlung Fahrrad",
+    "fietslease", "fietsleasing", "fietsplan", "leasevélo", "leasing de vélos", "leasing vélo",
+    "förmånscykel", "förmånscyklar", "cykelförmån", "sykkelleasing", "cycle to work", "bike to work scheme",
+    "leasing rowerów", "leasing bicicletas", "leasing biciclette",
 ]
 # Motor scooters and cycles with auxiliary motors (34420000, 34421000, 34422000): e-scooters, mopeds and some e-bikes.
 CPV_MOTOR = "classification-cpv IN (34420000 34421000 34422000)"
