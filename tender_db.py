@@ -136,7 +136,7 @@ for n in h["notices"]:
 parts, cur, size = [], [], 0
 for r in rows:
     s = len(json.dumps(r, ensure_ascii=False).encode())
-    if cur and size + s > 300000:
+    if cur and size + s > 200000:  # database documents are capped at 256 KB
         parts.append(cur); cur, size = [], 0
     cur.append(r); size += s
 if cur: parts.append(cur)
