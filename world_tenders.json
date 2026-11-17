@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-17T12:09Z",
+ "updatedAt": "2026-11-17T13:09Z",
  "since": "2026-10-27",
  "sources": {
   "uk-fts": {
    "ok": true,
    "found": 1,
-   "at": "2026-11-17T12:09Z",
-   "secs": 79
+   "at": "2026-11-17T13:09Z",
+   "secs": 14
   },
   "uk-cf": {
    "ok": true,
    "found": 0,
-   "at": "2026-11-17T12:09Z",
-   "secs": 4
+   "at": "2026-11-17T13:09Z",
+   "secs": 5
   },
   "ca-buys": {
    "ok": false,
@@ -23,43 +23,43 @@
   "ca-seao": {
    "ok": true,
    "found": 0,
-   "at": "2026-11-17T12:09Z",
-   "secs": 7
+   "at": "2026-11-17T13:09Z",
+   "secs": 8
   },
   "br-pncp": {
    "ok": false,
-   "error": "HTTPError: HTTP Error 500: ",
-   "at": "2026-11-17T12:09Z",
-   "found": 0
+   "error": "OutOfTime: stopped after 420s",
+   "at": "2026-11-17T13:09Z",
+   "found": 4
   },
   "co-secop": {
    "ok": true,
    "found": 4,
-   "at": "2026-11-17T12:09Z",
-   "secs": 17
+   "at": "2026-11-17T13:09Z",
+   "secs": 16
   },
   "fr-boamp": {
    "ok": true,
    "found": 7,
-   "at": "2026-11-17T12:09Z",
-   "secs": 10
+   "at": "2026-11-17T13:09Z",
+   "secs": 11
   },
   "de-doe": {
    "ok": true,
    "found": 31,
-   "at": "2026-11-17T12:09Z",
-   "secs": 16
+   "at": "2026-11-17T13:09Z",
+   "secs": 21
   },
   "es-place": {
    "ok": false,
    "error": "OutOfTime: stopped after 420s",
-   "at": "2026-11-17T12:09Z",
-   "found": 4
+   "at": "2026-11-17T13:09Z",
+   "found": 2
   }
  },
  "state": {
   "br-pncp": {
-   "next_page": 5
+   "next_page": 48
   }
  },
  "notices": [
