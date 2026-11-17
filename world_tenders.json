@@ -1,65 +1,65 @@
 {
- "updatedAt": "2026-11-17T14:41Z",
+ "updatedAt": "2026-11-17T15:03Z",
  "since": "2026-10-27",
  "sources": {
   "uk-fts": {
-   "ok": false,
-   "error": "HTTPError: HTTP Error 504: Gateway Time-out",
-   "at": "2026-11-17T14:41Z",
-   "found": 0
+   "ok": true,
+   "found": 1,
+   "at": "2026-11-17T15:03Z",
+   "secs": 118
   },
   "uk-cf": {
    "ok": true,
    "found": 1,
-   "at": "2026-11-17T14:41Z",
-   "secs": 28
+   "at": "2026-11-17T15:03Z",
+   "secs": 34
   },
   "ca-seao": {
    "ok": true,
    "found": 0,
-   "at": "2026-11-17T14:41Z",
-   "secs": 9
+   "at": "2026-11-17T15:03Z",
+   "secs": 8
   },
   "br-pncp": {
    "ok": true,
    "partial": true,
    "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-17T14:41Z",
+   "at": "2026-11-17T15:03Z",
    "found": 0,
-   "secs": 424
+   "secs": 429
   },
   "co-secop": {
    "ok": true,
    "found": 4,
-   "at": "2026-11-17T14:41Z",
-   "secs": 34
+   "at": "2026-11-17T15:03Z",
+   "secs": 36
   },
   "fr-boamp": {
    "ok": true,
    "found": 7,
-   "at": "2026-11-17T14:41Z",
-   "secs": 13
+   "at": "2026-11-17T15:03Z",
+   "secs": 14
   },
   "de-doe": {
    "ok": true,
    "found": 31,
-   "at": "2026-11-17T14:41Z",
+   "at": "2026-11-17T15:03Z",
    "secs": 19
   },
   "es-place": {
    "ok": true,
-   "partial": true,
-   "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-17T14:41Z",
-   "found": 2,
-   "secs": 452
+   "found": 0,
+   "at": "2026-11-17T15:03Z",
+   "secs": 77
   }
  },
  "state": {
   "br-pncp": {
-   "next_page": 125
+   "next_page": 169
   },
-  "es-place": {}
+  "es-place": {
+   "done_to": "2026-11-15"
+  }
  },
  "notices": [
   {
