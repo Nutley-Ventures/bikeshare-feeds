@@ -45,9 +45,14 @@ class OutOfTime(Exception):
     pass
 
 
+LIMITS = {"es-place": 330, "uk-fts": 240, "br-pncp": 240}  # slower portals get longer
+_cur = [""]
+
+
 def budget():
-    if time.time() - _t0[0] > SOURCE_BUDGET:
-        raise OutOfTime(f"stopped after {SOURCE_BUDGET}s")
+    lim = LIMITS.get(_cur[0], SOURCE_BUDGET)
+    if time.time() - _t0[0] > lim:
+        raise OutOfTime(f"stopped after {lim}s")
 UA = "bikeshare-feeds/1.0 (bikeshare and micromobility tender monitor; github.com/Nutley-Ventures/bikeshare-feeds)"
 
 NOW = dt.datetime.now(dt.timezone.utc)
@@ -145,7 +150,7 @@ def src_uk_fts():
     out, url = [], ("https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages?limit=100&updatedFrom="
                     + SINCE.strftime("%Y-%m-%dT00:00:00"))
     for _ in range(150):
-        pkg = get_json(url)
+        pkg = get_json(url, timeout=150)
         for rel in pkg.get("releases", []):
             r = from_release("uk-fts", rel, "GBR", lambda x: f"https://www.find-tender.service.gov.uk/Notice/{x.get('id')}")
             if r:
@@ -165,8 +170,10 @@ def src_uk_cf():
     out = []
     url = ("https://www.contractsfinder.service.gov.uk/Published/Notices/OCDS/Search?limit=100&publishedFrom="
            + SINCE.isoformat() + "&publishedTo=" + NOW.date().isoformat())
-    for _ in range(150):
+    for i in range(150):
         pkg = get_json(url)
+        if i == 0:
+            print("  uk-cf first page:", {k: (len(v) if isinstance(v, list) else v) for k, v in pkg.items() if k != "releases"}, "releases:", len(pkg.get("releases", [])), flush=True)
         for rel in pkg.get("releases", []):
             r = from_release("uk-cf", rel, "GBR", lambda x: "https://www.contractsfinder.service.gov.uk/Notice/" + re.sub(r"^ocds-[a-z0-9]+-", "", str(x.get("ocid") or x.get("id") or "")))
             if r:
@@ -180,7 +187,7 @@ def src_uk_cf():
 
 
 def src_ca_buys():
-    raw = get("https://canadabuys.canada.ca/opendata/pub/openTenderNotice-ouvertAvisAppelOffres.csv", accept="text/csv", timeout=180)
+    raw = get("https://canadabuys.canada.ca/opendata/pub/openTenderNotice-ouvertAvisAppelOffres.csv", accept="text/csv, */*", timeout=180)
     rows = list(csv.DictReader(io.StringIO(raw.decode("utf-8-sig", "replace"))))
     if not rows:
         return []
@@ -205,9 +212,11 @@ def src_ca_seao():
     pkg = get_json("https://www.donneesquebec.ca/recherche/api/3/action/package_show?id=systeme-electronique-dappel-doffres-seao")
     res = [r for r in pkg["result"]["resources"] if r.get("url", "").lower().endswith(".json")]
     res.sort(key=lambda r: r.get("last_modified") or r.get("created") or "", reverse=True)
+    print("  ca-seao files:", [(r.get("name"), (r.get("last_modified") or r.get("created") or "")[:10]) for r in res[:4]], flush=True)
     out = []
     for r in res[:2]:  # the latest weekly files
         data = get_json(r["url"], timeout=300)
+        print("  ca-seao", r.get("name"), "keys:", list(data)[:8], "releases:", len(data.get("releases") or []), flush=True)
         rels = data.get("releases") or [rl for p in data.get("records", []) for rl in ([p.get("compiledRelease")] if p.get("compiledRelease") else [])]
         for rel in rels:
             x = from_release("ca-seao", rel, "CAN", lambda z: "https://seao.gouv.qc.ca/")
@@ -217,31 +226,32 @@ def src_ca_seao():
 
 
 def src_br_pncp():
+    """Official PNCP consulta API: tenders currently open for proposals, filtered by our keywords."""
     out, seen = [], set()
-    terms = ["bicicleta compartilhada", "bicicletas compartilhadas", "compartilhamento de bicicletas", "bike sharing",
-             "bicicletas elétricas", "patinetes elétricos", "micromobilidade", "aluguel de bicicletas"]
-    for q in terms:
-        url = "https://pncp.gov.br/api/search/?" + urllib.parse.urlencode(
-            {"q": q, "tipos_documento": "edital", "ordenacao": "-data", "pagina": 1, "tam_pagina": 50})
-        data = get_json(url)
-        for it in data.get("items", []):
-            d = it.get("data_publicacao_pncp") or it.get("data_atualizacao_pncp") or ""
-            if day(d) and day(d) < SINCE.isoformat():
+    end = (NOW.date() + dt.timedelta(days=120)).strftime("%Y%m%d")
+    for page in range(1, 400):
+        url = "https://pncp.gov.br/api/consulta/v1/contratacoes/proposta?" + urllib.parse.urlencode({"dataFinal": end, "pagina": page, "tamanhoPagina": 50})
+        data = get_json(url, timeout=90)
+        items = data.get("data") or []
+        if page == 1:
+            print("  br-pncp pages:", data.get("totalPaginas"), "records:", data.get("totalRegistros"), flush=True)
+        for it in items:
+            obj = it.get("objetoCompra") or ""
+            if not hit(obj, it.get("informacaoComplementar") or ""):
                 continue
-            title = it.get("title") or it.get("description") or ""
-            desc = it.get("description") or ""
-            if not hit(title, desc):
-                continue
-            path = it.get("item_url") or ""
-            key = path or it.get("id")
+            org, uni = it.get("orgaoEntidade") or {}, it.get("unidadeOrgao") or {}
+            key = it.get("numeroControlePNCP") or obj[:60]
             if key in seen:
                 continue
             seen.add(key)
-            out.append(rec("br-pncp", key, d, (title + ": " + desc) if desc and desc not in title else title,
-                           "https://pncp.gov.br/app" + path.replace("/compras/", "/editais/") if path.startswith("/") else "https://pncp.gov.br/app/editais",
-                           buyer=it.get("orgao_nome"), cc="BRA", place=", ".join(x for x in [it.get("municipio_nome"), it.get("uf")] if x),
-                           value=num(it.get("valor_global")), cur="BRL", deadline=it.get("data_fim_vigencia"), type="tender"))
-        time.sleep(1)
+            cnpj, ano, seq = org.get("cnpj"), it.get("anoCompra"), it.get("sequencialCompra")
+            out.append(rec("br-pncp", key, it.get("dataPublicacaoPncp"), obj,
+                           f"https://pncp.gov.br/app/editais/{cnpj}/{ano}/{seq}" if cnpj and ano and seq else "https://pncp.gov.br/app/editais",
+                           buyer=org.get("razaoSocial"), cc="BRA", place=", ".join(x for x in [uni.get("municipioNome"), uni.get("ufSigla")] if x),
+                           value=num(it.get("valorTotalEstimado")), cur="BRL", deadline=it.get("dataEncerramentoProposta"), type="tender"))
+        if not items or page >= (data.get("totalPaginas") or 0):
+            break
+        time.sleep(0.3)
     return out
 
 
@@ -326,7 +336,7 @@ def src_es_place():
     ns = {"a": "http://www.w3.org/2005/Atom"}
     url = "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3.atom"
     out = []
-    for _ in range(12):  # each page holds the most recent notices; walk back until older than SINCE
+    for _ in range(8):  # each page holds the most recent notices; walk back until older than SINCE
         root = ET.fromstring(get(url, accept="application/atom+xml", timeout=180))
         oldest = None
         for e in root.findall("a:entry", ns):
@@ -365,7 +375,7 @@ def main():
     for name, fn in SOURCES:
         if only and name not in only:
             continue
-        t0 = time.time(); _t0[0] = t0; PARTIAL.clear()
+        t0 = time.time(); _t0[0] = t0; _cur[0] = name; PARTIAL.clear()
         print(f"{name}: starting", flush=True)
         try:
             found = fn()[:MAX_PER_SOURCE]
