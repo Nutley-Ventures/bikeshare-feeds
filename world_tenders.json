@@ -1,60 +1,60 @@
 {
- "updatedAt": "2026-11-17T11:37Z",
+ "updatedAt": "2026-11-17T11:48Z",
  "since": "2026-10-27",
  "sources": {
   "uk-fts": {
    "ok": false,
-   "error": "TimeoutError: The read operation timed out",
-   "at": "2026-11-17T11:37Z",
+   "error": "OutOfTime: stopped after 240s",
+   "at": "2026-11-17T11:48Z",
    "found": 0
   },
   "uk-cf": {
    "ok": true,
    "found": 0,
-   "at": "2026-11-17T11:37Z",
-   "secs": 1
+   "at": "2026-11-17T11:48Z",
+   "secs": 2
   },
   "ca-buys": {
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "at": "2026-11-17T11:37Z",
+   "at": "2026-11-17T11:48Z",
    "found": 0
   },
   "ca-seao": {
    "ok": true,
    "found": 0,
-   "at": "2026-11-17T11:37Z",
-   "secs": 7
+   "at": "2026-11-17T11:48Z",
+   "secs": 11
   },
   "br-pncp": {
    "ok": false,
-   "error": "RemoteDisconnected: Remote end closed connection without response",
-   "at": "2026-11-17T11:37Z",
-   "found": 0
+   "error": "HTTPError: HTTP Error 429: Too Many Requests",
+   "at": "2026-11-17T11:48Z",
+   "found": 2
   },
   "co-secop": {
    "ok": true,
    "found": 4,
-   "at": "2026-11-17T11:37Z",
-   "secs": 15
+   "at": "2026-11-17T11:48Z",
+   "secs": 13
   },
   "fr-boamp": {
    "ok": true,
    "found": 7,
-   "at": "2026-11-17T11:37Z",
-   "secs": 11
+   "at": "2026-11-17T11:48Z",
+   "secs": 13
   },
   "de-doe": {
    "ok": true,
    "found": 31,
-   "at": "2026-11-17T11:37Z",
-   "secs": 16
+   "at": "2026-11-17T11:48Z",
+   "secs": 20
   },
   "es-place": {
    "ok": false,
-   "error": "OutOfTime: stopped after 150s",
-   "at": "2026-11-17T11:37Z",
-   "found": 1
+   "error": "OutOfTime: stopped after 330s",
+   "at": "2026-11-17T11:48Z",
+   "found": 3
   }
  },
  "notices": [
@@ -233,6 +233,34 @@
    "type": "tender",
    "text": "Id licitación: 22508/2025; Órgano de Contratación: Alcaldia del Ayuntamiento de San Javier; Importe: 152320 EUR; Estado: EV",
    "seen": "2026-11-17T11:37Z"
+  },
+  {
+   "src": "es-place",
+   "id": "es-place:https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20906034",
+   "date": "2026-11-13",
+   "title": "instalación fotovoltaica de autoconsumo compartido con excedentes a través de red exterior en suelo para abastecer al ayuntamiento de Binéfar.",
+   "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=D5SDB0thsQZ%2FP7lJ7Fu0SA%3D%3D",
+   "cc": "ESP",
+   "value": 13636364.0,
+   "cur": "EUR",
+   "buyer": "Alcaldía del Ayuntamiento de Binéfar",
+   "type": "tender",
+   "text": "Id licitación: U1918615T; Órgano de Contratación: Alcaldía del Ayuntamiento de Binéfar; Importe: 136363.64 EUR; Estado: PUB",
+   "seen": "2026-11-17T11:48Z"
+  },
+  {
+   "src": "es-place",
+   "id": "es-place:https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20906132",
+   "date": "2026-11-13",
+   "title": "Servicio de limpieza y desinfección del Edificio compartido anexo a la Subdelegación del Gobierno en Albacete, C/ Periodista del Campo Aguilar, s/n",
+   "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4YUtha60zDU7u6%2B%2FR7DUoA%3D%3D",
+   "cc": "ESP",
+   "value": 5306417.0,
+   "cur": "EUR",
+   "buyer": "Subdelegación del Gobierno en Albacete",
+   "type": "tender",
+   "text": "Id licitación: 2026/0000014; Órgano de Contratación: Subdelegación del Gobierno en Albacete; Importe: 53064.17 EUR; Estado: PUB",
+   "seen": "2026-11-17T11:48Z"
   },
   {
    "src": "de-doe",
