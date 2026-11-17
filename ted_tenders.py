@@ -27,12 +27,24 @@ UA = "bikeshare-feeds/1.0 (TED bikeshare tender monitor)"
 CPV = "classification-cpv IN (34430000 34431000 34432000)"
 # Phrases in the main EU languages for public bike sharing and its parts.
 PHRASES = [
+    # English
     "bike sharing", "bike-sharing", "bicycle sharing", "bikeshare", "cycle hire", "shared bicycles", "shared e-bikes",
-    "vélos en libre-service", "vélo en libre-service", "vélos à assistance électrique",
-    "bicicleta compartida", "bicicletas compartidas", "bicicletas partilhadas", "bicicletas compartilhadas",
-    "bike sharing comunale", "Fahrradverleihsystem", "Bikesharing", "Leihfahrrad",
-    "rower miejski", "deelfietsen", "rattaringlus", "kaupunkipyörä", "bycykler", "bysykkel", "lånecyklar",
-    "sdílená kola", "kerékpármegosztó", "bicicletta condivisa", "location longue durée de vélos",
+    "bicycle rental system", "public bicycle",
+    # French
+    "vélos en libre-service", "vélo en libre-service", "vélos à assistance électrique", "vélos partagés",
+    "location longue durée de vélos",
+    # Spanish, Portuguese, Italian
+    "bicicleta compartida", "bicicletas compartidas", "bicicleta pública", "bicicletas partilhadas",
+    "bicicletas compartilhadas", "bike sharing comunale", "bicicletta condivisa", "biciclette condivise",
+    # German, Dutch
+    "Fahrradverleihsystem", "Bikesharing", "Leihfahrrad", "Fahrradverleih", "deelfietsen", "deelfiets",
+    # Nordic, Baltic
+    "kaupunkipyörä", "kaupunkipyörät", "bycykler", "bysykkel", "lånecyklar", "hyrcyklar", "rattaringlus",
+    "velosipēdu koplietošana", "dviračių dalijimosi",
+    # Central and Eastern Europe
+    "rower miejski", "rowery miejskie", "sdílená kola", "sdílení jízdních kol", "zdieľané bicykle",
+    "kerékpármegosztó", "közbringa", "izposoja koles", "javni bicikli", "dijeljenih bicikala",
+    "biciclete partajate", "închiriere biciclete", "споделени велосипеди", "κοινόχρηστα ποδήλατα",
 ]
 FIELDS_FULL = ["publication-number", "publication-date", "notice-title", "notice-type", "buyer-name", "buyer-country",
                "classification-cpv", "estimated-value-proc", "estimated-value-cur-proc",
