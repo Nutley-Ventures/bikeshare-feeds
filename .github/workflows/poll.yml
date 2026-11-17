@@ -45,4 +45,6 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           for p in counts.json tenders.json world_tenders.json db; do [ -e "$p" ] && git add -A "$p"; done
           git diff --cached --quiet || git commit -m "Data $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push
+          # If code was pushed while this ran, put the new data on top (keeping this run's data files) and try again.
+          for i in 1 2 3; do git push && exit 0; git pull --rebase -X theirs origin main || exit 1; done
+          exit 1
