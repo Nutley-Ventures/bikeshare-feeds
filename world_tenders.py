@@ -67,7 +67,7 @@ KEYWORDS = [
     r"patinete", r"monopattin", r"fahrrad", r"pedelec", r"dienstrad", r"jobrad", r"lastenrad",
     r"\bfiets(en|lease|leasing|plan|abonnement)?\b", r"deelfiets", r"deelscooter", r"deelmobiliteit",
     r"\bcykl", r"\bcykel", r"\bsykkel", r"\browery?\b", r"rower miejski", r"sdilen", r"\bkola\b",
-    r"micromovilidad", r"micromobilidade", r"compartilhad", r"compartid",
+    r"micromovilidad", r"micromobilidade", r"bicicletas? compartilhad", r"bicicletas? compartid", r"bicicletas? publicas?",
 ]
 KW = re.compile("|".join(KEYWORDS))
 
