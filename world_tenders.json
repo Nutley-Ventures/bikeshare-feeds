@@ -1,68 +1,82 @@
 {
- "updatedAt": "2026-11-17T13:09Z",
+ "updatedAt": "2026-11-17T14:41Z",
  "since": "2026-10-27",
  "sources": {
   "uk-fts": {
-   "ok": true,
-   "found": 1,
-   "at": "2026-11-17T13:09Z",
-   "secs": 14
+   "ok": false,
+   "error": "HTTPError: HTTP Error 504: Gateway Time-out",
+   "at": "2026-11-17T14:41Z",
+   "found": 0
   },
   "uk-cf": {
    "ok": true,
-   "found": 0,
-   "at": "2026-11-17T13:09Z",
-   "secs": 5
-  },
-  "ca-buys": {
-   "ok": false,
-   "error": "HTTPError: HTTP Error 403: Forbidden",
-   "at": "2026-11-17T11:48Z",
-   "found": 0
+   "found": 1,
+   "at": "2026-11-17T14:41Z",
+   "secs": 28
   },
   "ca-seao": {
    "ok": true,
    "found": 0,
-   "at": "2026-11-17T13:09Z",
-   "secs": 8
+   "at": "2026-11-17T14:41Z",
+   "secs": 9
   },
   "br-pncp": {
-   "ok": false,
-   "error": "OutOfTime: stopped after 420s",
-   "at": "2026-11-17T13:09Z",
-   "found": 4
+   "ok": true,
+   "partial": true,
+   "note": "Slow portal: read part of it this run and carries on next run",
+   "at": "2026-11-17T14:41Z",
+   "found": 0,
+   "secs": 424
   },
   "co-secop": {
    "ok": true,
    "found": 4,
-   "at": "2026-11-17T13:09Z",
-   "secs": 16
+   "at": "2026-11-17T14:41Z",
+   "secs": 34
   },
   "fr-boamp": {
    "ok": true,
    "found": 7,
-   "at": "2026-11-17T13:09Z",
-   "secs": 11
+   "at": "2026-11-17T14:41Z",
+   "secs": 13
   },
   "de-doe": {
    "ok": true,
    "found": 31,
-   "at": "2026-11-17T13:09Z",
-   "secs": 21
+   "at": "2026-11-17T14:41Z",
+   "secs": 19
   },
   "es-place": {
-   "ok": false,
-   "error": "OutOfTime: stopped after 420s",
-   "at": "2026-11-17T13:09Z",
-   "found": 2
+   "ok": true,
+   "partial": true,
+   "note": "Slow portal: read part of it this run and carries on next run",
+   "at": "2026-11-17T14:41Z",
+   "found": 2,
+   "secs": 452
   }
  },
  "state": {
   "br-pncp": {
-   "next_page": 48
-  }
+   "next_page": 125
+  },
+  "es-place": {}
  },
  "notices": [
+  {
+   "src": "uk-cf",
+   "id": "uk-cf:8c97f247-304c-47ae-a3d5-b071a77e003e",
+   "date": "2026-11-17",
+   "title": "Employee Benefits Platform",
+   "url": "https://www.contractsfinder.service.gov.uk/Notice/8c97f247-304c-47ae-a3d5-b071a77e003e",
+   "buyer": "The Royal Borough of Windsor and Maidenhead Council",
+   "cc": "GBR",
+   "value": 31503.74,
+   "cur": "GBP",
+   "deadline": "2026-11-03",
+   "type": "award",
+   "text": "Employee Benefits Platform including EAP, retail discounts, wellbeing resources, cycle to work scheme, home and electronics scheme",
+   "seen": "2026-11-17T14:41Z"
+  },
   {
    "src": "uk-fts",
    "id": "uk-fts:ocds-h6vhtk-078b63",
