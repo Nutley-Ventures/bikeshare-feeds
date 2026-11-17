@@ -1,4 +1,4 @@
-name: Poll GBFS feeds and TED tenders
+name: Poll GBFS feeds and tenders
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch: {}     # adds a "Run workflow" button
   push:
     branches: [main]
-    paths: ["poll_feeds.py", "ted_tenders.py", "split_for_db.py", ".github/workflows/poll.yml"]   # first run as soon as the files land
+    paths: ["poll_feeds.py", "ted_tenders.py", "world_tenders.py", "split_for_db.py", ".github/workflows/poll.yml"]   # first run as soon as the files land
 
 permissions:
   contents: write
@@ -19,7 +19,7 @@ concurrency:
 jobs:
   poll:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
       - name: Poll GBFS feeds
@@ -31,10 +31,13 @@ jobs:
       - name: Search TED
         run: python3 ted_tenders.py
         continue-on-error: true   # a TED outage mustn't lose the feed counts
+      - name: Search national tender portals
+        run: python3 world_tenders.py
+        continue-on-error: true   # each portal is independent; failures are recorded in the file
       - name: Save
         run: |
           git config user.name "bikeshare-feeds bot"
           git config user.email "actions@users.noreply.github.com"
-          for p in counts.json tenders.json db; do [ -e "$p" ] && git add -A "$p"; done
+          for p in counts.json tenders.json world_tenders.json db; do [ -e "$p" ] && git add -A "$p"; done
           git diff --cached --quiet || git commit -m "Data $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
