@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-17T11:48Z",
+ "updatedAt": "2026-11-17T12:09Z",
  "since": "2026-10-27",
  "sources": {
   "uk-fts": {
-   "ok": false,
-   "error": "OutOfTime: stopped after 240s",
-   "at": "2026-11-17T11:48Z",
-   "found": 0
+   "ok": true,
+   "found": 1,
+   "at": "2026-11-17T12:09Z",
+   "secs": 79
   },
   "uk-cf": {
    "ok": true,
    "found": 0,
-   "at": "2026-11-17T11:48Z",
-   "secs": 2
+   "at": "2026-11-17T12:09Z",
+   "secs": 4
   },
   "ca-buys": {
    "ok": false,
@@ -23,41 +23,61 @@
   "ca-seao": {
    "ok": true,
    "found": 0,
-   "at": "2026-11-17T11:48Z",
-   "secs": 11
+   "at": "2026-11-17T12:09Z",
+   "secs": 7
   },
   "br-pncp": {
    "ok": false,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests",
-   "at": "2026-11-17T11:48Z",
-   "found": 2
+   "error": "HTTPError: HTTP Error 500: ",
+   "at": "2026-11-17T12:09Z",
+   "found": 0
   },
   "co-secop": {
    "ok": true,
    "found": 4,
-   "at": "2026-11-17T11:48Z",
-   "secs": 13
+   "at": "2026-11-17T12:09Z",
+   "secs": 17
   },
   "fr-boamp": {
    "ok": true,
    "found": 7,
-   "at": "2026-11-17T11:48Z",
-   "secs": 13
+   "at": "2026-11-17T12:09Z",
+   "secs": 10
   },
   "de-doe": {
    "ok": true,
    "found": 31,
-   "at": "2026-11-17T11:48Z",
-   "secs": 20
+   "at": "2026-11-17T12:09Z",
+   "secs": 16
   },
   "es-place": {
    "ok": false,
-   "error": "OutOfTime: stopped after 330s",
-   "at": "2026-11-17T11:48Z",
-   "found": 3
+   "error": "OutOfTime: stopped after 420s",
+   "at": "2026-11-17T12:09Z",
+   "found": 4
+  }
+ },
+ "state": {
+  "br-pncp": {
+   "next_page": 5
   }
  },
  "notices": [
+  {
+   "src": "uk-fts",
+   "id": "uk-fts:ocds-h6vhtk-078b63",
+   "date": "2026-11-16",
+   "title": "Short Duration E-Scooter Hire in Dorchester, Weymouth, Chickerell and Portland",
+   "url": "https://www.find-tender.service.gov.uk/Notice/108512-2026",
+   "buyer": "Dorset Council",
+   "cc": "GBR",
+   "value": 425000.0,
+   "cur": "GBP",
+   "deadline": "2026-12-10",
+   "type": "tender",
+   "text": "The procurement is for the establishment, operation and management of a public e-scooter hire scheme within the Dorchester, Weymouth, Chickerell and Portland areas. The successful provider will supply, deploy, maintain and manage an e-scooter fleet and all associated services required to deliver a s",
+   "seen": "2026-11-17T12:09Z"
+  },
   {
    "src": "de-doe",
    "id": "de-doe:ocds-mnwr74-35d750e7-f6aa-48a6-ab5d-1abc0e877a3b",
@@ -261,6 +281,20 @@
    "type": "tender",
    "text": "Id licitación: 2026/0000014; Órgano de Contratación: Subdelegación del Gobierno en Albacete; Importe: 53064.17 EUR; Estado: PUB",
    "seen": "2026-11-17T11:48Z"
+  },
+  {
+   "src": "es-place",
+   "id": "es-place:https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20757535",
+   "date": "2026-11-13",
+   "title": "Servicios para la redacción del Proyecto de modificación del carril bici de la Avda. del Puerto en los tramos Avda. Aragón Avda. Cardenal Benlloch Avda. Dr. Manuel Candela Calle Serrería, en los distritos Pla del Real y Camins al Grau. Presupuestos VLCPARTICIPA 2025-2026. Propuesta de inversión nº 6",
+   "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xf5aTu%2BxuMtVYjgxA4nMUw%3D%3D",
+   "cc": "ESP",
+   "value": 6359045.0,
+   "cur": "EUR",
+   "buyer": "Concejalía Delegada de Contratación del Ajuntament de València",
+   "type": "tender",
+   "text": "Id licitación: 04101/2026/153-SEROB; Órgano de Contratación: Concejalía Delegada de Contratación del Ajuntament de València; Importe: 63590.45 EUR; Estado: EV",
+   "seen": "2026-11-17T12:09Z"
   },
   {
    "src": "de-doe",
