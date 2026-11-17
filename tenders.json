@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-11-17T09:57Z",
+ "updatedAt": "2026-11-17T10:05Z",
  "since": "20261027",
- "queries": 96,
+ "queries": 116,
  "failed": {},
  "fields": [
   "publication-number",
@@ -33,7 +33,9 @@
    "cur": "EUR",
    "url": "https://ted.europa.eu/en/notice/-/detail/797487-2026",
    "hits": [
-    "cpv"
+    "cpv",
+    "fietslease",
+    "fietsleasing"
    ],
    "seen": "2026-11-17T09:31Z"
   },
@@ -54,6 +56,8 @@
    "deadline": "2026-12-22",
    "url": "https://ted.europa.eu/en/notice/-/detail/797892-2026",
    "hits": [
+    "Dienstradleasing",
+    "Fahrradleasing",
     "cpv"
    ],
    "seen": "2026-11-17T09:31Z"
@@ -77,6 +81,7 @@
    "cur": "EUR",
    "url": "https://ted.europa.eu/en/notice/-/detail/798039-2026",
    "hits": [
+    "Dienstradleasing",
     "cpv",
     "cpv-motor"
    ],
@@ -100,6 +105,25 @@
     "Fahrradverleih"
    ],
    "seen": "2026-11-17T09:41Z"
+  },
+  {
+   "pn": "799852-2026",
+   "date": "2026-11-17",
+   "title": "Germany – Financial leasing services – Leasingrahmenvertrag für Dienstradleasing",
+   "type": "cn-standard",
+   "buyer": "Landkreis Lüchow-Dannenberg",
+   "cc": "DEU",
+   "place": "DE934",
+   "cpv": [
+    "66114000"
+   ],
+   "deadline": "2026-12-18",
+   "url": "https://ted.europa.eu/en/notice/-/detail/799852-2026",
+   "hits": [
+    "Dienstrad-Leasing",
+    "Dienstradleasing"
+   ],
+   "seen": "2026-11-17T10:05Z"
   },
   {
    "pn": "793199-2026",
@@ -156,6 +180,7 @@
    "deadline": "2026-12-03",
    "url": "https://ted.europa.eu/en/notice/-/detail/793288-2026",
    "hits": [
+    "Fahrradleasing",
     "cpv"
    ],
    "seen": "2026-11-17T09:31Z"
@@ -177,6 +202,26 @@
     "vélos à assistance électrique"
    ],
    "seen": "2026-11-17T09:31Z"
+  },
+  {
+   "pn": "794098-2026",
+   "date": "2026-11-16",
+   "title": "Germany – Financial and insurance services – Dienstrad-Leasing für Mitarbeitende der DAK-Gesundheit",
+   "type": "cn-standard",
+   "buyer": "DAK-Gesundheit",
+   "cc": "DEU",
+   "place": "DEU",
+   "cpv": [
+    "66000000",
+    "66114000"
+   ],
+   "deadline": "2026-11-30",
+   "url": "https://ted.europa.eu/en/notice/-/detail/794098-2026",
+   "hits": [
+    "Dienstrad-Leasing",
+    "Dienstradleasing"
+   ],
+   "seen": "2026-11-17T10:05Z"
   },
   {
    "pn": "790086-2026",
@@ -279,6 +324,7 @@
    "deadline": "2026-12-01",
    "url": "https://ted.europa.eu/en/notice/-/detail/786522-2026",
    "hits": [
+    "Fahrradleasing",
     "cpv",
     "cpv-motor"
    ],
@@ -301,6 +347,7 @@
    "deadline": "2026-12-14",
    "url": "https://ted.europa.eu/en/notice/-/detail/788056-2026",
    "hits": [
+    "Fahrradleasing",
     "cpv",
     "cpv-motor"
    ],
@@ -324,6 +371,7 @@
    "deadline": "2026-12-14",
    "url": "https://ted.europa.eu/en/notice/-/detail/783716-2026",
    "hits": [
+    "Dienstradleasing",
     "cpv",
     "cpv-motor"
    ],
@@ -455,7 +503,8 @@
    "deadline": "2026-11-29",
    "url": "https://ted.europa.eu/en/notice/-/detail/779629-2026",
    "hits": [
-    "cpv"
+    "cpv",
+    "förmånscyklar"
    ],
    "seen": "2026-11-17T09:31Z"
   },
@@ -478,7 +527,9 @@
    "cur": "SEK",
    "url": "https://ted.europa.eu/en/notice/-/detail/779795-2026",
    "hits": [
-    "cpv"
+    "cpv",
+    "förmånscykel",
+    "förmånscyklar"
    ],
    "seen": "2026-11-17T09:31Z"
   },
@@ -568,6 +619,7 @@
    "deadline": "2026-11-16",
    "url": "https://ted.europa.eu/en/notice/-/detail/781897-2026",
    "hits": [
+    "Fahrradleasing",
     "cpv"
    ],
    "seen": "2026-11-17T09:31Z"
@@ -670,7 +722,9 @@
    "url": "https://ted.europa.eu/en/notice/-/detail/778038-2026",
    "hits": [
     "cpv",
-    "cpv-motor"
+    "cpv-motor",
+    "fietslease",
+    "fietsleasing"
    ],
    "seen": "2026-11-17T09:31Z"
   },
@@ -717,6 +771,23 @@
    "seen": "2026-11-17T09:53Z"
   },
   {
+   "pn": "775360-2026",
+   "date": "2026-11-09",
+   "title": "Austria – Motorcycles, bicycles and sidecars – Leasing von Fahrrädern und Elektrofahrrädern",
+   "type": "can-standard",
+   "buyer": "Land OÖ - Amt d. LRG/PRÄSD/Abt GBM",
+   "cc": "AUT",
+   "place": "AT312",
+   "cpv": [
+    "34400000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/775360-2026",
+   "hits": [
+    "JobRad"
+   ],
+   "seen": "2026-11-17T10:05Z"
+  },
+  {
    "pn": "772536-2026",
    "date": "2026-11-06",
    "title": "Netherlands – Bicycles – EA Bedrijfsfietsen en handhavingsfietsen Gemeente Zwolle",
@@ -758,6 +829,24 @@
    "seen": "2026-11-17T09:31Z"
   },
   {
+   "pn": "773049-2026",
+   "date": "2026-11-06",
+   "title": "Germany – Financial leasing services – Organisationseinheiten der Stadtverwaltung Erfurt - Fahrradleasing",
+   "type": "cn-standard",
+   "buyer": "Landeshauptstadt Erfurt, Stadtverwaltung, Stadtkämmerei-Vergabestelle",
+   "cc": "DEU",
+   "place": "DEG01",
+   "cpv": [
+    "66114000"
+   ],
+   "deadline": "2026-12-08",
+   "url": "https://ted.europa.eu/en/notice/-/detail/773049-2026",
+   "hits": [
+    "Fahrradleasing"
+   ],
+   "seen": "2026-11-17T10:05Z"
+  },
+  {
    "pn": "767597-2026",
    "date": "2026-11-05",
    "title": "Netherlands – Financial leasing services – WFRL-11-40631 Digitaal platform fietslease, fietsplan en bedrijfsfitness",
@@ -774,7 +863,10 @@
    "cur": "EUR",
    "url": "https://ted.europa.eu/en/notice/-/detail/767597-2026",
    "hits": [
-    "cpv"
+    "cpv",
+    "fietslease",
+    "fietsleasing",
+    "fietsplan"
    ],
    "seen": "2026-11-17T09:31Z"
   },
@@ -797,7 +889,9 @@
    "cur": "SEK",
    "url": "https://ted.europa.eu/en/notice/-/detail/768038-2026",
    "hits": [
-    "cpv"
+    "cpv",
+    "förmånscykel",
+    "förmånscyklar"
    ],
    "seen": "2026-11-17T09:31Z"
   },
@@ -837,6 +931,7 @@
    "deadline": "2026-11-17",
    "url": "https://ted.europa.eu/en/notice/-/detail/768527-2026",
    "hits": [
+    "Fahrradleasing",
     "cpv",
     "cpv-motor"
    ],
@@ -861,6 +956,7 @@
    "deadline": "2026-12-07",
    "url": "https://ted.europa.eu/en/notice/-/detail/770532-2026",
    "hits": [
+    "JobRad",
     "cpv",
     "cpv-motor"
    ],
@@ -981,6 +1077,23 @@
    "seen": "2026-11-17T09:53Z"
   },
   {
+   "pn": "768986-2026",
+   "date": "2026-11-05",
+   "title": "Austria – Motorcycles, bicycles and sidecars – Leasing von Fahrrädern und Elektrofahrrädern",
+   "type": "can-standard",
+   "buyer": "OÖG (ehem. GESPAG)",
+   "cc": "AUT",
+   "place": "AT312",
+   "cpv": [
+    "34400000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/768986-2026",
+   "hits": [
+    "JobRad"
+   ],
+   "seen": "2026-11-17T10:05Z"
+  },
+  {
    "pn": "763978-2026",
    "date": "2026-11-04",
    "title": "Romania – Bicycles – Furnizare, transport, instalare și punere în funcțiune Sistem de închiriere biciclete (Bike-Sharing) în Municipiul Gheorgheni",
@@ -1077,6 +1190,7 @@
    "deadline": "2026-12-07",
    "url": "https://ted.europa.eu/en/notice/-/detail/761452-2026",
    "hits": [
+    "Dienstradleasing",
     "cpv"
    ],
    "seen": "2026-11-17T09:31Z"
@@ -1098,6 +1212,7 @@
    "deadline": "2026-12-03",
    "url": "https://ted.europa.eu/en/notice/-/detail/761467-2026",
    "hits": [
+    "Dienstradleasing",
     "cpv"
    ],
    "seen": "2026-11-17T09:31Z"
@@ -1119,6 +1234,8 @@
    "deadline": "2026-12-10",
    "url": "https://ted.europa.eu/en/notice/-/detail/761489-2026",
    "hits": [
+    "Dienstradleasing",
+    "Fahrradleasing",
     "cpv",
     "cpv-motor"
    ],
@@ -1183,7 +1300,9 @@
    "cur": "SEK",
    "url": "https://ted.europa.eu/en/notice/-/detail/756467-2026",
    "hits": [
-    "cpv"
+    "cpv",
+    "förmånscykel",
+    "förmånscyklar"
    ],
    "seen": "2026-11-17T09:31Z"
   },
@@ -1232,6 +1351,65 @@
    "seen": "2026-11-17T09:31Z"
   },
   {
+   "pn": "756604-2026",
+   "date": "2026-11-02",
+   "title": "Germany – Financial leasing services – Rahmenvertrag für die Bereitstellung und Durchführung eines Dienstradleasing-Programms",
+   "type": "cn-standard",
+   "buyer": "Phoenics.IT GmbH",
+   "cc": "DEU",
+   "place": "DE929",
+   "cpv": [
+    "66114000"
+   ],
+   "value": 910000.0,
+   "cur": "EUR",
+   "deadline": "2026-11-30",
+   "url": "https://ted.europa.eu/en/notice/-/detail/756604-2026",
+   "hits": [
+    "Dienstradleasing"
+   ],
+   "seen": "2026-11-17T10:05Z"
+  },
+  {
+   "pn": "759352-2026",
+   "date": "2026-11-02",
+   "title": "Germany – Financial and insurance services – Dienstrad-Leasing für Mitarbeitende der DAK-Gesundheit",
+   "type": "cn-standard",
+   "buyer": "DAK-Gesundheit",
+   "cc": "DEU",
+   "place": "DEU",
+   "cpv": [
+    "66000000",
+    "66114000"
+   ],
+   "deadline": "2026-11-30",
+   "url": "https://ted.europa.eu/en/notice/-/detail/759352-2026",
+   "hits": [
+    "Dienstrad-Leasing",
+    "Dienstradleasing"
+   ],
+   "seen": "2026-11-17T10:05Z"
+  },
+  {
+   "pn": "758415-2026",
+   "date": "2026-11-02",
+   "title": "Germany – Financial leasing services – Rahmenvertrag Fahrradleasing",
+   "type": "can-standard",
+   "buyer": "Stadt Euskirchen - Fachbereich 1, Allgemeine Verwaltung",
+   "cc": "DEU",
+   "place": "DEA28",
+   "cpv": [
+    "66114000"
+   ],
+   "value": 393277.04,
+   "cur": "EUR",
+   "url": "https://ted.europa.eu/en/notice/-/detail/758415-2026",
+   "hits": [
+    "Fahrradleasing"
+   ],
+   "seen": "2026-11-17T10:05Z"
+  },
+  {
    "pn": "752870-2026",
    "date": "2026-10-30",
    "title": "Germany – Financial leasing services – Dienstrad-Leasing bei der Stadtverwaltung Troisdorf",
@@ -1247,6 +1425,8 @@
    "deadline": "2026-11-30",
    "url": "https://ted.europa.eu/en/notice/-/detail/752870-2026",
    "hits": [
+    "Dienstrad-Leasing",
+    "Fahrradleasing",
     "cpv",
     "cpv-motor"
    ],
@@ -1317,6 +1497,8 @@
    "deadline": "2026-12-01",
    "url": "https://ted.europa.eu/en/notice/-/detail/754756-2026",
    "hits": [
+    "Dienstrad-Leasing",
+    "Dienstradleasing",
     "cpv"
    ],
    "seen": "2026-11-17T09:31Z"
@@ -1495,6 +1677,7 @@
    "deadline": "2026-11-26",
    "url": "https://ted.europa.eu/en/notice/-/detail/741495-2026",
    "hits": [
+    "Fahrradleasing",
     "cpv",
     "cpv-motor"
    ],
@@ -1514,7 +1697,9 @@
    "deadline": "2026-11-09",
    "url": "https://ted.europa.eu/en/notice/-/detail/742128-2026",
    "hits": [
-    "cpv"
+    "cpv",
+    "fietslease",
+    "fietsleasing"
    ],
    "seen": "2026-11-17T09:31Z"
   },
