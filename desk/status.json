@@ -1,0 +1,66 @@
+{
+ "updatedAt": "2026-11-17T13:06Z",
+ "sources": {
+  "wikipedia-en-list-of-bicycle-sharing-systems": {
+   "ok": true,
+   "chars": 397845,
+   "revid": 1385936690
+  },
+  "wikidata": {
+   "ok": false,
+   "error": "HTTP Error 504: Gateway Timeout"
+  }
+ },
+ "classes": [
+  [
+   "Q1358919",
+   "bicycle-sharing system",
+   "system enabling communal bicycles to be shared, often in an urban setting"
+  ],
+  [
+   "Q107586543",
+   "Category:Bicycle sharing in Belgium",
+   "Wikimedia category"
+  ],
+  [
+   "Q24835684",
+   "Bicycle-sharing systems in Hsinchu City",
+   null
+  ],
+  [
+   "Q28410441",
+   "Bicycle-sharing systems in Tainan",
+   null
+  ],
+  [
+   "Q113158497",
+   "Bicycle-sharing systems in Hsinchu County",
+   "Bicycle-sharing systems in North Taiwan"
+  ],
+  [
+   "Q1358919",
+   "bicycle-sharing system",
+   "system enabling communal bicycles to be shared, often in an urban setting"
+  ],
+  [
+   "Q15637306",
+   "Bicycle-sharing system in Taipei",
+   "bicycle-sharing system in Taipei, Taiwan"
+  ],
+  [
+   "Q138549182",
+   "BiciPlaya",
+   "A bicycle rental system in Playa del Carmen / Quintana Roo / Mexico"
+  ],
+  [
+   "Q56570432",
+   "Bike-sharing systems: User dissatisfaction in the presence of unusable bicycles",
+   null
+  ],
+  [
+   "Q132725343",
+   "Bike sharing systems implementation impact on emissions, for cyclist preferred routes in urban areas",
+   "scientific article published on 15 July 2021"
+  ]
+ ]
+}
