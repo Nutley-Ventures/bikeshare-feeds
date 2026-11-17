@@ -21,7 +21,7 @@ API = "https://api.ted.europa.eu/v3/notices/search"
 OUT = os.environ.get("TENDERS_FILE", "tenders.json")
 DAYS_BACK = int(os.environ.get("TED_DAYS_BACK", "21"))  # overlap so a missed week is caught
 KEEP_DAYS = 120
-UA = "bikeshare-feeds/1.0 (TED bikeshare tender monitor)"
+UA = "bikeshare-feeds/1.0 (TED bikeshare and micromobility tender monitor)"
 
 # Bicycles (34430000), non-motorised bicycles (34431000), bicycle parts (34432000).
 CPV = "classification-cpv IN (34430000 34431000 34432000)"
@@ -45,7 +45,23 @@ PHRASES = [
     "rower miejski", "rowery miejskie", "sdílená kola", "sdílení jízdních kol", "zdieľané bicykle",
     "kerékpármegosztó", "izposoja koles", "javni bicikli", "dijeljenih bicikala",
     "biciclete partajate", "închiriere biciclete", "споделени велосипеди", "κοινόχρηστα ποδήλατα",
+    # Shared e-scooters and mopeds
+    "e-scooter sharing", "shared e-scooters", "shared scooters", "trottinettes en libre-service",
+    "trottinettes électriques partagées", "scooters en libre-service", "patinetes compartidos",
+    "patinetes eléctricos compartidos", "monopattini in sharing", "monopattini elettrici in sharing",
+    "E-Scooter-Sharing", "E-Tretroller", "deelscooters", "deelsteps", "hulajnogi elektryczne",
+    "sdílené koloběžky", "elsparkcyklar", "sähköpotkulaudat", "trotinete partilhadas",
+    # Micromobility and mobility hubs
+    "micromobility", "micromobilité", "micromovilidad", "micromobilità", "micromobilidade", "Mikromobilität",
+    "mikromobilność", "mikromobilita", "shared mobility", "mobilité partagée", "movilidad compartida",
+    "mobility hubs", "Mobilitätsstationen", "mobipunten", "mobiliteitshubs", "deelmobiliteit",
+    # Bike subscription and long-term rental for residents
+    "bike subscription", "e-bike subscription", "long-term e-bike rental", "location longue durée de vélos électriques",
+    "location de vélos à assistance électrique", "location de vélos électriques", "abonnement vélo",
+    "fietsabonnement", "alquiler de bicicletas eléctricas", "noleggio a lungo termine biciclette",
 ]
+# Motor scooters and cycles with auxiliary motors (34420000, 34421000, 34422000): e-scooters, mopeds and some e-bikes.
+CPV_MOTOR = "classification-cpv IN (34420000 34421000 34422000)"
 FIELDS_FULL = ["publication-number", "publication-date", "notice-title", "notice-type", "buyer-name", "buyer-country",
                "classification-cpv", "estimated-value-proc", "estimated-value-cur-proc",
                "deadline-receipt-tender-date-lot", "place-of-performance"]
@@ -125,7 +141,7 @@ def main():
     now = dt.datetime.now(dt.timezone.utc)
     since = (now.date() - dt.timedelta(days=DAYS_BACK)).strftime("%Y%m%d")
     date = f"publication-date>={since}"
-    queries = [("cpv", f"{CPV} AND {date}")] + [(p, f'FT~("{p}") AND {date}') for p in PHRASES]
+    queries = [("cpv", f"{CPV} AND {date}"), ("cpv-motor", f"{CPV_MOTOR} AND {date}")] + [(p, f'FT~("{p}") AND {date}') for p in PHRASES]
 
     fields, found, errors = FIELDS_FULL, {}, {}
     probe, err = search(queries[0][1], fields)
