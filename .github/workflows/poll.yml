@@ -1,0 +1,37 @@
+name: Poll GBFS feeds and TED tenders
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"    # Mondays 03:17 UTC: feeds (night in Europe, bikes parked) and TED, ahead of the 05:35 UK database refresh
+    - cron: "47 10 * * 3"   # Wednesdays 10:47 UTC: TED only, ahead of the 12:23 UK tender alert
+  workflow_dispatch: {}     # adds a "Run workflow" button
+  push:
+    branches: [main]
+    paths: ["poll_feeds.py", "ted_tenders.py", ".github/workflows/poll.yml"]   # first run as soon as the files land
+
+permissions:
+  contents: write
+
+concurrency:
+  group: poll
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Poll GBFS feeds
+        if: github.event.schedule != '47 10 * * 3'
+        run: python3 poll_feeds.py
+      - name: Search TED
+        run: python3 ted_tenders.py
+        continue-on-error: true   # a TED outage mustn't lose the feed counts
+      - name: Save
+        run: |
+          git config user.name "bikeshare-feeds bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add counts.json tenders.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Data $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
