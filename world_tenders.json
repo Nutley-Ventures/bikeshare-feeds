@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-11-17T15:03Z",
- "since": "2026-10-27",
+ "updatedAt": "2026-11-18T07:57Z",
+ "since": "2026-10-28",
  "sources": {
   "uk-fts": {
    "ok": true,
    "found": 1,
-   "at": "2026-11-17T15:03Z",
-   "secs": 118
+   "at": "2026-11-18T07:57Z",
+   "secs": 24
   },
   "uk-cf": {
    "ok": true,
@@ -24,9 +24,9 @@
    "ok": true,
    "partial": true,
    "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-17T15:03Z",
+   "at": "2026-11-18T07:57Z",
    "found": 0,
-   "secs": 429
+   "secs": 424
   },
   "co-secop": {
    "ok": true,
@@ -48,14 +48,16 @@
   },
   "es-place": {
    "ok": true,
+   "partial": true,
+   "note": "Slow portal: read part of it this run and carries on next run",
+   "at": "2026-11-18T07:57Z",
    "found": 0,
-   "at": "2026-11-17T15:03Z",
-   "secs": 77
+   "secs": 544
   }
  },
  "state": {
   "br-pncp": {
-   "next_page": 169
+   "next_page": 232
   },
   "es-place": {
    "done_to": "2026-11-15"
