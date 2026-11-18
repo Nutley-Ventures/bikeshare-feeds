@@ -1,5 +1,5 @@
 {
-"updatedAt": "2026-11-18T12:38Z",
+"updatedAt": "2026-11-18T12:46Z",
 "from": "2016",
 "fields": [
 "publication-number",
@@ -41,7 +41,11 @@
 "award-criterion-number-lot",
 "award-criterion-number-weight-lot",
 "award-criterion-number-fixed-lot",
-"award-criterion-number-threshold-lot"
+"award-criterion-number-threshold-lot",
+"document-url-lot",
+"document-url-part",
+"document-restricted-url-lot",
+"document-restricted-url-part"
 ],
 "failed": {},
 "notices": [
@@ -170,7 +174,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/791700-2026",
 "hits": [
 "deelfietsen"
-]
+],
+"docs": "https://www.tenderned.nl/aankondigingen/overzicht/449097"
 },
 {
 "pn": "789879-2026",
@@ -202,6 +207,7 @@
 "hits": [
 "închiriere biciclete"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100213036",
 "crit": {
 "type-lot": [
 "price",
@@ -282,6 +288,7 @@
 "sdílená kola",
 "sdílení jízdních kol"
 ],
+"docs": "https://www.vhodne-uverejneni.cz/profil/00291471",
 "crit": {
 "type-lot": [
 "price"
@@ -407,6 +414,7 @@
 "hits": [
 "dijeljenih bicikala"
 ],
+"docs": "https://eojn.hr/tender-eo/112315",
 "crit": {
 "type-lot": [
 "price",
@@ -461,6 +469,7 @@
 "cpv",
 "închiriere biciclete"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100213851",
 "crit": {
 "type-lot": [
 "price",
@@ -539,7 +548,8 @@
 "hits": [
 "bike sharing",
 "bike-sharing"
-]
+],
+"docs": "https://comunelaquila.tuttogare.it/gare/dettaglio.php?codice=993"
 },
 {
 "pn": "764564-2026",
@@ -629,6 +639,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100213734",
 "crit": {
 "type-lot": [
 "price",
@@ -875,6 +886,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-141f61a2-d7e9-419f-a177-4172fc54cf9a",
 "crit": {
 "type-lot": [
 "price"
@@ -1057,6 +1069,7 @@
 "sdílená kola",
 "sdílení jízdních kol"
 ],
+"docs": "https://www.vhodne-uverejneni.cz/profil/00291471",
 "crit": {
 "type-lot": [
 "price"
@@ -1106,6 +1119,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://rckikwroclaw.ezamawiajacy.pl/servlet/HomeServlet",
 "crit": {
 "type-lot": [
 "price",
@@ -1177,6 +1191,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/notice/CXP9YM1H3JW/documents",
 "crit": {
 "type-lot": [
 "price",
@@ -1239,6 +1254,7 @@
 "kaupunkipyörä",
 "kaupunkipyörät"
 ],
+"docs": "https://toimittaja-asiointi.tampere.fi",
 "crit": {
 "type-lot": [
 "price",
@@ -1285,7 +1301,8 @@
 "hits": [
 "bike sharing",
 "bike-sharing"
-]
+],
+"docs": "https://tendsign.com/doc.aspx?MeFormsNoticeId=101863"
 },
 {
 "pn": "714245-2026",
@@ -1322,6 +1339,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204830",
 "crit": {
 "type-lot": [
 "price",
@@ -1510,6 +1528,7 @@
 "hits": [
 "deelfietsen"
 ],
+"docs": "https://www.tenderned.nl/aankondigingen/overzicht/444513",
 "crit": {
 "type-lot": [
 "quality",
@@ -1591,6 +1610,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1882242",
 "crit": {
 "type-lot": [
 "quality",
@@ -1682,6 +1702,7 @@
 "hits": [
 "închiriere biciclete"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100213036",
 "crit": {
 "type-lot": [
 "price",
@@ -1912,6 +1933,7 @@
 "Bikesharing",
 "sdílení jízdních kol"
 ],
+"docs": "https://tenderarena.cz/dodavatel/zakazka/916595",
 "crit": {
 "type-lot": [
 "price"
@@ -1981,7 +2003,8 @@
 "hits": [
 "cpv",
 "deelfietsen"
-]
+],
+"docs": "https://www.tenderned.nl/aankondigingen/overzicht/442284"
 },
 {
 "pn": "671806-2026",
@@ -2112,6 +2135,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-141f61a2-d7e9-419f-a177-4172fc54cf9a",
 "crit": {
 "type-lot": [
 "price"
@@ -2241,6 +2265,7 @@
 "cpv",
 "sdílení jízdních kol"
 ],
+"docsLogin": "https://www.tenderarena.cz/profily/HlavniMestoPraha",
 "crit": {
 "type-lot": [
 "price"
@@ -2289,6 +2314,7 @@
 "Bikesharing",
 "sdílení jízdních kol"
 ],
+"docs": "https://tenderarena.cz/dodavatel/zakazka/916595",
 "crit": {
 "type-lot": [
 "price"
@@ -2391,6 +2417,7 @@
 "kaupunkipyörä",
 "kaupunkipyörät"
 ],
+"docs": "https://toimittaja-asiointi.tampere.fi",
 "crit": {
 "type-lot": [
 "price",
@@ -2461,6 +2488,7 @@
 "hits": [
 "Fahrradverleih"
 ],
+"docs": "https://vergaben.llv.li/Detail/253320",
 "crit": {
 "type-lot": [
 "quality",
@@ -2665,7 +2693,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/646973-2026",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://tendsign.com/doc.aspx?MeFormsNoticeId=100015"
 },
 {
 "pn": "643312-2026",
@@ -2691,6 +2720,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://www.tender24.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a09f1602df-3343b4c4a6a8b7e4",
 "crit": {
 "type-lot": [
 "quality",
@@ -2790,7 +2820,8 @@
 "hits": [
 "vélo en libre-service",
 "vélos en libre-service"
-]
+],
+"docs": "www.synapse-entreprises.com"
 },
 {
 "pn": "629972-2026",
@@ -2827,6 +2858,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204830",
 "crit": {
 "type-lot": [
 "price",
@@ -2887,6 +2919,7 @@
 "bicicletas públicas",
 "cpv"
 ],
+"docs": "https://www.acingov.pt/acingovprod/2/zonaPublica/zona_publica_c/donwloadProcedurePiece/MTE0MTg3MA",
 "crit": {
 "type-lot": [
 "price",
@@ -2978,6 +3011,7 @@
 "hits": [
 "sdílená kola"
 ],
+"docs": "https://zakazky.koprivnice.cz/",
 "crit": {
 "type-lot": [
 "price"
@@ -3022,7 +3056,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/621247-2026",
 "hits": [
 "deelfietsen"
-]
+],
+"docs": "https://s2c.mercell.com/today/228227"
 },
 {
 "pn": "610162-2026",
@@ -3052,6 +3087,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.enarocanje.si/api/datoteka/get?id=NjExNzcyO1BvcHJhdmVrIFJEXzMuOS4yMDI2LnppcA",
 "crit": {
 "type-lot": [
 "price",
@@ -3098,6 +3134,7 @@
 "hits": [
 "Fahrradverleih"
 ],
+"docs": "https://vergaben.llv.li/Detail/253320",
 "crit": {
 "type-lot": [
 "quality",
@@ -3273,6 +3310,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204830",
 "crit": {
 "type-lot": [
 "price",
@@ -3330,6 +3368,7 @@
 "hits": [
 "Fahrradverleih"
 ],
+"docs": "https://vergaben.llv.li/Detail/253320",
 "crit": {
 "type-lot": [
 "quality",
@@ -3378,6 +3417,7 @@
 "hits": [
 "deelfietsen"
 ],
+"docs": "https://www.tenderned.nl/aankondigingen/overzicht/436387",
 "crit": {
 "type-lot": [
 "price"
@@ -3542,6 +3582,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.enarocanje.si/api/datoteka/get?id=NTg3ODI4OzJfUmF6cGlzbmEgZG9rdW1lbnRhY2lqYS56aXA",
 "crit": {
 "type-lot": [
 "price",
@@ -3828,6 +3869,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://platformazakupowa.pl/transakcja/1323987",
 "crit": {
 "type-lot": [
 "quality",
@@ -3942,6 +3984,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204830",
 "crit": {
 "type-lot": [
 "price",
@@ -3999,7 +4042,8 @@
 "hits": [
 "bike sharing",
 "bike-sharing"
-]
+],
+"docs": "https://ausschreibungen.giz.de/Satellite/notice/CXTRYY6YTTY3D4ZM/documents"
 },
 {
 "pn": "543374-2026",
@@ -4033,6 +4077,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1853203",
 "crit": {
 "type-lot": [
 "quality",
@@ -4203,7 +4248,8 @@
 "hits": [
 "vélo en libre-service",
 "vélos en libre-service"
-]
+],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1848400"
 },
 {
 "pn": "536996-2026",
@@ -4322,6 +4368,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100210449",
 "crit": {
 "type-lot": [
 "price"
@@ -4360,6 +4407,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://platformazakupowa.pl/transakcja/1323987",
 "crit": {
 "type-lot": [
 "quality",
@@ -4570,7 +4618,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/512798-2026",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://catp.e-marchespublics.com/pack/annonce_marche_public_11170_1171521.html"
 },
 {
 "pn": "513818-2026",
@@ -4594,7 +4643,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/513818-2026",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://catp.e-marchespublics.com/pack/annonce_marche_public_11170_1171505.html"
 },
 {
 "pn": "507269-2026",
@@ -4621,7 +4671,8 @@
 "hits": [
 "bike sharing",
 "bike-sharing"
-]
+],
+"docs": "https://ausschreibungen.giz.de/Satellite/notice/CXTRYY6YTTY3D4ZM/documents"
 },
 {
 "pn": "498544-2026",
@@ -4645,7 +4696,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/498544-2026",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://catp.e-marchespublics.com/pack/annonce_marche_public_11170_1171521.html"
 },
 {
 "pn": "501404-2026",
@@ -4669,7 +4721,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/501404-2026",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://catp.e-marchespublics.com/pack/annonce_marche_public_11170_1171505.html"
 },
 {
 "pn": "496136-2026",
@@ -4844,7 +4897,8 @@
 "hits": [
 "bysykkel",
 "cpv"
-]
+],
+"docsLogin": "https://app.artifik.no/procurements/6838"
 },
 {
 "pn": "488499-2026",
@@ -4870,6 +4924,7 @@
 "Bikesharing",
 "sdílení jízdních kol"
 ],
+"docs": "https://www.zakazkyfm.cz/contract_display_2240.html",
 "crit": {
 "type-lot": [
 "price"
@@ -4963,7 +5018,8 @@
 "bike sharing",
 "bike-sharing",
 "cpv"
-]
+],
+"docs": "https://enteparconazionaleaspromonte.tuttogare.it/gare/dettaglio.php?codice=34"
 },
 {
 "pn": "486208-2026",
@@ -5048,6 +5104,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204830",
 "crit": {
 "type-lot": [
 "price",
@@ -5107,6 +5164,7 @@
 "bicicleta pública",
 "bicicletas públicas"
 ],
+"docs": "https://www.acingov.pt/acingovprod/2/zonaPublica/zona_publica_c/donwloadProcedurePiece/MTExOTM5Mw",
 "crit": {
 "type-lot": [
 "price",
@@ -5162,6 +5220,7 @@
 "bicicletas públicas",
 "cpv"
 ],
+"docs": "https://www.acingov.pt/acingovprod/2/zonaPublica/zona_publica_c/donwloadProcedurePiece/MTExODkzOA",
 "crit": {
 "type-lot": [
 "price",
@@ -5213,7 +5272,8 @@
 "hits": [
 "vélo en libre-service",
 "vélos en libre-service"
-]
+],
+"docs": "www.synapse-entreprises.com"
 },
 {
 "pn": "465888-2026",
@@ -5392,6 +5452,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://platformazakupowa.pl/transakcja/1323987",
 "crit": {
 "type-lot": [
 "quality",
@@ -5508,7 +5569,8 @@
 "hits": [
 "Bikesharing",
 "cpv"
-]
+],
+"docs": "https://www.subreport.de/E17678699"
 },
 {
 "pn": "445824-2026",
@@ -5658,6 +5720,7 @@
 "kaupunkipyörä",
 "kaupunkipyörät"
 ],
+"docs": "https://tarjouspalvelu.fi/hkl?id=607969&tpk=1ffecd84-e29e-4d47-b9f7-6e8d82a3f41a",
 "crit": {
 "type-lot": [
 "price"
@@ -5745,6 +5808,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://umopole.logintrade.net/zapytania_email,230747,34872383974ad1a30cb57d20a88f5aa4.html",
 "crit": {
 "type-lot": [
 "price",
@@ -5874,6 +5938,7 @@
 "vélo en libre-service",
 "vélos en libre-service"
 ],
+"docsLogin": "https://www.simap.ch/fr/redirect?context=eyJwYWdlIjoicHJvamVjdCIsInJvbGUiOm51bGwsIm9yZ0lkIjpudWxsLCJwcm9qZWN0SWQiOiI1NWM0MTU1Yy1hMTk1LTRkNzMtOThmYy1iNjczZmU1MzM4ZGUiLCJsb3RJZCI6bnVsbCwic3Vic2NyaXB0aW9uSWQiOm51bGx9",
 "crit": {
 "type-lot": [
 "quality"
@@ -5966,7 +6031,8 @@
 "hits": [
 "cpv",
 "vélos à assistance électrique en libre-service"
-]
+],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1833127"
 },
 {
 "pn": "421578-2026",
@@ -5997,6 +6063,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://umopole.logintrade.net/zapytania_email,230747,34872383974ad1a30cb57d20a88f5aa4.html",
 "crit": {
 "type-lot": [
 "price",
@@ -6093,6 +6160,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204830",
 "crit": {
 "type-lot": [
 "price",
@@ -6149,6 +6217,7 @@
 "Bikesharing",
 "sdílení jízdních kol"
 ],
+"docs": "https://www.zakazkyfm.cz/contract_display_2233.html",
 "crit": {
 "type-lot": [
 "price"
@@ -6331,6 +6400,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://umopole.logintrade.net/zapytania_email,230747,34872383974ad1a30cb57d20a88f5aa4.html",
 "crit": {
 "type-lot": [
 "price",
@@ -6432,6 +6502,7 @@
 "hits": [
 "deelfietsen"
 ],
+"docs": "https://www.tenderned.nl/aankondigingen/overzicht/428136",
 "crit": {
 "type-lot": [
 "price"
@@ -6480,6 +6551,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.enarocanje.si/api/datoteka/get?id=NTU0MzU2O0pOX2RvYmF2YV9wb3N0YWpfaW5fa29sZXNfS1JzS09MRVNPTS56aXA",
 "crit": {
 "type-lot": [
 "price"
@@ -6524,7 +6596,8 @@
 "hits": [
 "bike sharing",
 "bike-sharing"
-]
+],
+"docs": "https://www.etenders.gov.ie/epps/cft/listContractDocuments.do?resourceId=8321978"
 },
 {
 "pn": "378437-2026",
@@ -6557,6 +6630,7 @@
 "bicicletas públicas",
 "cpv"
 ],
+"docs": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=6NAiFibUASc%2FbjW6njtWLw%3D%3D",
 "crit": {
 "type-lot": [
 "quality",
@@ -6618,6 +6692,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://platformazakupowa.pl/transakcja/1293753",
 "crit": {
 "type-lot": [
 "price"
@@ -6710,6 +6785,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://www.subreport.de/E66853541",
 "crit": {
 "type-lot": [
 "price"
@@ -6814,6 +6890,7 @@
 "bicicletas públicas",
 "cpv"
 ],
+"docs": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=6NAiFibUASc%2FbjW6njtWLw%3D%3D",
 "crit": {
 "type-lot": [
 "quality",
@@ -6882,6 +6959,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-676e960b-c21d-46d6-a1ff-b069336cfc9c",
 "crit": {
 "type-lot": [
 "price",
@@ -7008,6 +7086,7 @@
 "bicicleta pública",
 "bicicletas públicas"
 ],
+"docs": "https://www.contratacion.euskadi.eus",
 "crit": {
 "type-lot": [
 "cost",
@@ -7134,7 +7213,8 @@
 "hits": [
 "vélo en libre-service",
 "vélos en libre-service"
-]
+],
+"docs": "https://www.eguadeloupe.com/entreprise/consultation/510021?orgAcronyme=ega1v"
 },
 {
 "pn": "354469-2026",
@@ -7159,6 +7239,7 @@
 "deelfiets",
 "deelfietsen"
 ],
+"docs": "https://www.tenderned.nl/aankondigingen/overzicht/426026",
 "crit": {
 "type-lot": [
 "quality",
@@ -7217,6 +7298,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-676e960b-c21d-46d6-a1ff-b069336cfc9c",
 "crit": {
 "type-lot": [
 "price",
@@ -7279,7 +7361,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/351612-2026",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://tendsign.com/doc.aspx?MeFormsNoticeId=92533"
 },
 {
 "pn": "350136-2026",
@@ -7305,6 +7388,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://platformazakupowa.pl/transakcja/1293753",
 "crit": {
 "type-lot": [
 "price"
@@ -7357,6 +7441,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204830",
 "crit": {
 "type-lot": [
 "price",
@@ -7420,6 +7505,7 @@
 "cpv",
 "închiriere biciclete"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100207859",
 "crit": {
 "type-lot": [
 "price",
@@ -7487,7 +7573,8 @@
 "bicicletas compartidas",
 "bicicletas públicas",
 "cpv"
-]
+],
+"docs": "https://hacienda.navarra.es/sicpportal/mtoBuscadorAnuncios.aspx"
 },
 {
 "pn": "338185-2026",
@@ -7513,6 +7600,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://platformazakupowa.pl/transakcja/1293753",
 "crit": {
 "type-lot": [
 "price"
@@ -7551,6 +7639,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.enarocanje.si/api/datoteka/get?id=NTI4OTkyO0tPTsSMTkEgVkVSWklKQSBaQSBPQkpBVk8gUEVDSUtMIDIuemlw",
 "crit": {
 "type-lot": [
 "price"
@@ -7597,6 +7686,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://umopole.logintrade.net/zapytania_email,230747,34872383974ad1a30cb57d20a88f5aa4.html",
 "crit": {
 "type-lot": [
 "price",
@@ -7660,6 +7750,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-676e960b-c21d-46d6-a1ff-b069336cfc9c",
 "crit": {
 "type-lot": [
 "price",
@@ -7720,6 +7811,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.enarocanje.si/api/datoteka/get?id=NTI4NDIwO1BvcHJhdmVrIHogZG5lIDExLjA1Li56aXA",
 "crit": {
 "type-lot": [
 "price",
@@ -7879,6 +7971,7 @@
 "bicicleta pública",
 "bicicletas públicas"
 ],
+"docs": "https://www.contratacion.euskadi.eus",
 "crit": {
 "type-lot": [
 "cost",
@@ -8015,6 +8108,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204830",
 "crit": {
 "type-lot": [
 "price",
@@ -8077,6 +8171,7 @@
 "hits": [
 "închiriere biciclete"
 ],
+"docs": "https://www.e-licitatie.ro",
 "crit": {
 "type-lot": [
 "price",
@@ -8158,6 +8253,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100207587",
 "crit": {
 "type-lot": [
 "price",
@@ -8217,6 +8313,7 @@
 "bicicleta pública",
 "bicicletas públicas"
 ],
+"docs": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KsNgZO9hHyUmMOlAXxDEjw%3D%3D",
 "crit": {
 "type-lot": [
 "price",
@@ -8299,7 +8396,8 @@
 "cpv",
 "kaupunkipyörä",
 "kaupunkipyörät"
-]
+],
+"docs": "https://toimittaja-asiointi.tampere.fi"
 },
 {
 "pn": "300952-2026",
@@ -8331,6 +8429,7 @@
 "hits": [
 "închiriere biciclete"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100206801",
 "crit": {
 "type-lot": [
 "price",
@@ -8403,7 +8502,8 @@
 "bike sharing",
 "bike-sharing",
 "cpv"
-]
+],
+"docs": "https://tarjouspalvelu.fi/hkl?id=611669&tpk=1bc62628-d218-431c-a007-f32ea3199dc2"
 },
 {
 "pn": "296482-2026",
@@ -8491,6 +8591,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-676e960b-c21d-46d6-a1ff-b069336cfc9c",
 "crit": {
 "type-lot": [
 "price",
@@ -8557,6 +8658,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1812029",
 "crit": {
 "type-lot": [
 "quality",
@@ -8717,6 +8819,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204830",
 "crit": {
 "type-lot": [
 "price",
@@ -8821,6 +8924,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.enarocanje.si/api/datoteka/get?id=NTI1NjQ3O1NwcmVtZW1iYSAyMy40LnppcA",
 "crit": {
 "type-lot": [
 "price",
@@ -8960,6 +9064,7 @@
 "hits": [
 "bicicletas de uso público"
 ],
+"docs": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WL83L625LSk%2B1TMyIiZmzw%3D%3D",
 "crit": {
 "type-lot": [
 "price",
@@ -9113,6 +9218,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://marches.maximilien.fr/",
 "crit": {
 "type-lot": [
 "quality",
@@ -9175,7 +9281,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/275557-2026",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://catp.e-marchespublics.com/pack/annonce_marche_public_11170_1157514.html"
 },
 {
 "pn": "272055-2026",
@@ -9212,6 +9319,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204830",
 "crit": {
 "type-lot": [
 "price",
@@ -9269,6 +9377,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "http://intercenter.regione.emilia-romagna.it/search_bandi?getId=BANDO_GARA_PORTALE@13152069",
 "crit": {
 "type-lot": [
 "quality",
@@ -9308,6 +9417,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://platformazakupowa.pl/transakcja/1293753",
 "crit": {
 "type-lot": [
 "price"
@@ -9398,6 +9508,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://marchespublics-matec57.fr/",
 "crit": {
 "type-lot": [
 "price",
@@ -9460,6 +9571,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204830",
 "crit": {
 "type-lot": [
 "price",
@@ -9525,6 +9637,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204834",
 "crit": {
 "type-lot": [
 "price",
@@ -9590,6 +9703,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204834",
 "crit": {
 "type-lot": [
 "price",
@@ -9695,6 +9809,7 @@
 "hits": [
 "închiriere biciclete"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100206801",
 "crit": {
 "type-lot": [
 "price",
@@ -9824,6 +9939,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://www.e-licitatie.ro",
 "crit": {
 "type-lot": [
 "price",
@@ -9879,6 +9995,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.enarocanje.si/api/datoteka/get?id=NDkxMjk0O1JEIFRSQUpOT1NUTkEgTU9CSUxOT1NULnppcA",
 "crit": {
 "type-lot": [
 "price",
@@ -9982,6 +10099,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-676e960b-c21d-46d6-a1ff-b069336cfc9c",
 "crit": {
 "type-lot": [
 "price",
@@ -10048,6 +10166,7 @@
 "cpv",
 "închiriere biciclete"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100206554",
 "crit": {
 "type-lot": [
 "price",
@@ -10101,6 +10220,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/tenders/ocds-148610-a01651d4-ddc9-4e9a-8bd6-7ca85f2ca60e",
 "crit": {
 "type-lot": [
 "price",
@@ -10168,6 +10288,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204830",
 "crit": {
 "type-lot": [
 "price",
@@ -10233,6 +10354,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204834",
 "crit": {
 "type-lot": [
 "price",
@@ -10691,6 +10813,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "http://intercenter.regione.emilia-romagna.it/search_bandi?getId=BANDO_GARA_PORTALE@13152069",
 "crit": {
 "type-lot": [
 "quality",
@@ -10729,7 +10852,8 @@
 "hits": [
 "cpv",
 "vélos à assistance électrique en libre-service"
-]
+],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1782659"
 },
 {
 "pn": "193560-2026",
@@ -11327,7 +11451,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/183650-2026",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://permalink.mercell.com/279424532.aspx"
 },
 {
 "pn": "170957-2026",
@@ -11362,6 +11487,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204834",
 "crit": {
 "type-lot": [
 "price",
@@ -11429,6 +11555,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204830",
 "crit": {
 "type-lot": [
 "price",
@@ -11540,6 +11667,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list",
 "crit": {
 "type-lot": [
 "price",
@@ -11584,6 +11712,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1790828",
 "crit": {
 "type-lot": [
 "quality",
@@ -11787,6 +11916,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204830",
 "crit": {
 "type-lot": [
 "price",
@@ -11852,6 +11982,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204834",
 "crit": {
 "type-lot": [
 "price",
@@ -11953,6 +12084,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/tenders/ocds-148610-a01651d4-ddc9-4e9a-8bd6-7ca85f2ca60e",
 "crit": {
 "type-lot": [
 "price",
@@ -12013,6 +12145,7 @@
 "cpv",
 "sdílení jízdních kol"
 ],
+"docs": "https://zakazky.zdarns.cz/profile_display_2.html",
 "crit": {
 "type-lot": [
 "price"
@@ -12056,6 +12189,7 @@
 "bicicleta pública",
 "bicicletas públicas"
 ],
+"docs": "https://www.acingov.pt/acingovprod/2/zonaPublica/zona_publica_c/donwloadProcedurePiece/MTA1ODY4MA",
 "crit": {
 "type-lot": [
 "price",
@@ -12102,6 +12236,7 @@
 "bicicleta pública",
 "bicicletas públicas"
 ],
+"docs": "https://www.acingov.pt/acingovprod/2/zonaPublica/zona_publica_c/donwloadProcedurePiece/MTA1ODU5NQ",
 "crit": {
 "type-lot": [
 "price"
@@ -12160,7 +12295,8 @@
 "hits": [
 "cpv",
 "vélos à assistance électrique en libre-service"
-]
+],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1782659"
 },
 {
 "pn": "122526-2026",
@@ -12243,7 +12379,8 @@
 "hits": [
 "bike sharing",
 "bike-sharing"
-]
+],
+"docs": "https://www.etenders.gov.ie/epps/cft/listContractDocuments.do?resourceId=7547709"
 },
 {
 "pn": "119834-2026",
@@ -12384,6 +12521,7 @@
 "vélo en libre-service",
 "vélos en libre-service"
 ],
+"docsLogin": "https://www.simap.ch/fr/redirect?context=eyJwYWdlIjoicHJvamVjdCIsInJvbGUiOm51bGwsIm9yZ0lkIjpudWxsLCJwcm9qZWN0SWQiOiIzNzRmOWEzZi0zZDc5LTQ5MzAtOWI1Mi02NGE5OWU1YjliYzEiLCJsb3RJZCI6bnVsbCwic3Vic2NyaXB0aW9uSWQiOm51bGx9",
 "crit": {
 "type-lot": [
 "quality"
@@ -12429,6 +12567,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100203569",
 "crit": {
 "type-lot": [
 "price",
@@ -12580,6 +12719,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204834",
 "crit": {
 "type-lot": [
 "price",
@@ -12721,6 +12861,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204830",
 "crit": {
 "type-lot": [
 "price",
@@ -12811,6 +12952,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://www.dtvp.de/Satellite/notice/CXP4Y8LM58D/documents",
 "crit": {
 "type-lot": [
 "price",
@@ -12872,6 +13014,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://www.e-licitatie.ro",
 "crit": {
 "type-lot": [
 "price",
@@ -12942,6 +13085,7 @@
 "cpv",
 "închiriere biciclete"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204706",
 "crit": {
 "type-lot": [
 "price",
@@ -13106,6 +13250,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204509",
 "crit": {
 "type-lot": [
 "price"
@@ -13177,6 +13322,7 @@
 "cpv",
 "sdílení jízdních kol"
 ],
+"docs": "https://zakazky.zdarns.cz/profile_display_2.html",
 "crit": {
 "type-lot": [
 "price"
@@ -13254,6 +13400,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100203569",
 "crit": {
 "type-lot": [
 "price",
@@ -13317,6 +13464,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://platformazakupowa.pl/pn/gm_pruszkow",
 "crit": {
 "type-lot": [
 "price"
@@ -13424,6 +13572,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://www.dtvp.de/Satellite/notice/CXP4Y8LM58D/documents",
 "crit": {
 "type-lot": [
 "price",
@@ -13641,6 +13790,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://platformazakupowa.pl/pn/zozdt",
 "crit": {
 "type-lot": [
 "price",
@@ -13859,6 +14009,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://miastobialystok.ezamawiajacy.pl/",
 "crit": {
 "type-lot": [
 "price",
@@ -14011,6 +14162,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-2856fe76-4d63-4d06-9b44-c7f117e7edb3",
 "crit": {
 "type-lot": [
 "price",
@@ -14126,6 +14278,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://miastobialystok.ezamawiajacy.pl/",
 "crit": {
 "type-lot": [
 "price",
@@ -14247,6 +14400,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://platformazakupowa.pl/pn/gm_pruszkow",
 "crit": {
 "type-lot": [
 "price"
@@ -14441,6 +14595,7 @@
 "bicicletas públicas",
 "cpv"
 ],
+"docs": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=jS6rp2EeFAgzjChw4z%2FXvw%3D%3D",
 "crit": {
 "type-lot": [
 "quality",
@@ -14588,6 +14743,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100203569",
 "crit": {
 "type-lot": [
 "price",
@@ -14777,6 +14933,7 @@
 "hits": [
 "public bicycle"
 ],
+"docs": "https://permalink.mercell.com/272910213.aspx",
 "crit": {
 "type-lot": [
 "price",
@@ -14839,6 +14996,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://platformazakupowa.pl/transakcja/1194210",
 "crit": {
 "type-lot": [
 "price",
@@ -14942,6 +15100,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://mzdtorun.eb2b.com.pl/",
 "crit": {
 "type-lot": [
 "price",
@@ -15315,6 +15474,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1753127",
 "crit": {
 "type-lot": [
 "quality",
@@ -15370,6 +15530,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://platformazakupowa.pl/pn/zozdt",
 "crit": {
 "type-lot": [
 "price",
@@ -15600,6 +15761,7 @@
 "hits": [
 "deelfietsen"
 ],
+"docs": "https://www.tenderned.nl/aankondigingen/overzicht/404230",
 "crit": {
 "type-lot": [
 "quality",
@@ -15685,6 +15847,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://miastobialystok.ezamawiajacy.pl/",
 "crit": {
 "type-lot": [
 "price",
@@ -15756,6 +15919,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://platformazakupowa.pl/transakcja/1194210",
 "crit": {
 "type-lot": [
 "price",
@@ -15801,7 +15965,8 @@
 "hits": [
 "vélo en libre-service",
 "vélos en libre-service"
-]
+],
+"docs": "http://agysoft.marches-publics.info"
 },
 {
 "pn": "808218-2025",
@@ -15831,6 +15996,7 @@
 "bicicletas públicas",
 "cpv"
 ],
+"docs": "https://www.acingov.pt/acingovprod/2/zonaPublica/zona_publica_c/donwloadProcedurePiece/OTkwODc1",
 "crit": {
 "type-lot": [
 "price",
@@ -15914,6 +16080,7 @@
 "hits": [
 "sdílená kola"
 ],
+"docs": "https://nen.nipez.cz/profily-zadavatelu-platne/p:pzp:query=m%C4%9Bsto%20ji%C4%8D%C3%ADn/detail-profilu/mestojicin/zahajene-zakazky",
 "crit": {
 "type-lot": [
 "price",
@@ -16099,6 +16266,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://mzdtorun.eb2b.com.pl/",
 "crit": {
 "type-lot": [
 "price",
@@ -16145,6 +16313,7 @@
 "hits": [
 "sdílená kola"
 ],
+"docs": "https://nen.nipez.cz/profily-zadavatelu-platne/p:pzp:query=m%C4%9Bsto%20ji%C4%8D%C3%ADn/detail-profilu/mestojicin/zahajene-zakazky",
 "crit": {
 "type-lot": [
 "price",
@@ -16254,6 +16423,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://platformazakupowa.pl/transakcja/1194210",
 "crit": {
 "type-lot": [
 "price",
@@ -16304,7 +16474,8 @@
 "hits": [
 "bike sharing",
 "bike-sharing"
-]
+],
+"docs": "https://www.etenders.gov.ie/epps/cft/listContractDocuments.do?resourceId=6998457"
 },
 {
 "pn": "762428-2025",
@@ -16472,6 +16643,7 @@
 "hits": [
 "sdílená kola"
 ],
+"docs": "https://nen.nipez.cz/profily-zadavatelu-platne/p:pzp:query=m%C4%9Bsto%20ji%C4%8D%C3%ADn/detail-profilu/mestojicin/zahajene-zakazky",
 "crit": {
 "type-lot": [
 "price",
@@ -16522,7 +16694,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/756396-2025",
 "hits": [
 "cpv"
-]
+],
+"docsLogin": "https://app.artifik.no/procurements/1808"
 },
 {
 "pn": "746949-2025",
@@ -16545,6 +16718,7 @@
 "hits": [
 "deelfietsen"
 ],
+"docs": "https://www.tenderned.nl/aankondigingen/overzicht/400583",
 "crit": {
 "type-lot": [
 "quality",
@@ -16704,7 +16878,8 @@
 "hits": [
 "bike sharing",
 "bike-sharing"
-]
+],
+"docs": "https://provia.at"
 },
 {
 "pn": "729105-2025",
@@ -16729,7 +16904,8 @@
 "hits": [
 "bike sharing",
 "bike-sharing"
-]
+],
+"docs": "https://ausschreibungen.giz.de/Satellite/notice/CXTRYY6YTS342SWX/documents"
 },
 {
 "pn": "721743-2025",
@@ -16759,6 +16935,7 @@
 "bicicletas públicas",
 "cpv"
 ],
+"docs": "https://www.acingov.pt/acingovprod/2/zonaPublica/zona_publica_c/donwloadProcedurePiece/OTkwODc1",
 "crit": {
 "type-lot": [
 "price",
@@ -16805,6 +16982,7 @@
 "hits": [
 "Bikesharing"
 ],
+"docs": "https://www.dtvp.de/Satellite/notice/CXP4Y435T6L/documents",
 "crit": {
 "type-lot": [
 "quality",
@@ -16969,6 +17147,7 @@
 "hits": [
 "Bikesharing"
 ],
+"docs": "https://www.dtvp.de/Satellite/notice/CXP4Y435T6L/documents",
 "crit": {
 "type-lot": [
 "quality",
@@ -17022,7 +17201,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/684620-2025",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://www.subreport.de/E16573574"
 },
 {
 "pn": "676382-2025",
@@ -17046,6 +17226,7 @@
 "hits": [
 "Bikesharing"
 ],
+"docs": "https://www.dtvp.de/Satellite/notice/CXP4Y4351KM/documents",
 "crit": {
 "type-lot": [
 "quality",
@@ -17112,6 +17293,7 @@
 "hits": [
 "Bikesharing"
 ],
+"docs": "https://www.tenderarena.cz/profil/detail.jsf?identifikator=dpmcb.cz",
 "crit": {
 "type-lot": [
 "price",
@@ -17171,7 +17353,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/672986-2025",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1721381"
 },
 {
 "pn": "674788-2025",
@@ -17196,6 +17379,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.enarocanje.si/api/datoteka/get?id=NDA0Njc1O09CUi1Wem9yZWMgb2t2aXJuZWdhIHNwb3JhenVtYV9wb3ByLi56aXA",
 "crit": {
 "type-lot": [
 "price",
@@ -17330,6 +17514,7 @@
 "bicicleta pública",
 "bicicletas públicas"
 ],
+"docs": "https://www.acingov.pt/acingovprod/2/zonaPublica/zona_publica_c/donwloadProcedurePiece/OTg0NDg2",
 "crit": {
 "type-lot": [
 "price",
@@ -17375,6 +17560,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.enarocanje.si/api/datoteka/get?id=NDA0Njc1O09CUi1Wem9yZWMgb2t2aXJuZWdhIHNwb3JhenVtYV9wb3ByLi56aXA",
 "crit": {
 "type-lot": [
 "price",
@@ -17424,6 +17610,7 @@
 "hits": [
 "Bikesharing"
 ],
+"docs": "https://www.dtvp.de/Satellite/notice/CXP4Y435W8F/documents",
 "crit": {
 "type-lot": [
 "quality",
@@ -17521,6 +17708,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.enarocanje.si/api/datoteka/get?id=Mzk4Mjg3OzAxX0Rva3VtZW50YWNpamEuemlw",
 "crit": {
 "type-lot": [
 "price",
@@ -17582,6 +17770,7 @@
 "bicicleta pública",
 "bicicletas públicas"
 ],
+"docs": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=MGBPxu8Hvd%2Fi0Kd8%2Brcp6w%3D%3D",
 "crit": {
 "type-lot": [
 "quality",
@@ -17634,7 +17823,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/651454-2025",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1716426"
 },
 {
 "pn": "638643-2025",
@@ -17658,6 +17848,7 @@
 "hits": [
 "Bikesharing"
 ],
+"docs": "https://www.dtvp.de/Satellite/notice/CXP4Y435GWS/documents",
 "crit": {
 "type-lot": [
 "quality",
@@ -17721,7 +17912,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/636766-2025",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://tendsign.com/doc.aspx?MeFormsNoticeId=67860"
 },
 {
 "pn": "620826-2025",
@@ -17750,6 +17942,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://app.albofornitori.it/alboeproc/albo_aircampania?customEntryView=elencoBandiAlboByLinkEntryView&idProcedura=621",
 "crit": {
 "type-lot": [
 "quality",
@@ -17808,6 +18001,7 @@
 "vélo en libre-service",
 "vélos en libre-service"
 ],
+"docsLogin": "https://www.simap.ch/fr/redirect?context=eyJwYWdlIjoicHJvamVjdCIsInJvbGUiOm51bGwsIm9yZ0lkIjpudWxsLCJwcm9qZWN0SWQiOiI2MzAxOTA3NS04ODhmLTQ4NTAtYWZjYi0zNmU1MDVkYzkzNzciLCJsb3RJZCI6bnVsbCwic3Vic2NyaXB0aW9uSWQiOm51bGx9",
 "crit": {
 "type-lot": [
 "quality"
@@ -17845,7 +18039,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/607096-2025",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://tendsign.com/doc.aspx?MeFormsNoticeId=67860"
 },
 {
 "pn": "597461-2025",
@@ -17875,6 +18070,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://www.e-licitatie.ro",
 "crit": {
 "type-lot": [
 "price",
@@ -18187,6 +18383,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.enarocanje.si/api/datoteka/get?id=Mzk4Mjg3OzAxX0Rva3VtZW50YWNpamEuemlw",
 "crit": {
 "type-lot": [
 "price",
@@ -18424,7 +18621,8 @@
 "cpv",
 "kaupunkipyörä",
 "kaupunkipyörät"
-]
+],
+"docs": "https://toimittaja-asiointi.tampere.fi"
 },
 {
 "pn": "566849-2025",
@@ -18505,7 +18703,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/568285-2025",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://tendsign.com/doc.aspx?MeFormsNoticeId=67860"
 },
 {
 "pn": "554168-2025",
@@ -18535,6 +18734,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100199517",
 "crit": {
 "type-lot": [
 "price",
@@ -18599,6 +18799,7 @@
 "vélo en libre-service",
 "vélos en libre-service"
 ],
+"docsLogin": "https://www.simap.ch/fr/redirect?context=eyJwYWdlIjoicHJvamVjdCIsInJvbGUiOm51bGwsIm9yZ0lkIjpudWxsLCJwcm9qZWN0SWQiOiI4ODJhZGU5Zi0yOWM2LTQ2NzAtYmUwZi1kZmM3NzBiZDI3ZTgiLCJsb3RJZCI6bnVsbCwic3Vic2NyaXB0aW9uSWQiOm51bGx9",
 "crit": {
 "type-lot": [
 "quality"
@@ -18637,6 +18838,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://app.albofornitori.it/alboeproc/albo_aircampania?customEntryView=elencoBandiAlboByLinkEntryView&idProcedura=621",
 "crit": {
 "type-lot": [
 "quality",
@@ -18806,6 +19008,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://community.vortal.biz/Public/public-tender-documents/S1VQbTFYZ1VCSGQ2RjUyZjJrOFU3MmU2eENrZGIvdjlGc2hpUFRSdThibW8ycjdwZWV0WlZPZFBWU1Z1TlM3bkxqNndqK0MwSHdZOHJmY2ZhclBzdkE9PXlSKSQ4",
 "crit": {
 "type-lot": [
 "price"
@@ -18907,6 +19110,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://community.vortal.biz/Public/public-tender-documents/S1VQbTFYZ1VCSGQ2RjUyZjJrOFU3MmU2eENrZGIvdjlGc2hpUFRSdThibW8ycjdwZWV0WlZPZFBWU1Z1TlM3bkxqNndqK0MwSHdZOHJmY2ZhclBzdkE9PXlSKSQ4",
 "crit": {
 "type-lot": [
 "price"
@@ -19027,6 +19231,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100197124",
 "crit": {
 "type-lot": [
 "price",
@@ -19106,6 +19311,7 @@
 "cpv",
 "închiriere biciclete"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100196796",
 "crit": {
 "type-lot": [
 "price",
@@ -19166,6 +19372,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://piattaforma.asmecomm.it/gare/dettaglio.php?codice=72580",
 "crit": {
 "type-lot": [
 "quality"
@@ -19200,6 +19407,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100198564",
 "crit": {
 "type-lot": [
 "price",
@@ -19285,6 +19493,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://ausschreibungen.giz.de/Satellite/notice/CXTRYY6YT95HWJVM/documents",
 "crit": {
 "type-lot": [
 "price",
@@ -19368,7 +19577,8 @@
 "Bikesharing",
 "bike sharing",
 "bike-sharing"
-]
+],
+"docs": "https://www.dtvp.de/Satellite/notice/CXP4Y6J5XFF/documents"
 },
 {
 "pn": "479862-2025",
@@ -19468,7 +19678,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/480418-2025",
 "hits": [
 "deelfietsen"
-]
+],
+"docs": "https://www.publicprocurement.be/publication-workspaces/adc18156-dd18-49ae-b1a1-aa4d8d075fa2/documents"
 },
 {
 "pn": "477584-2025",
@@ -19708,6 +19919,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://ausschreibungen.giz.de/Satellite/notice/CXTRYY6YT95HWJVM/documents",
 "crit": {
 "type-lot": [
 "price",
@@ -19765,6 +19977,7 @@
 "hits": [
 "cpv"
 ],
+"docsLogin": "https://www.simap.ch/de/redirect?context=eyJwYWdlIjoicHJvamVjdCIsInJvbGUiOm51bGwsIm9yZ0lkIjpudWxsLCJwcm9qZWN0SWQiOiI5OGI5NWM5Yi00ZGRiLTRjYTgtYTQwYy0xNTg0YjExNTY5ZDMiLCJsb3RJZCI6bnVsbCwic3Vic2NyaXB0aW9uSWQiOm51bGx9",
 "crit": {
 "type-lot": [
 "quality"
@@ -19811,6 +20024,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100197124",
 "crit": {
 "type-lot": [
 "price",
@@ -19878,7 +20092,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/463211-2025",
 "hits": [
 "deelfietsen"
-]
+],
+"docs": "https://www.publicprocurement.be/publication-workspaces/adc18156-dd18-49ae-b1a1-aa4d8d075fa2/documents"
 },
 {
 "pn": "465823-2025",
@@ -19941,6 +20156,7 @@
 "cpv",
 "închiriere biciclete"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100196796",
 "crit": {
 "type-lot": [
 "price",
@@ -20108,6 +20324,7 @@
 "cpv",
 "deelfietsen"
 ],
+"docs": "https://s2c.mercell.com/today/161819",
 "crit": {
 "type-lot": [
 "price"
@@ -20157,6 +20374,7 @@
 "hits": [
 "închiriere biciclete"
 ],
+"docs": "https://www.e-licitatie.ro",
 "crit": {
 "type-lot": [
 "price",
@@ -20217,6 +20435,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100197557",
 "crit": {
 "type-lot": [
 "price",
@@ -20302,6 +20521,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1673200",
 "crit": {
 "type-lot": [
 "quality",
@@ -20384,6 +20604,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100196587",
 "crit": {
 "type-lot": [
 "price",
@@ -20458,6 +20679,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://www.subreport.de/E64647836",
 "crit": {
 "type-lot": [
 "quality"
@@ -20609,6 +20831,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://piattaforma.asmecomm.it/gare/dettaglio.php?codice=66945",
 "crit": {
 "type-lot": [
 "quality"
@@ -20653,6 +20876,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://tuabruzzo.acquistitelematici.it",
 "crit": {
 "type-lot": [
 "quality",
@@ -20692,6 +20916,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://www.dtvp.de/Satellite/notice/CXP4Y6J5XFF/documents",
 "crit": {
 "type-lot": [
 "quality",
@@ -20751,6 +20976,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100197124",
 "crit": {
 "type-lot": [
 "price",
@@ -20818,7 +21044,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/410129-2025",
 "hits": [
 "deelfietsen"
-]
+],
+"docs": "https://www.publicprocurement.be/publication-workspaces/adc18156-dd18-49ae-b1a1-aa4d8d075fa2/documents"
 },
 {
 "pn": "408426-2025",
@@ -20851,6 +21078,7 @@
 "hits": [
 "închiriere biciclete"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100197207",
 "crit": {
 "type-lot": [
 "price",
@@ -21031,6 +21259,7 @@
 "hits": [
 "închiriere biciclete"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100196818",
 "crit": {
 "type-lot": [
 "price",
@@ -21151,6 +21380,7 @@
 "cpv",
 "închiriere biciclete"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100196796",
 "crit": {
 "type-lot": [
 "price",
@@ -21300,6 +21530,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://www.e-licitatie.ro",
 "crit": {
 "type-lot": [
 "price",
@@ -21381,6 +21612,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100196587",
 "crit": {
 "type-lot": [
 "price",
@@ -21566,6 +21798,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1659047",
 "crit": {
 "type-lot": [
 "quality",
@@ -22011,6 +22244,7 @@
 "cpv",
 "deelfietsen"
 ],
+"docs": "https://www.tenderned.nl/aankondigingen/overzicht/381349",
 "crit": {
 "type-lot": [
 "quality",
@@ -22073,7 +22307,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/364395-2025",
 "hits": [
 "deelfietsen"
-]
+],
+"docs": "https://www.publicprocurement.be/publication-workspaces/adc18156-dd18-49ae-b1a1-aa4d8d075fa2/documents"
 },
 {
 "pn": "360326-2025",
@@ -22149,7 +22384,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/359962-2025",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://www.vergaben-wirtschaftsregion-aachen.de/VMPSatellite/notice/CXQ1YYQYVPN/documents"
 },
 {
 "pn": "357247-2025",
@@ -22176,6 +22412,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://platformazakupowa.pl/transakcja/1099644",
 "crit": {
 "type-lot": [
 "price",
@@ -22274,6 +22511,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://piattaforma.asmecomm.it/gare/dettaglio.php?codice=66945",
 "crit": {
 "type-lot": [
 "quality"
@@ -22396,6 +22634,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://vergabeportal-bw.de/Satellite/notice/CXRAY6GYHB0/documents",
 "crit": {
 "type-lot": [
 "price",
@@ -22451,6 +22690,7 @@
 "cpv",
 "deelfietsen"
 ],
+"docs": "https://www.tenderned.nl/aankondigingen/overzicht/380457",
 "crit": {
 "type-lot": [
 "quality",
@@ -22518,6 +22758,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "http://www.empulia.it/tno-a/empulia/SitePages/Home.aspx",
 "crit": {
 "type-lot": [
 "quality"
@@ -22555,6 +22796,7 @@
 "hits": [
 "vélopartage"
 ],
+"docs": "https://www.achatpublic.com/sdm/ent2/gen/index.jsp",
 "crit": {
 "type-lot": [
 "price"
@@ -22647,6 +22889,7 @@
 "Bikesharing",
 "cpv"
 ],
+"docs": "https://zakazky.pmdp.cz/",
 "crit": {
 "type-lot": [
 "price"
@@ -22694,6 +22937,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1653174",
 "crit": {
 "type-lot": [
 "quality",
@@ -22780,6 +23024,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://platformazakupowa.pl/transakcja/1099644",
 "crit": {
 "type-lot": [
 "price",
@@ -22827,6 +23072,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.enarocanje.si/api/datoteka/get?id=Mzc1Mzc0OzAxX0Rva3VtZW50YWNpamEuemlw",
 "crit": {
 "type-lot": [
 "price"
@@ -22864,7 +23110,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/311824-2025",
 "hits": [
 "deelfietsen"
-]
+],
+"docs": "https://www.publicprocurement.be/publication-workspaces/adc18156-dd18-49ae-b1a1-aa4d8d075fa2/documents"
 },
 {
 "pn": "314365-2025",
@@ -23008,6 +23255,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://profily.proebiz.com/profile/00284891",
 "crit": {
 "type-lot": [
 "price"
@@ -23264,6 +23512,7 @@
 "hits": [
 "Leihräder"
 ],
+"docs": "https://www.subreport.de/E44979181",
 "crit": {
 "type-lot": [
 "quality",
@@ -23399,7 +23648,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/259506-2025",
 "hits": [
 "Bikesharing"
-]
+],
+"docs": "https://landsalzburg.vergabeportal.at/Detail/212135"
 },
 {
 "pn": "254736-2025",
@@ -23676,6 +23926,7 @@
 "cpv",
 "deelfietsen"
 ],
+"docs": "https://www.tenderned.nl/aankondigingen/overzicht/373848",
 "crit": {
 "type-lot": [
 "quality",
@@ -23818,6 +24069,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://www.dtvp.de/Satellite/notice/CXP4Y6J5E5S/documents",
 "crit": {
 "type-lot": [
 "quality",
@@ -24139,6 +24391,7 @@
 "hits": [
 "închiriere biciclete"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100193404",
 "crit": {
 "type-lot": [
 "price",
@@ -24315,6 +24568,7 @@
 "hits": [
 "închiriere biciclete"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100191741",
 "crit": {
 "type-lot": [
 "price"
@@ -24353,6 +24607,7 @@
 "hits": [
 "deelfietsen"
 ],
+"docs": "https://cloud.3p.eu/Downloads/1/889/BQ/2024",
 "crit": {
 "type-lot": [
 "cost"
@@ -24435,7 +24690,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/197208-2025",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://www.marches-securises.fr"
 },
 {
 "pn": "198638-2025",
@@ -24536,6 +24792,7 @@
 "hits": [
 "deelfietsen"
 ],
+"docs": "https://cloud.3p.eu/Downloads/1/397/104/2025",
 "crit": {
 "type-lot": [
 "cost",
@@ -24587,6 +24844,7 @@
 "hits": [
 "deelfietsen"
 ],
+"docs": "https://cloud.3p.eu/Downloads/1/889/BQ/2024",
 "crit": {
 "type-lot": [
 "cost"
@@ -24635,6 +24893,7 @@
 "Bikesharing",
 "cpv"
 ],
+"docs": "https://zakazky.pmdp.cz/vz00000413",
 "crit": {
 "type-lot": [
 "price"
@@ -24682,6 +24941,7 @@
 "hits": [
 "bicicletas de uso público"
 ],
+"docs": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=aGd304zI2ZnN3k3tjedSGw%3D%3D",
 "crit": {
 "type-lot": [
 "price",
@@ -24810,6 +25070,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.etenders.gov.ie/epps/cft/listContractDocuments.do?resourceId=5285371",
 "crit": {
 "type-lot": [
 "price"
@@ -24960,6 +25221,7 @@
 "bicicletas públicas",
 "cpv"
 ],
+"docs": "https://community.vortal.biz/public/",
 "crit": {
 "type-lot": [
 "price",
@@ -25012,6 +25274,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-cd4f13aa-4fda-4ca9-b377-8e7ba949fa5c",
 "crit": {
 "type-lot": [
 "price",
@@ -25138,6 +25401,7 @@
 "hits": [
 "deelfietsen"
 ],
+"docs": "https://cloud.3p.eu/Downloads/1/397/104/2025",
 "crit": {
 "type-lot": [
 "cost",
@@ -25191,6 +25455,7 @@
 "hits": [
 "Bikesharing"
 ],
+"docs": "https://www.dtvp.de/Satellite/notice/CXP4Y6J5E5S/documents",
 "crit": {
 "type-lot": [
 "quality",
@@ -25243,6 +25508,7 @@
 "hits": [
 "închiriere biciclete"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100191741",
 "crit": {
 "type-lot": [
 "price"
@@ -25287,6 +25553,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-1cd5c38a-42cc-4e23-ac73-99821ee9312c",
 "crit": {
 "type-lot": [
 "price",
@@ -25335,6 +25602,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list",
 "crit": {
 "type-lot": [
 "price",
@@ -25375,6 +25643,7 @@
 "hits": [
 "deelfietsen"
 ],
+"docs": "https://cloud.3p.eu/Downloads/1/889/BQ/2024",
 "crit": {
 "type-lot": [
 "cost"
@@ -25412,7 +25681,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/115087-2025",
 "hits": [
 "sdílení jízdních kol"
-]
+],
+"docs": "https://zakazky.trutnov.cz/profile_display_2.html"
 },
 {
 "pn": "109388-2025",
@@ -25438,6 +25708,7 @@
 "vélo en libre-service",
 "vélos en libre-service"
 ],
+"docs": "http://www.marches-publics.info/accueil.htm",
 "crit": {
 "type-lot": [
 "quality",
@@ -25511,6 +25782,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://portal.smartpzp.pl/umw",
 "crit": {
 "type-lot": [
 "price",
@@ -25559,7 +25831,8 @@
 "bike-sharing",
 "cpv",
 "shared e-bikes"
-]
+],
+"docs": "https://www.etenders.gov.ie/epps/dps/listDPSContractDocuments.do?resourceId=5093914"
 },
 {
 "pn": "96074-2025",
@@ -25689,6 +25962,7 @@
 "hits": [
 "sdílená kola"
 ],
+"docs": "https://zakazky.trebic.cz/",
 "crit": {
 "type-lot": [
 "price"
@@ -25876,6 +26150,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://tendsign.com/doc.aspx?MeFormsNoticeId=40517",
 "crit": {
 "type-lot": [
 "cost",
@@ -25931,6 +26206,7 @@
 "bicicletas públicas",
 "cpv"
 ],
+"docs": "https://community.vortal.biz/public/",
 "crit": {
 "type-lot": [
 "price",
@@ -25983,7 +26259,8 @@
 "hits": [
 "Bikesharing",
 "cpv"
-]
+],
+"docs": "https://www.vergabe.metropoleruhr.de/VMPSatellite/notice/CXS0Y5PYTRPBZYV6/documents"
 },
 {
 "pn": "57420-2025",
@@ -26007,6 +26284,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://platformazakupowa.pl/transakcja/1046664",
 "crit": {
 "type-lot": [
 "price",
@@ -26064,6 +26342,7 @@
 "cpv",
 "sdílení jízdních kol"
 ],
+"docs": "https://zakazky.jihlava.cz/vz00000124",
 "crit": {
 "type-lot": [
 "price",
@@ -26122,6 +26401,7 @@
 "hits": [
 "sdílená kola"
 ],
+"docs": "https://zakazky.trebic.cz/",
 "crit": {
 "type-lot": [
 "price"
@@ -26164,7 +26444,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/47077-2025",
 "hits": [
 "sdílení jízdních kol"
-]
+],
+"docs": "https://zakazky.trutnov.cz/profile_display_2.html"
 },
 {
 "pn": "45954-2025",
@@ -26193,6 +26474,7 @@
 "bicicleta pública",
 "bicicletas públicas"
 ],
+"docs": "https://www.contratacion.euskadi.eus",
 "crit": {
 "type-lot": [
 "cost",
@@ -26303,6 +26585,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://portal.smartpzp.pl/umw",
 "crit": {
 "type-lot": [
 "price",
@@ -26344,7 +26627,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/33427-2025",
 "hits": [
 "sdílení jízdních kol"
-]
+],
+"docs": "https://zakazky.trutnov.cz/profile_display_2.html"
 },
 {
 "pn": "28633-2025",
@@ -26477,6 +26761,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://portal.smartpzp.pl/umw",
 "crit": {
 "type-lot": [
 "price",
@@ -26525,6 +26810,7 @@
 "bicicleta pública",
 "bicicletas públicas"
 ],
+"docs": "https://community.vortal.biz/public/",
 "crit": {
 "type-lot": [
 "price",
@@ -26677,6 +26963,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://ekr.gov.hu/portal/kozbeszerzes/eljarasok/EKR001952472024/reszletek",
 "crit": {
 "type-lot": [
 "quality",
@@ -26753,7 +27040,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/791413-2024",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://www.vergaben-wirtschaftsregion-aachen.de/VMPSatellite/notice/CXQ1YYQYPTZ/documents"
 },
 {
 "pn": "782337-2024",
@@ -26787,6 +27075,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://tendsign.com/doc.aspx?MeFormsNoticeId=40517",
 "crit": {
 "type-lot": [
 "cost",
@@ -26847,6 +27136,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://mzdtorun.eb2b.com.pl/",
 "crit": {
 "type-lot": [
 "price",
@@ -27086,6 +27376,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://ekr.gov.hu/portal/kozbeszerzes/eljarasok/EKR001952472024/reszletek",
 "crit": {
 "type-lot": [
 "quality",
@@ -27410,6 +27701,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-c2d0576d-090e-4ae3-ac44-9bb97037181c",
 "crit": {
 "type-lot": [
 "price",
@@ -27483,6 +27775,7 @@
 "cpv",
 "sdílení jízdních kol"
 ],
+"docs": "https://zakazky.zdarns.cz/profile_display_2.html",
 "crit": {
 "type-lot": [
 "price"
@@ -27531,6 +27824,7 @@
 "hits": [
 "vélopartage"
 ],
+"docs": "https://www.achatpublic.com/sdm/ent2/gen/index.jsp",
 "crit": {
 "type-lot": [
 "price"
@@ -28037,6 +28331,7 @@
 "bicicleta pública",
 "bicicletas públicas"
 ],
+"docs": "https://incm.pt",
 "crit": {
 "type-lot": [
 "price",
@@ -28258,7 +28553,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/718858-2024",
 "hits": [
 "deelfietsen"
-]
+],
+"docs": "https://www.publicprocurement.be/publication-workspaces/1493af26-8d78-4780-b840-f2beb9492ede/documents"
 },
 {
 "pn": "710840-2024",
@@ -28336,6 +28632,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://ekr.gov.hu/portal/kozbeszerzes/eljarasok/EKR001952472024/reszletek",
 "crit": {
 "type-lot": [
 "quality",
@@ -28618,6 +28915,7 @@
 "hits": [
 "κοινόχρηστα ποδήλατα"
 ],
+"docs": "https://www.eprocurement.gov.gr",
 "crit": {
 "type-lot": [
 "quality",
@@ -28919,6 +29217,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://www.dtvp.de/Satellite/notice/CXP4YBTHTC1/documents",
 "crit": {
 "type-lot": [
 "quality",
@@ -29008,6 +29307,7 @@
 "kaupunkipyörä",
 "kaupunkipyörät"
 ],
+"docs": "https://tarjouspalvelu.fi/hkl?id=518842&tpk=2f083d28-7009-47e1-a7e5-a1a31359c61b",
 "crit": {
 "type-lot": [
 "price",
@@ -29083,6 +29383,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://mzdtorun.eb2b.com.pl/",
 "crit": {
 "type-lot": [
 "price",
@@ -29187,7 +29488,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/650702-2024",
 "hits": [
 "deelfietsen"
-]
+],
+"docs": "https://www.publicprocurement.be/publication-workspaces/1493af26-8d78-4780-b840-f2beb9492ede/documents"
 },
 {
 "pn": "650373-2024",
@@ -29211,6 +29513,7 @@
 "hits": [
 "sdílená kola"
 ],
+"docs": "https://zakazky.koprivnice.cz",
 "crit": {
 "type-lot": [
 "price"
@@ -29444,6 +29747,7 @@
 "vélos en libre-service",
 "vélos à assistance électrique en libre-service"
 ],
+"docs": "https://www.marches-securises.fr",
 "crit": {
 "type-lot": [
 "price",
@@ -29492,6 +29796,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "www.ezamowienia.gov.pl",
 "crit": {
 "type-lot": [
 "price",
@@ -30090,6 +30395,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://mzdtorun.eb2b.com.pl/",
 "crit": {
 "type-lot": [
 "price",
@@ -30171,7 +30477,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/595951-2024",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1518809"
 },
 {
 "pn": "585118-2024",
@@ -30404,6 +30711,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100184534",
 "crit": {
 "type-lot": [
 "price",
@@ -30469,6 +30777,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "www.ezamowienia.gov.pl",
 "crit": {
 "type-lot": [
 "price",
@@ -31056,6 +31365,7 @@
 "hits": [
 "deelfietsen"
 ],
+"docs": "https://cloud.3p.eu/Downloads/1/363/104/2024",
 "crit": {
 "type-lot": [
 "cost",
@@ -31184,6 +31494,7 @@
 "hits": [
 "deelfietsen"
 ],
+"docs": "https://cloud.3p.eu/Downloads/1/363/104/2024",
 "crit": {
 "type-lot": [
 "cost",
@@ -31398,6 +31709,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/365ed700-c573-4c7e-91fc-14fe77eff6cc-CN?#anchorDocuments",
 "crit": {
 "type-lot": [
 "price",
@@ -31521,6 +31833,7 @@
 "cpv",
 "sdílení jízdních kol"
 ],
+"docs": "https://www.egordion.cz/nabidkaGORDION/profilPlzen",
 "crit": {
 "type-lot": [
 "price",
@@ -31573,7 +31886,8 @@
 "hits": [
 "bike sharing",
 "bike-sharing"
-]
+],
+"docs": "https://kymamobilita.traspare.com/"
 },
 {
 "pn": "508364-2024",
@@ -31600,7 +31914,8 @@
 "hits": [
 "bike sharing",
 "bike-sharing"
-]
+],
+"docs": "https://kymamobilita.traspare.com/"
 },
 {
 "pn": "505930-2024",
@@ -31624,6 +31939,7 @@
 "hits": [
 "deelfietsen"
 ],
+"docs": "https://cloud.3p.eu/Downloads/1/363/104/2024",
 "crit": {
 "type-lot": [
 "cost",
@@ -31764,6 +32080,7 @@
 "hits": [
 "deelfietsen"
 ],
+"docs": "https://cloud.3p.eu/Downloads/1/363/104/2024",
 "crit": {
 "type-lot": [
 "cost",
@@ -31844,6 +32161,7 @@
 "bicicleta pública",
 "bicicletas públicas"
 ],
+"docs": "https://incm.pt",
 "crit": {
 "type-lot": [
 "price",
@@ -31881,6 +32199,7 @@
 "cpv",
 "vélos à assistance électrique en libre-service"
 ],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1473966",
 "crit": {
 "type-lot": [
 "quality",
@@ -31925,7 +32244,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/470305-2024",
 "hits": [
 "Fahrradverleih"
-]
+],
+"docs": "https://www.vmp-rheinland.de/VMPSatellite/notice/CXS0YBAY1QQKCP1A/documents"
 },
 {
 "pn": "468221-2024",
@@ -32010,6 +32330,7 @@
 "vélo en libre-service",
 "vélos en libre-service"
 ],
+"docs": "https://rtcr.e-marchespublics.com/pack/annonce_marche_public_1370_1037147.html",
 "crit": {
 "type-lot": [
 "price",
@@ -32070,6 +32391,7 @@
 "sdílená kola",
 "sdílení jízdních kol"
 ],
+"docs": "https://tenderarena.cz/dodavatel/zakazka/722988",
 "crit": {
 "type-lot": [
 "price"
@@ -32119,6 +32441,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1508365",
 "crit": {
 "type-lot": [
 "quality",
@@ -32169,6 +32492,7 @@
 "cpv",
 "sdílení jízdních kol"
 ],
+"docs": "https://www.egordion.cz/nabidkaGORDION/profilPlzen",
 "crit": {
 "type-lot": [
 "price",
@@ -32301,6 +32625,7 @@
 "vélos en libre-service",
 "vélos à assistance électrique en libre-service"
 ],
+"docs": "https://www.marches-securises.fr",
 "crit": {
 "type-lot": [
 "price",
@@ -32339,6 +32664,7 @@
 "vélo en libre-service",
 "vélos en libre-service"
 ],
+"docs": "www.marche-publics.gouv.fr",
 "crit": {
 "type-lot": [
 "quality",
@@ -32377,6 +32703,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://app.albofornitori.it/alboeproc/albo_aircampania?customEntryView=elencoBandiAlboByLinkEntryView&idProcedura=176",
 "crit": {
 "type-lot": [
 "quality",
@@ -32450,7 +32777,8 @@
 "hits": [
 "vélo en libre-service",
 "vélos en libre-service"
-]
+],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1496928"
 },
 {
 "pn": "415215-2024",
@@ -32478,6 +32806,7 @@
 "bicicleta compartida",
 "bicicletas compartidas"
 ],
+"docs": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=D2Ulc3SL8hfjHF5qKI4aaw%3D%3D",
 "crit": {
 "type-lot": [
 "quality",
@@ -32564,6 +32893,7 @@
 "cpv",
 "vélos à assistance électrique en libre-service"
 ],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1473966",
 "crit": {
 "type-lot": [
 "quality",
@@ -32651,6 +32981,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100181961",
 "crit": {
 "type-lot": [
 "price",
@@ -32741,6 +33072,7 @@
 "Leihräder",
 "cpv"
 ],
+"docs": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=296623",
 "crit": {
 "type-lot": [
 "price"
@@ -32904,6 +33236,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://szpital-sosnowiec.logintrade.net",
 "crit": {
 "type-lot": [
 "price",
@@ -33003,6 +33336,7 @@
 "bicicleta pública",
 "bicicletas públicas"
 ],
+"docs": "https://www.contratacion.euskadi.eus",
 "crit": {
 "type-lot": [
 "cost",
@@ -33256,6 +33590,7 @@
 "hits": [
 "Bikesharing"
 ],
+"docs": "https://www.subreport.de/E54383314",
 "crit": {
 "type-lot": [
 "price"
@@ -33295,6 +33630,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.achatpublic.com",
 "crit": {
 "type-lot": [
 "quality",
@@ -33383,6 +33719,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/notice/CXP9YM16793/documents",
 "crit": {
 "type-lot": [
 "quality",
@@ -33529,6 +33866,7 @@
 "vélo en libre-service",
 "vélos en libre-service"
 ],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1481445",
 "crit": {
 "type-lot": [
 "quality",
@@ -33576,7 +33914,8 @@
 "hits": [
 "vélo en libre-service",
 "vélos en libre-service"
-]
+],
+"docs": "https://marches-publics.info/accueil.htm"
 },
 {
 "pn": "347130-2024",
@@ -33602,6 +33941,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.enarocanje.si/api/datoteka/get?id=Mjg5MDQzO1BvcHJhdmVrIHJhenBpc25lIGRva3VtZW50YWNpamVfMTEuNi4yMDI0LnppcA",
 "crit": {
 "type-lot": [
 "price",
@@ -33794,6 +34134,7 @@
 "hits": [
 "vélos partagés"
 ],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1462314",
 "crit": {
 "type-lot": [
 "quality",
@@ -33957,6 +34298,7 @@
 "cpv",
 "vélos à assistance électrique en libre-service"
 ],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1473966",
 "crit": {
 "type-lot": [
 "quality",
@@ -34128,6 +34470,7 @@
 "cpv",
 "deelfietsen"
 ],
+"docs": "https://www.publicprocurement.be/publication-workspaces/fe6987a8-c187-418c-826c-0c0c3bfb4df5/documents",
 "crit": {
 "type-lot": [
 "price",
@@ -34166,6 +34509,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.e-avrop.com/karlshamn/e-Upphandling/NoticeLink.aspx?id=90070",
 "crit": {
 "type-lot": [
 "price"
@@ -34255,6 +34599,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100180296",
 "crit": {
 "type-lot": [
 "quality",
@@ -34335,6 +34680,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.enarocanje.si/api/datoteka/get?id=Mjg0NjA4O1JhenBpc25hIGRva3VtZW50YWNpamEuemlw",
 "crit": {
 "type-lot": [
 "price",
@@ -34397,6 +34743,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://app.albofornitori.it/alboeproc/albo_eav",
 "crit": {
 "type-lot": [
 "quality",
@@ -34722,7 +35069,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/285115-2024",
 "hits": [
 "cpv"
-]
+],
+"docs": "http://www.marches-publics.info"
 },
 {
 "pn": "283226-2024",
@@ -34803,6 +35151,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1465475",
 "crit": {
 "type-lot": [
 "quality",
@@ -34887,6 +35236,7 @@
 "sdílená kola",
 "sdílení jízdních kol"
 ],
+"docs": "https://www.vhodne-uverejneni.cz/profil/statutarni-mesto-mlada-boleslav",
 "crit": {
 "type-lot": [
 "price"
@@ -35019,6 +35369,7 @@
 "cpv",
 "deelfietsen"
 ],
+"docs": "https://www.publicprocurement.be/publication-workspaces/fe6987a8-c187-418c-826c-0c0c3bfb4df5/documents",
 "crit": {
 "type-lot": [
 "price",
@@ -35061,6 +35412,7 @@
 "cpv",
 "sdílení jízdních kol"
 ],
+"docs": "https://www.egordion.cz/nabidkaGORDION/profilPlzen",
 "crit": {
 "type-lot": [
 "price",
@@ -35198,6 +35550,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://www.had.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-18f2e38f2bb-1db2107fcfdbe1b8",
 "crit": {
 "type-lot": [
 "quality",
@@ -35293,7 +35646,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/261167-2024",
 "hits": [
 "cpv"
-]
+],
+"docsLogin": "https://e-sourcing.extra.laposte.fr"
 },
 {
 "pn": "253185-2024",
@@ -35388,6 +35742,7 @@
 "bike-sharing",
 "cpv"
 ],
+"docs": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=cSuWYycJYXoUqXM96WStVA%3D%3D",
 "crit": {
 "type-lot": [
 "quality",
@@ -35461,7 +35816,8 @@
 "hits": [
 "bike sharing",
 "bike-sharing"
-]
+],
+"docs": "https://www.etenders.gov.ie/epps/cft/listContractDocuments.do?resourceId=3471603"
 },
 {
 "pn": "251893-2024",
@@ -35491,7 +35847,8 @@
 "hits": [
 "bike sharing",
 "bike-sharing"
-]
+],
+"docs": "https://www.etenders.gov.ie/epps/cft/listContractDocuments.do?resourceId=3470984"
 },
 {
 "pn": "249825-2024",
@@ -35562,7 +35919,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/246340-2024",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1457599"
 },
 {
 "pn": "243066-2024",
@@ -35670,6 +36028,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/625e3481-59e8-4857-89f5-5f4182381611-CN?#anchorDocuments",
 "crit": {
 "type-lot": [
 "quality",
@@ -35711,7 +36070,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/233964-2024",
 "hits": [
 "cpv"
-]
+],
+"docsLogin": "https://e-sourcing.extra.laposte.fr"
 },
 {
 "pn": "228892-2024",
@@ -35746,6 +36106,7 @@
 "Bikesharing",
 "cpv"
 ],
+"docs": "https://www.dtvp.de/Satellite/notice/CXP4DBQHFF8/documents",
 "crit": {
 "type-lot": [
 "price",
@@ -35809,7 +36170,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/229763-2024",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://www.mpe76.fr"
 },
 {
 "pn": "226780-2024",
@@ -35858,6 +36220,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docsLogin": "https://start.toscana.it",
 "crit": {
 "type-lot": [
 "quality"
@@ -35930,6 +36293,7 @@
 "cpv",
 "sdílení jízdních kol"
 ],
+"docs": "https://www.egordion.cz/nabidkaGORDION/profilPlzen",
 "crit": {
 "type-lot": [
 "price",
@@ -35982,6 +36346,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://www.dtvp.de/Satellite/notice/CXP4Y6JH9LS/documents",
 "crit": {
 "type-lot": [
 "price",
@@ -36023,6 +36388,7 @@
 "hits": [
 "Bikesharing"
 ],
+"docs": "https://vergabe.duesseldorf.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-18ec1bfc3fa-48c1719b6d145471",
 "crit": {
 "type-lot": [
 "quality",
@@ -36072,6 +36438,7 @@
 "Bikesharing",
 "cpv"
 ],
+"docs": "https://ausschreibung.halle.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-18ec63d6097-4224292454e3290e",
 "crit": {
 "type-lot": [
 "price",
@@ -36147,7 +36514,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/211648-2024",
 "hits": [
 "cpv"
-]
+],
+"docsLogin": "https://e-sourcing.extra.laposte.fr"
 },
 {
 "pn": "203742-2024",
@@ -36173,6 +36541,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-6e7d397e-d7a5-11ee-8305-7e4937eb936d",
 "crit": {
 "type-lot": [
 "price",
@@ -36410,6 +36779,7 @@
 "hits": [
 "Bikesharing"
 ],
+"docs": "https://www.dtvp.de/Satellite/notice/CXP4YBEHL6Q/documents",
 "crit": {
 "type-lot": [
 "quality",
@@ -36655,6 +37025,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-da3d0d93-d553-11ee-a3b5-e25d731b0da9",
 "crit": {
 "type-lot": [
 "price",
@@ -36907,7 +37278,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/166426-2024",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://www.mpe76.fr"
 },
 {
 "pn": "162894-2024",
@@ -36934,6 +37306,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://www.dtvp.de/Satellite/notice/CXP4Y6JH9LS/documents",
 "crit": {
 "type-lot": [
 "price",
@@ -36978,7 +37351,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/165657-2024",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1421707"
 },
 {
 "pn": "160339-2024",
@@ -37030,6 +37404,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-da3d0d93-d553-11ee-a3b5-e25d731b0da9",
 "crit": {
 "type-lot": [
 "price",
@@ -37112,6 +37487,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1421451",
 "crit": {
 "type-lot": [
 "quality",
@@ -37156,6 +37532,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.staatsanzeiger-eservices.de/aJs /EFormsBekVuUrl?z_param=287727",
 "crit": {
 "type-lot": [
 "price",
@@ -37203,6 +37580,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-6e7d397e-d7a5-11ee-8305-7e4937eb936d",
 "crit": {
 "type-lot": [
 "price",
@@ -37234,7 +37612,8 @@
 "hits": [
 "bike sharing",
 "bike-sharing"
-]
+],
+"docs": "https://tarjouspalvelu.fi/hsl?id=497934&tpk=7e60c9ba-4b0b-4bb3-ad44-44d15ca953d8"
 },
 {
 "pn": "134636-2024",
@@ -37365,6 +37744,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://rckikpoznan.ezamawiajacy.pl",
 "crit": {
 "type-lot": [
 "price",
@@ -37502,7 +37882,8 @@
 "rower miejski",
 "roweru miejskiego",
 "rowery miejskie"
-]
+],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-48bae6b4-c00d-11ee-bbfa-e29e26ebc6e1"
 },
 {
 "pn": "122320-2024",
@@ -37575,6 +37956,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-da3d0d93-d553-11ee-a3b5-e25d731b0da9",
 "crit": {
 "type-lot": [
 "price",
@@ -37748,7 +38130,8 @@
 "hits": [
 "vélo en libre-service",
 "vélos en libre-service"
-]
+],
+"docsLogin": "http://www.megalis.bretagne.bzh"
 },
 {
 "pn": "115050-2024",
@@ -37778,6 +38161,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-7d56a592-d09c-11ee-a3b5-e25d731b0da9",
 "crit": {
 "type-lot": [
 "price",
@@ -37856,7 +38240,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/109835-2024",
 "hits": [
 "Bikesharing"
-]
+],
+"docs": "https://www.dtvp.de/Satellite/notice/CXP4Y0CHE1M/documents"
 },
 {
 "pn": "111030-2024",
@@ -37881,7 +38266,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/111030-2024",
 "hits": [
 "cpv"
-]
+],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1421707"
 },
 {
 "pn": "108451-2024",
@@ -38069,7 +38455,8 @@
 "cpv",
 "kaupunkipyörä",
 "kaupunkipyörät"
-]
+],
+"docs": "https://tarjouspalvelu.fi/luhva?id=497613&tpk=8df62f0a-c944-4e2a-9daf-a182f5b2a04c"
 },
 {
 "pn": "101222-2024",
@@ -38092,6 +38479,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1421451",
 "crit": {
 "type-lot": [
 "quality",
@@ -38136,6 +38524,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=287727",
 "crit": {
 "type-lot": [
 "price",
@@ -38226,6 +38615,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100174855",
 "crit": {
 "type-lot": [
 "price",
@@ -38276,6 +38666,7 @@
 "hits": [
 "közbringa"
 ],
+"docsLogin": "https://platformazakupowa.pl",
 "crit": {
 "type-lot": [
 "price",
@@ -38413,6 +38804,7 @@
 "kaupunkipyörä",
 "kaupunkipyörät"
 ],
+"docs": "https://www.hankintailmoitukset.fi/fi/public/procedure/4050/enotice/5002",
 "crit": {
 "type-lot": [
 "price",
@@ -38463,6 +38855,7 @@
 "hits": [
 "közbringa"
 ],
+"docsLogin": "https://platformazakupowa.pl",
 "crit": {
 "type-lot": [
 "price",
@@ -38631,6 +39024,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://rckikpoznan.ezamawiajacy.pl",
 "crit": {
 "type-lot": [
 "price",
@@ -38746,7 +39140,8 @@
 "hits": [
 "Bikesharing",
 "cpv"
-]
+],
+"docs": "https://www.subreport.de/E87998589"
 },
 {
 "pn": "66765-2024",
@@ -38773,7 +39168,8 @@
 "rower miejski",
 "roweru miejskiego",
 "rowery miejskie"
-]
+],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-48bae6b4-c00d-11ee-bbfa-e29e26ebc6e1"
 },
 {
 "pn": "64310-2024",
@@ -38906,6 +39302,7 @@
 "hits": [
 "cpv"
 ],
+"docs": "https://marches.maximilien.fr/",
 "crit": {
 "type-lot": [
 "quality",
@@ -38953,6 +39350,7 @@
 "hits": [
 "Bikesharing"
 ],
+"docsLogin": "http://www.simap.ch/shabforms/servlet/Search?NOTICE_NR=1390549",
 "crit": {
 "type-lot": [
 "quality"
@@ -39325,6 +39723,7 @@
 "bike sharing",
 "bike-sharing"
 ],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100174855",
 "crit": {
 "type-lot": [
 "price",
@@ -39407,6 +39806,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-af2204e6-98ec-11ee-ba3b-4e891c384685",
 "crit": {
 "type-lot": [
 "price",
@@ -39460,7 +39860,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/23386-2024",
 "hits": [
 "deelfietsen"
-]
+],
+"docs": "https://publicprocurement.be/"
 },
 {
 "pn": "12683-2024",
@@ -39535,7 +39936,8 @@
 "hits": [
 "Bikesharing",
 "cpv"
-]
+],
+"docs": "http://www.deutsche-evergabe.de/dashboards/dashboard_off/4ce26142-a9d4-4731-a0ae-c92e290b2d69"
 },
 {
 "pn": "11118-2024",
@@ -39560,6 +39962,7 @@
 "hits": [
 "közbringa"
 ],
+"docsLogin": "https://platformazakupowa.pl",
 "crit": {
 "type-lot": [
 "price",
@@ -39825,6 +40228,7 @@
 "bicicletas públicas",
 "cpv"
 ],
+"docs": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3YLWv1vb0dCP66GS%2BONYvQ%3D%3D",
 "crit": {
 "type-lot": [
 "quality",
@@ -40321,6 +40725,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-1309c595-8d0e-11ee-b55a-a22b2d7f700e",
 "crit": {
 "type-lot": [
 "price",
@@ -40360,6 +40765,7 @@
 "roweru miejskiego",
 "rowery miejskie"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-af2204e6-98ec-11ee-ba3b-4e891c384685",
 "crit": {
 "type-lot": [
 "price",
@@ -40491,6 +40897,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://platformazakupowa.pl/pn/zozdt",
 "crit": {
 "type-lot": [
 "price",
@@ -40856,6 +41263,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-2fb76648-8919-11ee-b55a-a22b2d7f700e",
 "crit": {
 "type-lot": [
 "price",
@@ -40975,7 +41383,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/716671-2023",
 "hits": [
 "közbringa"
-]
+],
+"docs": "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-2fb76648-8919-11ee-b55a-a22b2d7f700e"
 },
 {
 "pn": "708622-2023",
@@ -41036,7 +41445,8 @@
 "url": "https://ted.europa.eu/en/notice/-/detail/710779-2023",
 "hits": [
 "deelfietsen"
-]
+],
+"docs": "https://www.publicprocurement.be/publication-workspaces/67a8fd6f-d7a4-4048-b053-5b2df3390f6c/documents"
 },
 {
 "pn": "710970-2023",
@@ -41059,6 +41469,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://platformazakupowa.pl/pn/zozdt",
 "crit": {
 "type-lot": [
 "price",
@@ -41367,6 +41778,7 @@
 "hits": [
 "közbringa"
 ],
+"docs": "https://spsk1.ezamawiajacy.pl",
 "crit": {
 "type-lot": [
 "price",
