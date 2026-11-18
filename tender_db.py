@@ -116,6 +116,50 @@ def relevance(n):
     return "core"
 
 
+CRIT_THEMES = [
+    ("warranty", r"warrant|guarant|garanti|gwaranc|zaruk|garanzia|takuu|jamstv|garancij|gewahrleist"),
+    ("delivery", r"czas uruchom|start of service|launch time|implementation time|deliver|livraison|delai|entrega|plazo|consegna|liefer|dostaw|dodani|termen de livrare|lead time|time of delivery|toimitus|leverans|rok isporuk|isporuk"),
+    ("battery", r"batter|baterij|autonom|range|reichweite|akku|akumul|charging|recharg|punjen"),
+    ("service", r"mainten|servic|response time|reaction|entretien|mantenim|manutenz|wartung|serwis|udrzb|odrzav|vzdrzev|repair|repar|availability|disponib|uptime|intervention|interventi"),
+    ("env", r"environment|co2|emission|sustain|environnement|ambiental|ambientale|umwelt|recycl|ekolog|ecolog|carbon|circular|klima|green|energ|okolis|okolj"),
+    ("experience", r"experien|team|personnel|staff|manager|methodolog|project plan|organi[sz]ation|qualif|esperienza|erfahrung|doswiadcz|zkusen|referenc|kompeten|expert|iskustv|izkusn"),
+    ("social", r"social|local|employment|apprentic|insertion|inclus|accessib|socijal"),
+    ("quality", r"technic|techniq|tecnic|technisch|techniczn|tehnic|quality|qualite|calidad|qualita|qualitat|jakosc|kvalit|kakovost|design|weight|ergonom|function|specif|solution|propos|concept|merit|valeur technique|tehnick"),
+]
+
+
+def criteria(c):
+    """Award criteria from eForms fields: [{th: theme, name, w: weight number or None, kind: per-exa/poi-exa/ord-imp, d: short description}]"""
+    if not c:
+        return None
+    def lst(v):
+        if isinstance(v, dict):
+            for k in ("eng", "fra", "deu", "spa", "ita", "nld", "por", "pol"):
+                if v.get(k):
+                    return lst(v[k])
+            return lst(next(iter(v.values()))) if v else []
+        return v if isinstance(v, list) else ([v] if v not in (None, "") else [])
+    types, names, descs = lst(c.get("type-lot")), lst(c.get("name-lot")), lst(c.get("description-lot"))
+    nums, kinds = lst(c.get("number-lot")), lst(c.get("number-weight-lot"))
+    n = max(len(types), len(names), len(nums))
+    out = []
+    for i in range(n):
+        ty = str(types[i] if i < len(types) else "").lower()
+        nm = str(names[i] if i < len(names) else "").strip()
+        ds = str(descs[i] if i < len(descs) else "").strip()
+        try:
+            w = float(nums[i]) if i < len(nums) and nums[i] not in (None, "") else None
+        except (TypeError, ValueError):
+            w = None
+        if w is not None and w == int(w):
+            w = int(w)
+        th = "price" if ty in ("price", "cost") else (next((k for k, p in CRIT_THEMES if re.search(p, norm(nm))), None) if nm else None) or next((k for k, p in CRIT_THEMES if re.search(p, norm(ds))), "other")
+        if ty not in ("price", "cost") and re.search(r"\b(price|prix|precio|prezzo|preis|cena|pret|hinta|pris)\b", norm(nm)):
+            th = "price"
+        out.append({k: v for k, v in {"th": th, "name": nm[:90], "w": w, "kind": str(kinds[i]) if i < len(kinds) else None, "d": ds[:220] if ds and ds != nm else None}.items() if v not in (None, "")})
+    return out or None
+
+
 TYPES = {"cn": "tender", "pin": "planned", "pmc": "planned", "qu": "planned", "can": "award", "veat": "change", "corr": "change"}
 
 
@@ -131,7 +175,7 @@ for n in h["notices"]:
         continue
     x = facts(n.get("title", ""), n.get("desc", ""), n.get("duration"))
     r = {"id": n["pn"], "d": n.get("date"), "t": n.get("title"), "ty": n.get("type"), "b": n.get("buyer"), "city": n.get("city"), "cc": n.get("cc"), "v": n.get("value"), "cur": n.get("cur"),
-         "aw": n.get("award"), "awc": n.get("awardCur"), "w": n.get("winners"), "dur": n.get("duration"), "dl": n.get("deadline"), "url": n.get("url"), "desc": (n.get("desc") or "")[:1200], "x": x, "k": "wider" if rel == "wider" else None}
+         "aw": n.get("award"), "awc": n.get("awardCur"), "w": n.get("winners"), "dur": n.get("duration"), "dl": n.get("deadline"), "url": n.get("url"), "desc": (n.get("desc") or "")[:1200], "x": x, "k": "wider" if rel == "wider" else None, "doc": n.get("docs") or n.get("docsLogin"), "cr": criteria(n.get("crit"))}
     rows.append({k: v for k, v in r.items() if v not in (None, "", [], {})})
 parts, cur, size = [], [], 0
 for r in rows:

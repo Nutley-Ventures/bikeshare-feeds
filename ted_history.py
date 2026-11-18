@@ -56,7 +56,9 @@ EXTRA = ["description-lot", "description-proc", "title-lot", "title-proc", "buye
          # how bids are scored (eForms, from late 2023): criterion type, name, description and weight
          "award-criterion-type-lot", "award-criterion-name-lot", "award-criterion-description-lot", "award-criterion-number-lot",
          "award-criterion-number-weight-lot", "award-criterion-number-fixed-lot", "award-criterion-number-threshold-lot",
-         "award-criteria-order-justification-lot", "award-criterion-type-part", "award-criterion-name-part", "award-criterion-number-part"]
+         "award-criteria-order-justification-lot", "award-criterion-type-part", "award-criterion-name-part", "award-criterion-number-part",
+         # where the tender documents are (eForms BT-15 and BT-615)
+         "document-url-lot", "document-url-part", "document-restricted-url-lot", "document-restricted-url-part"]
 CRIT = [f for f in EXTRA if "award-criteri" in f]
 
 
@@ -165,6 +167,8 @@ def tidy(n, label):
         "desc": re.sub(r"\s+", " ", desc).strip()[:2500],
         "url": f"https://ted.europa.eu/en/notice/-/detail/{pn}" if pn else None,
         "hits": [label],
+        "docs": first(n.get("document-url-lot")) or first(n.get("document-url-part")),
+        "docsLogin": first(n.get("document-restricted-url-lot")) or first(n.get("document-restricted-url-part")),
         "crit": {k.replace("award-criterion-", "").replace("award-criteria-", ""): n.get(k) for k in CRIT if n.get(k) not in (None, "", [], {})} or None,
     }
     return {k: v for k, v in rec.items() if v not in (None, "", [])}
