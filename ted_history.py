@@ -52,7 +52,12 @@ EXTRA = ["description-lot", "description-proc", "title-lot", "title-proc", "buye
          "place-of-performance-city-lot", "deadline-receipt-tender-date-lot", "contract-nature", "procedure-type",
          "winner-name", "winner-country", "organisation-name-tenderer", "tender-value", "tender-value-cur",
          "result-value-lot", "result-value-cur-lot", "total-value", "total-value-cur", "estimated-value-lot",
-         "duration-period-value-lot", "duration-period-unit-lot", "contract-duration-period-lot", "framework-agreement-lot"]
+         "duration-period-value-lot", "duration-period-unit-lot", "contract-duration-period-lot", "framework-agreement-lot",
+         # how bids are scored (eForms, from late 2023): criterion type, name, description and weight
+         "award-criterion-type-lot", "award-criterion-name-lot", "award-criterion-description-lot", "award-criterion-number-lot",
+         "award-criterion-number-weight-lot", "award-criterion-number-fixed-lot", "award-criterion-number-threshold-lot",
+         "award-criteria-order-justification-lot", "award-criterion-type-part", "award-criterion-name-part", "award-criterion-number-part"]
+CRIT = [f for f in EXTRA if "award-criteri" in f]
 
 
 def post(body):
@@ -160,6 +165,7 @@ def tidy(n, label):
         "desc": re.sub(r"\s+", " ", desc).strip()[:2500],
         "url": f"https://ted.europa.eu/en/notice/-/detail/{pn}" if pn else None,
         "hits": [label],
+        "crit": {k.replace("award-criterion-", "").replace("award-criteria-", ""): n.get(k) for k in CRIT if n.get(k) not in (None, "", [], {})} or None,
     }
     return {k: v for k, v in rec.items() if v not in (None, "", [])}
 
@@ -176,6 +182,13 @@ def main():
             fields.append(f)
         time.sleep(0.6)
     print("fields used:", fields, flush=True)
+    sample, _ = search('FT~("bike sharing") AND publication-date>=20250101', fields, pages=1)
+    shown = 0
+    for n in sample:  # show how the scoring fields come back, to check the parser
+        c = {k: n.get(k) for k in CRIT if n.get(k)}
+        if c and shown < 3:
+            print("criteria sample", n.get("publication-number"), json.dumps(c, ensure_ascii=False)[:1500], flush=True)
+            shown += 1
 
     found, failed = {}, {}
 
