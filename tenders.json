@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-17T15:00Z",
- "since": "20261027",
+ "updatedAt": "2026-11-18T11:38Z",
+ "since": "20261028",
  "queries": 116,
  "failed": {},
  "fields": [
@@ -17,6 +17,64 @@
   "place-of-performance"
  ],
  "notices": [
+  {
+   "pn": "803764-2026",
+   "date": "2026-11-18",
+   "title": "Slovenia – Bicycles – ŠIRITEV, NADGRADNJA IN VZDRŽEVANJE SISTEMA IZPOSOJE JAVNIH KOLES – KOLESCE V OBČINI PREBOLD",
+   "type": "can-standard",
+   "buyer": "SIMBIO, družba za ravnanje z odpadki d.o.o.",
+   "cc": "SVN",
+   "place": "SI034",
+   "cpv": [
+    "34430000",
+    "48000000",
+    "50100000"
+   ],
+   "value": 72760.0,
+   "cur": "EUR",
+   "url": "https://ted.europa.eu/en/notice/-/detail/803764-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-18T11:38Z"
+  },
+  {
+   "pn": "802003-2026",
+   "date": "2026-11-18",
+   "title": "Sweden – Financial leasing services – Korttidshyra av fordon",
+   "type": "can-standard",
+   "buyer": "Region Uppsala",
+   "cc": "SWE",
+   "place": "SE121",
+   "cpv": [
+    "34110000",
+    "66114000"
+   ],
+   "value": 5000000.0,
+   "cur": "SEK",
+   "url": "https://ted.europa.eu/en/notice/-/detail/802003-2026",
+   "hits": [
+    "shared mobility"
+   ],
+   "seen": "2026-11-18T11:38Z"
+  },
+  {
+   "pn": "801634-2026",
+   "date": "2026-11-18",
+   "title": "Austria – Motorcycles, bicycles and sidecars – Leasing von Fahrrädern und Elektrofahrrädern",
+   "type": "can-standard",
+   "buyer": "KUK - MC II.",
+   "cc": "AUT",
+   "place": "AT312",
+   "cpv": [
+    "34400000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/801634-2026",
+   "hits": [
+    "JobRad"
+   ],
+   "seen": "2026-11-18T11:38Z"
+  },
   {
    "pn": "797487-2026",
    "date": "2026-11-17",

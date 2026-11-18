@@ -1,69 +1,81 @@
 {
- "updatedAt": "2026-11-18T07:57Z",
+ "updatedAt": "2026-11-18T11:42Z",
  "since": "2026-10-28",
  "sources": {
   "uk-fts": {
    "ok": true,
-   "found": 1,
-   "at": "2026-11-18T07:57Z",
-   "secs": 24
+   "found": 2,
+   "at": "2026-11-18T11:42Z",
+   "secs": 22
   },
   "uk-cf": {
    "ok": true,
    "found": 1,
-   "at": "2026-11-17T15:03Z",
-   "secs": 34
+   "at": "2026-11-18T11:42Z",
+   "secs": 27
   },
   "ca-seao": {
    "ok": true,
    "found": 0,
-   "at": "2026-11-17T15:03Z",
-   "secs": 8
+   "at": "2026-11-18T11:42Z",
+   "secs": 7
   },
   "br-pncp": {
    "ok": true,
    "partial": true,
    "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-18T07:57Z",
-   "found": 0,
-   "secs": 424
+   "at": "2026-11-18T11:42Z",
+   "found": 2,
+   "secs": 432
   },
   "co-secop": {
    "ok": true,
    "found": 4,
-   "at": "2026-11-17T15:03Z",
-   "secs": 36
+   "at": "2026-11-18T11:42Z",
+   "secs": 10
   },
   "fr-boamp": {
    "ok": true,
    "found": 7,
-   "at": "2026-11-17T15:03Z",
-   "secs": 14
+   "at": "2026-11-18T11:42Z",
+   "secs": 12
   },
   "de-doe": {
    "ok": true,
-   "found": 31,
-   "at": "2026-11-17T15:03Z",
-   "secs": 19
+   "found": 32,
+   "at": "2026-11-18T11:42Z",
+   "secs": 17
   },
   "es-place": {
    "ok": true,
    "partial": true,
    "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-18T07:57Z",
+   "at": "2026-11-18T11:42Z",
    "found": 0,
-   "secs": 544
+   "secs": 485
   }
  },
  "state": {
   "br-pncp": {
-   "next_page": 232
+   "next_page": 272
   },
   "es-place": {
    "done_to": "2026-11-15"
   }
  },
  "notices": [
+  {
+   "src": "uk-fts",
+   "id": "uk-fts:ocds-h6vhtk-0590fe",
+   "date": "2026-11-18",
+   "title": "Provision of Cycle Hangar Rental and Maintenance Service",
+   "url": "https://www.find-tender.service.gov.uk/Notice/109181-2026",
+   "buyer": "Royal Borough of Kensington & Chelsea",
+   "cc": "GBR",
+   "type": "award",
+   "text": "The Royal Borough of Kensington and Chelsea (RBKC) has procured a Cycle Hangar Rental and Maintenance Service to support its policy objectives in relation to air quality improvement, climate action, reduced traffic congestion, and the promotion of active travel. The borough currently operates a netw",
+   "seen": "2026-11-18T11:42Z"
+  },
   {
    "src": "uk-cf",
    "id": "uk-cf:8c97f247-304c-47ae-a3d5-b071a77e003e",
@@ -78,6 +90,104 @@
    "type": "award",
    "text": "Employee Benefits Platform including EAP, retail discounts, wellbeing resources, cycle to work scheme, home and electronics scheme",
    "seen": "2026-11-17T14:41Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-9fea1dc7-b31a-48a4-864a-7f8862318113",
+   "date": "2026-11-17",
+   "title": "Fahrradleasing-Leistungen für Beschäftigte im öffentlichen Dienst im Landkreis Ansbach",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=221a19fc-5269-4101-b349-663eb5ead7f9",
+   "buyer": "Landratsamt Ansbach - Zentrale Vergabestelle",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Abschluss einer Rahmenvereinbarung über Fahrradleasing-Leistungen für Beschäftigte im öffentlichen Dienst im Landkreis Ansbach",
+   "seen": "2026-11-18T11:42Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-216ad359-ac42-4612-a33f-2da4a6ba0f28",
+   "date": "2026-11-17",
+   "title": "Karl-Kessler-Schule Neubau und Verbindungsbau: Landschaftsbauarbeiten",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=77d9d571-ecde-46f4-a956-cb6a5cc8a0c8",
+   "buyer": "Stadtverwaltung Aalen- Grünflächenamt -",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Belagsarbeiten Asphalt: 50 m² Belagsarbeiten Betonpflaster: 350 m² Belagsarbeiten Betonpflaster mit Drainfugen: 1.100 m² Belagsarbeiten Elastic-Fallschutzplatten: 125 m² Belagsarbeiten Wassergebundener Belag: 65 m² Randeinfassung Beläge Beton/Naturstein (Granit): 500 lfm Stützmauern Muschelkalk: 50",
+   "seen": "2026-11-18T11:42Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-5a1634a8-7d8b-4da0-af3b-1cca79413bef",
+   "date": "2026-11-17",
+   "title": "Konzessionsvergabe eines gewerblichen E-Scooter- und Pedelec-Sharing-Systems",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9070bd02-ec42-4fd5-9218-5e1081560c85",
+   "buyer": "Landeshauptstadt Düsseldorf, Der Oberbürgermeister, Amt für Recht, Vergabe und Versicherungen, Zentrale Vergabestelle",
+   "cc": "DEU",
+   "type": "award",
+   "text": "Beschaffung eines eigenwirtschaftlich betriebenen E-Scooter- und Pedelec-Sharing-Systems",
+   "seen": "2026-11-18T11:42Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-57cf951c-9f46-45b3-8c31-25dacafa2424",
+   "date": "2026-11-17",
+   "title": "Leasingrahmenvertrag für Dienstradleasing",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=0b8b76ee-9721-43e7-aa11-ba21dd005c37",
+   "buyer": "Landkreis Lüchow-Dannenberg",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Der Landkreis Lüchow-Dannenberg bietet seinen 523 tariflich Beschäftigten und Beamtinnen/Beamten seit dem Jahre 2023 das Angebot des Dienstrad-Leasings an. Mit diesem Angebot möchte der Auftraggeber seinen Beitrag zu einer nachhaltigeren Mobilität und dem Klimaschutz leisten und eine Leistung im Rah",
+   "seen": "2026-11-18T11:42Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-bde75737-3be7-47ee-b3d5-98bd4f3c0739",
+   "date": "2026-11-17",
+   "title": "Dienstradleasing-Leistungen",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5ce26530-3c64-4c3b-9f5f-b170fa98189b",
+   "buyer": "ANregiomed gkU AöR",
+   "cc": "DEU",
+   "value": 966000.0,
+   "cur": "EUR",
+   "type": "award",
+   "text": "Die Auftraggeberin schreibt die Bereitstellung und Abwicklung eines Dienstradleasing-Programms im Modell des Teilamortisationsleasings für ihre Mitarbeitenden aus. Ziel ist die Förderung nachhaltiger Mobilität durch die Möglichkeit, Fahrräder und E-Bikes über eine Entgeltumwandlung mit einer Laufzei",
+   "seen": "2026-11-18T11:42Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-26046824",
+   "date": "2026-11-17",
+   "title": "FRI - Neubau Gewerbe- u. Handwerkerhof Friedrichsberg - 51-10 Außenanlagen ? Garten- und Landschaftsbau",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=26046824",
+   "buyer": "Hamburger Gesellschaft für Gewerbebauförderung mbH vertreten durch Sprinkenhof GmbH",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Beschreibung der Leistung: Das Bauvorhaben befindet sich in einer zentralen Lage im südlichen Teil des Stadtteils Hamburg-Barmbek auf dem Flurstück 5971 Krausestraße 116a/b in 22049 Hamburg unweit des S-Bahnhofs Friedrichsberg. Das Flurstück wird zurzeit als Parkplatzfläche genutzt und ist deshalb b",
+   "seen": "2026-11-18T11:42Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-e655af02-373f-4b68-ad28-3d3f9c848c5a",
+   "date": "2026-11-17",
+   "title": "Errichtung eines Fahrradparkhauses „RAD-Rondell“ im ehem. Fahrgastcenter",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=49d94228-6101-421e-af01-2f4c9b803f6a",
+   "buyer": "Stadtverwaltung Eisenach",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Am Mobilitätsknoten Bahnhof / Zentraler Omnibusbahnhof (ZOB) in Eisenach entsteht ein modernes Bike&Ride-Angebot im „RAD-Rondell“. Das Projekt zielt darauf ab, sichere und komfortable Abstellmöglichkeiten für Fahrräder zu schaffen und den Radverkehr als Teil der nachhaltigen Mobilitätswende zu förde",
+   "seen": "2026-11-18T11:42Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-73d2601c-8bba-483d-be2a-ef4d636071a4",
+   "date": "2026-11-17",
+   "title": "Errichtung eines Fahrradparkhauses „RAD-Rondell“ im ehem. Fahrgastcenter",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a2f51090-b0d8-4b92-a210-d4d0862be307",
+   "buyer": "Stadtverwaltung Eisenach",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Am Mobilitätsknoten Bahnhof / Zentraler Omnibusbahnhof (ZOB) in Eisenach entsteht ein modernes Bike&Ride-Angebot im „RAD-Rondell“. Das Projekt zielt darauf ab, sichere und komfortable Abstellmöglichkeiten für Fahrräder zu schaffen und den Radverkehr als Teil der nachhaltigen Mobilitätswende zu förde",
+   "seen": "2026-11-18T11:42Z"
   },
   {
    "src": "uk-fts",
@@ -314,6 +424,18 @@
   },
   {
    "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-f83eefd2-ec55-4b5f-98c5-01b6576f24d2",
+   "date": "2026-11-13",
+   "title": "2026-0556 Rahmenvereinbarung über das Leasing von Fahrrädern und E-Bikes für Mitarbeitende der Stadt Duisburg",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4470d3f3-713d-4d24-b9f2-08b85a676453",
+   "buyer": "Einkauf der Stadt Duisburg (10-31)",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Abschluss einer Rahmenvereinbarung über das Leasing von Fahrrädern und E-Bikes für Mitarbeiter der Stadt Duisburg mit einer Laufzeit vom Zeitpunkt der Zuschlagserteilung, frühestens jedoch ab dem 25.04.2027 (Ende der bestehenden Rahmenvereinbarung), bis zum 31.03.2031",
+   "seen": "2026-11-17T11:37Z"
+  },
+  {
+   "src": "de-doe",
    "id": "de-doe:ocds-mnwr74-767317bc-e95f-49ed-93fd-8666b6022263",
    "date": "2026-11-12",
    "title": "Beschaffung von Planungs- und Generalunternehmerleistungen - alle Gewerke - für das Bauvorhaben Briesmannstraße in Cottbus - 3. BA",
@@ -462,22 +584,10 @@
   },
   {
    "src": "de-doe",
-   "id": "de-doe:ocds-mnwr74-f83eefd2-ec55-4b5f-98c5-01b6576f24d2",
-   "date": "2026-11-10",
-   "title": "2026-0556 Rahmenvereinbarung über das Leasing von Fahrrädern und E-Bikes für Mitarbeitende der Stadt Duisburg",
-   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=33ecde99-55fb-454e-b48c-577f500df53a",
-   "buyer": "Einkauf der Stadt Duisburg (10-31)",
-   "cc": "DEU",
-   "type": "tender",
-   "text": "Abschluss einer Rahmenvereinbarung über das Leasing von Fahrrädern und E-Bikes für Mitarbeiter der Stadt Duisburg mit einer Laufzeit vom Zeitpunkt der Zuschlagserteilung, frühestens jedoch ab dem 25.04.2027 (Ende der bestehenden Rahmenvereinbarung), bis zum 31.03.2031",
-   "seen": "2026-11-17T11:37Z"
-  },
-  {
-   "src": "de-doe",
    "id": "de-doe:ocds-mnwr74-a0dfac60-e459-41b5-a862-633d653bd3c1",
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "title": "S21, Freianlagen",
-   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=2d17e1bd-ec08-4869-81f0-8cbfb187dea1",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=28270f90-f145-4d38-a29a-1463f4a1a27f",
    "buyer": "DB Projekt Stuttgart-Ulm GmbH (Bukr 5S)",
    "cc": "DEU",
    "type": "award",
@@ -569,6 +679,36 @@
    "type": "tender",
    "place": "56",
    "seen": "2026-11-17T11:37Z"
+  },
+  {
+   "src": "br-pncp",
+   "id": "br-pncp:41657081000184-1-000031/2026",
+   "date": "2026-11-06",
+   "title": "contratação de empresa de engenharia especializada na execução completa em implantação de espaços destinados ao armazenamento seguro de bicicletas nas estações Barreiro, Diamante, Pampulha e São Gabriel, compreendendo a fabricação, fornecimento, transporte e instalação de box de bicicletários, bem c",
+   "url": "https://pncp.gov.br/app/editais/41657081000184/2026/31",
+   "buyer": "EMPRESA DE TRANSP E TRANSITO DE BELO HORIZONTE S/A",
+   "cc": "BRA",
+   "place": "Belo Horizonte, MG",
+   "value": 978856.77,
+   "cur": "BRL",
+   "deadline": "2026-11-25",
+   "type": "tender",
+   "seen": "2026-11-18T11:42Z"
+  },
+  {
+   "src": "br-pncp",
+   "id": "br-pncp:29131075000193-1-000479/2026",
+   "date": "2026-11-05",
+   "title": "Aquisição de 15 (quinze) notebooks, 3 (três) tablets, 1 (um) smartphone, 1 (um) leitor digital (e-reader), 1 (um) hoverboard com kit de proteção, 1 (uma) bicicleta aro 24, 1 (uma) bicicleta infantil aro 16 e 1 (um) patinete de 3 rodas, 4 (quatro) kits proteção, conforme condições e exigências estabe",
+   "url": "https://pncp.gov.br/app/editais/29131075000193/2026/479",
+   "buyer": "MUNICIPIO DE MARICA",
+   "cc": "BRA",
+   "place": "Maricá, RJ",
+   "value": 128733.81,
+   "cur": "BRL",
+   "deadline": "2026-11-18",
+   "type": "tender",
+   "seen": "2026-11-18T11:42Z"
   },
   {
    "src": "co-secop",
