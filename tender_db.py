@@ -124,7 +124,7 @@ CRIT_THEMES = [
     ("env", r"environment|co2|emission|sustain|environnement|ambiental|ambientale|umwelt|recycl|ekolog|ecolog|carbon|circular|klima|green|energ|okolis|okolj"),
     ("experience", r"experien|team|personnel|staff|manager|methodolog|project plan|organi[sz]ation|qualif|esperienza|erfahrung|doswiadcz|zkusen|referenc|kompeten|expert|iskustv|izkusn"),
     ("social", r"social|local|employment|apprentic|insertion|inclus|accessib|socijal"),
-    ("quality", r"technic|techniq|tecnic|technisch|techniczn|tehnic|quality|qualite|calidad|qualita|qualitat|jakosc|kvalit|kakovost|design|weight|ergonom|function|specif|solution|propos|concept|merit|valeur technique|tehnick"),
+    ("quality", r"caracter|characteristic|merkmal|cech|robust|durab|modular|weight|suly|peso|poids|gewicht|waga|hmotnost|bikes?|bicycl|velos?|bicicl|fahrrad|pedelec|rower|kerekpar|app\b|applik|aplica|software|back.?office|interface|technic|techniq|tecnic|technisch|techniczn|tehnic|quality|qualite|calidad|qualita|qualitat|jakosc|kvalit|kakovost|design|weight|ergonom|function|specif|solution|propos|concept|merit|valeur technique|tehnick"),
 ]
 
 
@@ -153,11 +153,19 @@ def criteria(c):
             w = None
         if w is not None and w == int(w):
             w = int(w)
+        if not nm and ds and len(ds) <= 160:
+            nm, ds = ds.rstrip(". "), ""
         th = "price" if ty in ("price", "cost") else (next((k for k, p in CRIT_THEMES if re.search(p, norm(nm))), None) if nm else None) or next((k for k, p in CRIT_THEMES if re.search(p, norm(ds))), "other")
         if ty not in ("price", "cost") and re.search(r"\b(price|prix|precio|prezzo|preis|cena|pret|hinta|pris)\b", norm(nm)):
             th = "price"
         out.append({k: v for k, v in {"th": th, "name": nm[:90], "w": w, "kind": str(kinds[i]) if i < len(kinds) else None, "d": ds[:220] if ds and ds != nm else None}.items() if v not in (None, "")})
-    return out or None
+    seen, uniq = set(), []
+    for c in out:  # notices repeat the same criteria for every lot
+        k = (c["th"], c.get("name"), c.get("w"))
+        if k not in seen:
+            seen.add(k)
+            uniq.append(c)
+    return uniq or None
 
 
 TYPES = {"cn": "tender", "pin": "planned", "pmc": "planned", "qu": "planned", "can": "award", "veat": "change", "corr": "change"}
