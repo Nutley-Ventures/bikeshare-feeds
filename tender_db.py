@@ -118,7 +118,7 @@ def relevance(n):
 
 CRIT_THEMES = [
     ("warranty", r"warrant|guarant|garanti|gwaranc|zaruk|garanzia|takuu|jamstv|garancij|gewahrleist"),
-    ("delivery", r"czas uruchom|start of service|launch time|implementation time|deliver|livraison|delai|entrega|plazo|consegna|liefer|dostaw|dodani|termen de livrare|lead time|time of delivery|toimitus|leverans|rok isporuk|isporuk"),
+    ("delivery", r"czas uruchom|start of service|launch time|implementation time|deliver|livraison|delai|entrega|plazo|consegna|liefer|dostaw|dodani|termen(ul)? de livrare|lead time|time of delivery|toimitus|leverans|rok isporuk|isporuk"),
     ("battery", r"batter|baterij|autonom|range|reichweite|akku|akumul|charging|recharg|punjen"),
     ("service", r"mainten|servic|response time|reaction|entretien|mantenim|manutenz|wartung|serwis|udrzb|odrzav|vzdrzev|repair|repar|availability|disponib|uptime|intervention|interventi"),
     ("env", r"environment|co2|emission|sustain|environnement|ambiental|ambientale|umwelt|recycl|ekolog|ecolog|carbon|circular|klima|green|energ|okolis|okolj"),
