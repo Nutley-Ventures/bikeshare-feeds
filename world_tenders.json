@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-11-19T07:49Z",
+ "updatedAt": "2026-11-19T08:07Z",
  "since": "2026-10-29",
  "sources": {
   "uk-fts": {
    "ok": true,
    "found": 2,
-   "at": "2026-11-19T07:49Z",
-   "secs": 24
+   "at": "2026-11-19T08:07Z",
+   "secs": 26
   },
   "uk-cf": {
    "ok": true,
@@ -24,9 +24,9 @@
    "ok": true,
    "partial": true,
    "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-19T07:49Z",
-   "found": 0,
-   "secs": 425
+   "at": "2026-11-19T08:07Z",
+   "found": 1,
+   "secs": 423
   },
   "co-secop": {
    "ok": true,
@@ -50,9 +50,9 @@
    "ok": true,
    "partial": true,
    "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-19T07:49Z",
+   "at": "2026-11-19T08:07Z",
    "found": 0,
-   "secs": 558
+   "secs": 430
   }
  },
  "state": {
@@ -730,6 +730,21 @@
    "type": "tender",
    "text": "Tiefbauarbeiten - Grasnarbe und Vegetationsschichten abschälen: 4.150 m² - Boden lösen und entsorgen: 792 m³ - Planum und Verdichtung: 2.386 m² - Oberboden liefern und einbauen: 333 m³ - Pflanzgruben herstellen: 95 m³ - Frostschutzschicht liefern und einbauen: 324 m³ - Schottertragschicht liefern un",
    "seen": "2026-11-17T11:37Z"
+  },
+  {
+   "src": "br-pncp",
+   "id": "br-pncp:08832592000110-1-000008/2026",
+   "date": "2026-11-10",
+   "title": "Aquisição de Bicicletas Elétricas na área da Saúde do Município de Goianápolis - GO, emenda parlamentar 202500005012062, conta bancária 575204261-1",
+   "url": "https://pncp.gov.br/app/editais/08832592000110/2026/8",
+   "buyer": "FUNDO MUNICIPAL DE SAUDE",
+   "cc": "BRA",
+   "place": "Goianápolis, GO",
+   "value": 110079.4,
+   "cur": "BRL",
+   "deadline": "2026-11-23",
+   "type": "tender",
+   "seen": "2026-11-19T08:07Z"
   },
   {
    "src": "fr-boamp",
