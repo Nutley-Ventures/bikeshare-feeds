@@ -116,6 +116,8 @@ def relevance(n):
     return "core"
 
 
+# Criteria that reward offering more bikes (fleet size or extra bikes at no cost): scored as a number, often typed "cost".
+BIKES_RX = r"radanzahl|anzahl (der )?(fahr)?r(a|ae)der|number of (e-?)?(bikes|bicycles)|more (e-?)?bikes|additional (e-?)?(bikes|bicycles)|extra (e-?)?(bikes|bicycles)|nombre de velos|numero de bicicletas|incremento en el numero de bicicletas|bicicletas (electricas )?adicionales|numero di biciclette|liczba rowerow|ilosc rowerow|pocet kol|aantal fietsen"
 CRIT_THEMES = [
     ("warranty", r"warrant|guarant|garanti|gwaranc|zaruk|garanzia|takuu|jamstv|garancij|gewahrleist"),
     ("delivery", r"czas uruchom|start of service|launch time|implementation time|deliver|livraison|delai|entrega|plazo|consegna|liefer|dostaw|dodani|termen(ul)? de livrare|lead time|time of delivery|toimitus|leverans|rok isporuk|isporuk"),
@@ -156,7 +158,9 @@ def criteria(c):
         if not nm and ds and len(ds) <= 160:
             nm, ds = ds.rstrip(". "), ""
         th = "price" if ty in ("price", "cost") else (next((k for k, p in CRIT_THEMES if re.search(p, norm(nm))), None) if nm else None) or next((k for k, p in CRIT_THEMES if re.search(p, norm(ds))), "other")
-        if ty not in ("price", "cost") and re.search(r"\b(price|prix|precio|prezzo|preis|cena|pret|hinta|pris)\b", norm(nm)):
+        if re.search(BIKES_RX, norm(nm + " " + ds)):
+            th = "bikes"
+        elif ty not in ("price", "cost") and re.search(r"\b(price|prix|precio|prezzo|preis|cena|pret|hinta|pris)\b", norm(nm)):
             th = "price"
         out.append({k: v for k, v in {"th": th, "name": nm[:90], "w": w, "kind": str(kinds[i]) if i < len(kinds) else None, "d": ds[:220] if ds and ds != nm else None}.items() if v not in (None, "")})
     seen, uniq = set(), []

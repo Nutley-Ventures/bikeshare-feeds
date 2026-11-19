@@ -144,7 +144,17 @@ def tidy(n):
 
 def main():
     now = dt.datetime.now(dt.timezone.utc)
-    since = (now.date() - dt.timedelta(days=DAYS_BACK)).strftime("%Y%m%d")
+    try:
+        prev_doc = json.load(open(OUT, encoding="utf-8"))
+    except (OSError, ValueError):
+        prev_doc = {}
+    # The first run (or any run after a gap) looks back the full 120 days, so tenders published
+    # before monitoring started, or while it was down, still reach the alerts.
+    back = DAYS_BACK
+    last = (prev_doc.get("updatedAt") or "")[:10]
+    if not prev_doc.get("backfilled") or not last or (now.date() - dt.date.fromisoformat(last)).days > DAYS_BACK - 7:
+        back = KEEP_DAYS
+    since = (now.date() - dt.timedelta(days=back)).strftime("%Y%m%d")
     date = f"publication-date>={since}"
     queries = [("cpv", f"{CPV} AND {date}"), ("cpv-motor", f"{CPV_MOTOR} AND {date}")] + [(p, f'FT~("{p}") AND {date}') for p in PHRASES]
 
@@ -164,10 +174,7 @@ def main():
                 rec["hits"] = sorted(set(rec.get("hits", [])) | {label})  # which searches found it
         time.sleep(1)
 
-    try:
-        prev = {n["pn"]: n for n in json.load(open(OUT, encoding="utf-8")).get("notices", [])}
-    except (OSError, ValueError, KeyError):
-        prev = {}
+    prev = {n["pn"]: n for n in prev_doc.get("notices", []) if n.get("pn")}
     stamp = now.strftime("%Y-%m-%dT%H:%MZ")
     for pn, n in found.items():
         n["seen"] = prev.get(pn, {}).get("seen", stamp)  # when we first saw it
@@ -175,10 +182,10 @@ def main():
     oldest = (now.date() - dt.timedelta(days=KEEP_DAYS)).isoformat()
     keep = sorted((n for n in prev.values() if (n.get("date") or "9999") >= oldest), key=lambda n: n.get("date", ""), reverse=True)
 
-    doc = {"updatedAt": stamp, "since": since, "queries": len(queries), "failed": errors, "fields": fields, "notices": keep}
+    doc = {"updatedAt": stamp, "since": since, "backfilled": True, "queries": len(queries), "failed": errors, "fields": fields, "notices": keep}
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(doc, f, ensure_ascii=False, indent=1)
-    print(f"{len(found)} notices in the last {DAYS_BACK} days; {len(keep)} kept; {len(errors)} of {len(queries)} searches failed")
+    print(f"{len(found)} notices in the last {back} days; {len(keep)} kept; {len(errors)} of {len(queries)} searches failed")
     for k, v in errors.items():
         print(f"  failed: {k}: {v}")
     if len(errors) == len(queries):
