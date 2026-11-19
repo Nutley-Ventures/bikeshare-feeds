@@ -1,5 +1,5 @@
 {
-"updatedAt": "2026-11-18T12:46Z",
+"updatedAt": "2026-11-19T07:43Z",
 "from": "2016",
 "fields": [
 "publication-number",
@@ -49,6 +49,127 @@
 ],
 "failed": {},
 "notices": [
+{
+"pn": "804026-2026",
+"date": "2026-11-19",
+"title": "Romania – Urban development construction work – Componenta Mobilitate urbana, SMIS 342136 - Executia lucrarilor de infrastructura inclusiv livrare si instalare echipamente si dotari -Pietonizare si trafic controlat in zona centrala a Municipiului Ploiesti",
+"type": "cn-standard",
+"buyer": "MUNICIPIUL PLOIESTI",
+"city": "Ploiesti",
+"cc": "ROU",
+"place": "RO316",
+"cpv": [
+"31527260",
+"32323500",
+"34430000",
+"34928400",
+"37535200",
+"45211360",
+"45233140",
+"45310000"
+],
+"value": 32250011.22,
+"cur": "RON",
+"award": 32250011.22,
+"awardCur": "RON",
+"duration": "18 MONTH",
+"framework": "none",
+"nature": "works",
+"procedure": "open",
+"deadline": "2026-12-18",
+"desc": "Obiectul achizitiei este execuției lucrărilor de infrastructură inclusiv livrare și instalare echipamente și dotări necesare obiectivului de investitie „Pietonizare și trafic controlat în zona centrală, inclusiv amenajare piste pentru biciclete pe traseele prioritare din Planul de Mobilitate, puncte bike-sharing, amenajare zone verzi, zone de odihnă, zonă spectacole, zonă comerț pentru evenimente, iluminat ornamental, wi-fi, inclusiv dotări și echipamente – Componenta Mobilitate urbană, SMIS 342136, conform cerintelor caietului de sarcini si documentației de atribuire, Intervențiile propuse prin prezentul proiect constau în: 1. Reconfigurarea și redistribuirea spațiului prin reducerea benzii auto, extinderea și reabilitarea trotuarelor, crearea zonelor verzi și a pistelor pentru biciclete. Aceste măsuri combat dominația autoturismelor (observată pe Bd. Republicii și Str. Gheorghe Lazăr) și redau prioritate pietonilor, sporind atractivitatea urbană și facilitând mobilitatea alternativă. 2. Modernizarea infrastructurii rutiere și a elementelor urbane prin repararea carosabilului și trotuarelor (fisuri, denivelări, crăpături), uniformizarea pavajelor, modernizarea sistemului de iluminat (inclusiv iluminat ornamental) și actualizarea rețelelor de utilități. Se remediază astfel starea tehnică degradată a infrastructurii de pe toate cele trei artere, îmbunătățind siguranța și confortul în trafic și în spațiul public. 3. Facilități pentru transport alternativ și accesibilitate prin introducerea stațiilor de bike-sharing, amenajarea pistelor de biciclete. Aceste soluții răspund lipsei infrastructurii pentru transport alternativ și problemei de accesibilitate, stimulând utilizarea mijloacelor de deplasare non-auto și creând un mediu urban incluziv. 4. Reglementarea parcărilor și eliminarea invaziei vehiculare prin implementarea unor reglementări stricte privind parcarea pe stradă sau promovarea parcărilor subterane, pentru a elibera spațiul pietonal. Se rezolvă astfel problema parcărilor ilegale, care invadă trotuarele (observată atât pe Bd. Republicii, cât și pe Str. Erou Calin Catalin), restabilind echilibrul între spațiul destinat autoturismelor și cel destinat pietonilor. Valoarea estimată a achiziţiei este de 32.250.011,22 lei fară TVA, din care: valoare C+M – 23.686.484,93 lei fara TVA valoare utilaje, echipamente tehnologice, functionale care necesita montaj, dotari – 8.417.225,10 lei fara TVA valoare Organizare de santier - Cheltuieli conexe – 146.301,19 le",
+"url": "https://ted.europa.eu/en/notice/-/detail/804026-2026",
+"hits": [
+"bike sharing",
+"bike-sharing",
+"cpv"
+],
+"docs": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100204830",
+"crit": {
+"type-lot": [
+"price",
+"quality",
+"quality"
+],
+"name-lot": {
+"ron": [
+"Pretul ofertei",
+"Perioada de garantie extinsa pentru echipamentele furnizate",
+"Garanția extinsă a lucrării"
+]
+},
+"description-lot": {
+"ron": [
+"Punctajul se acorda astfel: a) Pentru cel mai scazut dintre preturi se acorda punctajul maxim alocat; b) Pentru celelalte preturi ofertate punctajul P(n) se calculeaza proportional, astfel: P(n) = (Pret minim ofertat / Pret n) x punctaj maxim alocat.",
+"În cadrul acestui factor de evaluare Autoritatea Contractantă va puncta garanția extinsă acordată echipamentelor sistemului de bike-sharing: Terminal bike sharing (stâlp principal), Stâlp de andocare, Platforma de legătură 2+ (garanția suplimentară) Oferta care prezintă o perioadă de garanție acordată produselor mai mică de 2 ani va fi considerată neconformă. Deoarece garantia extinsa reprezintă un cost suplimentar pentru fiecare ofertant, calculat ca procentaj din prețul de vânzare a produsului, autoritatea contractanta stabileste un punctaj maxim de 10 puncte , pentru o garantie de + 4 ani (sau mai mult); plecand de la acest punctaj maxim, garantiile suplimentare mai mici de 4 ani, se puncteaza utilizand o pondere micsorata cu 0.25 din punctajul maxim (10 puncte), respectiv: + 4 sau mai mulți ani de garanție suplimentară: 10 puncte; + 3 ani de garanție suplimentară: 0,75 x 10 puncte = 7,5 puncte + 2 ani de garanție suplimentară: 0,5 x 10 puncte= 5 puncte + 1 an de garanție suplimentară: 0,25 x 10 puncte=2,5 puncte Ofertantul va prezenta în cadrul propunerii tehnice o declarație privind durata de garanție (în ani) acordată urmatoarelor produse Terminal bike sharing, Stâlp de andocare, Platforma de legătură, în care va menționa în mod clar care este perioada, în ani, privind garanția extinsă acordată. Garanția trebuie să asigure faptul că produsele sunt conforme cu specificațiile contractuale, fără costuri suplimentare.",
+"Autorit contract punct acel termen care este situat intre mini de 3 ani si max de 5 ani. Toate lucrările trebuie să benef de garanț mini 3 ani de la data recepției la termin lucrărilor. Ofertanții vor putea acorda o garanț mai mare de 3 ani, dar nu mai mult de 5 ani, perioada prevăz de Lg nr.10/1995 ptr răspund constructor ptr vicii ascunse. Extind duratei de garanț de 5 ani se va face prin adăug unui nr de ani, nu de luni. Va obtine punct max garantia teh acordata lucrarilor cu durata cea mai lunga. Deoarece garant extins a lucră reprez un cost supliment ptr fiecare ofertant autorit contract stabil un punct max de 10 pct, ptr o garantie extinsa a lucrarilor de 2 ani (sau mai mult); plecand de la acest punct max, garant supliment se punct după cum urmează: + 2 sau mai mulți ani de garanț supliment: 10 pct; + 1 ani de garanț supliment: 0,5 x 10 pct= 5 pct Nicio garant care depășește 5 ani nu va fi punct supliment față de punct max aferent subfactor de eval – 10 pct Term de garanț teh va fi exprim în ani. Ofertele care prevăd o garanț a lucrărilor de 3 ani, garant min legală, nu vor primi punct (punct min 0,01 admis de sistem). Orice of cu o garant care nu respecta termen min de 3 ani va fi respinsa ca neconforma. Garant ofertat va fi continuta de o declaratie intocm pe propria raspund a ofertant, sub sancț aplicab faptei de fals in acte publice. Ptr a nu rămâne doar la nivel declarativ, ptr justific garanț supliment, ofertanții vor prezenta in cadrul prop tehnice o descriere în care vor prezenta avantajele calitative ale lucrărilor ce vor fi executate (calitatea și durabilitatea materialelor, tehnologii avansate utilizate etc.) ce argumentează garanția acordată, modul in care planul de managem al calitatii va asigura nivelul necesar de calitate al rezultatelor si al proces de lucru, prin prezentarea abordarii necesare si metodologiei ptr realiz activit in cadrul contract (execut lucrarilor), inclusiv descrieri detaliate ale metodelor de lucru ptr componentele majore ale lucrarilor, precum si materialele care vor fi puse in opera, astfel incat ofertarea unei garantii extinse a lucrarilor sa fie demonstrata."
+]
+},
+"number-lot": [
+"80",
+"10",
+"10"
+],
+"number-weight-lot": [
+"per-exa",
+"per-exa",
+"per-exa"
+]
+}
+},
+{
+"pn": "806293-2026",
+"date": "2026-11-19",
+"title": "Netherlands – Road transport services – Openbare aanbesteding concessieopdracht pilot regionaal deelfietssysteem",
+"type": "cn-standard",
+"buyer": "Metropoolregio Rotterdam- Den Haag",
+"city": "Rotterdam",
+"cc": "NLD",
+"place": "NL361",
+"cpv": [
+"60100000"
+],
+"value": 3780000.0,
+"cur": "EUR",
+"award": 3780000.0,
+"awardCur": "EUR",
+"duration": "39 MONTH",
+"nature": "services",
+"procedure": "open",
+"deadline": "2026-12-09",
+"desc": "De Metropoolregio Rotterdam Den Haag (MRDH) is op zoek naar een goede inschrijving van een aanbieder van deelfietsen, voor een pilot voor een regionaal publiek deelfietssysteem. Het gaat om een systeem bestaande uit elektrische deelfietsen én deelfietsen zonder trapondersteuning. De MRDH wenst een concessieopdracht te verlenen voor de pilot voor een regionaal deelfietssysteem voor een periode van 3 jaar, met tweemaal de optie voor verlenging met een jaar. De MRDH schrijft voor het verlenen van deze concessieopdracht de onderhavige openbare aanbesteding uit. Het is een gezamenlijke aanbesteding. De MRDH treedt in deze aanbesteding op als aanbestedende dienst en penvoerder, mede namens de volgende gemeenten: Delft, Den Haag, Lansingerland, Leidschendam-Voorburg, Pijnacker-Nootdorp, Rijswijk, Wassenaar en Zoetermeer. De geraamde waarde van de opdracht voor drie jaar, exclusief de betalingen voor gebruik van gebruikers en exclusief de onderzoeksprojecten, is € 1.500.000 excl. btw, prijspeil 1 januari 2027. De geraamde waarde van de onderzoeksprojecten gedurende de drie jaar is € 1.200.000 excl. btw. De geraamde waarde van de twee opties voor verlenging van de concessie met ieder een jaar is in totaal 40% van de geraamde waarde van de opdracht vermeerderd met 40% van de waarde van de onderzoeksprojecten. De waarde van de opdracht, exclusief de betalingen voor gebruik van gebruikers en inclusief de onderzoeksprojecten en inclusief de opties tot verlenging is € 3.780.000, exclusief btw, prijspeil 1 januari 2027. De marges ten aanzien van de door de aanbestedende dienst geraamde waarde van de betalingen voor gebruik door gebruikers gedurende de looptijd van de concessie zijn als volgt: Een lage raming van de betalingen door gebruikers, gebaseerd op een concessieperiode van drie jaar (dus zonder verlengingen), met gebruikmaking van de minimumtarieven uit de rekentabel en met de gebruikersaantallen van 0,5 ritten per fiets per dag is € 1.6 miljoen. Een raming van de betalingen door gebruikers, gebaseerd op een concessieperiode van drie jaar aangevuld met twee verlengingen van ieder een jaar, en met hogere tarieven en met hogere gebruikersaantallen, is aanmerkelijk hoger.",
+"url": "https://ted.europa.eu/en/notice/-/detail/806293-2026",
+"hits": [
+"deelfietsen"
+],
+"docs": "https://www.tenderned.nl/aankondigingen/overzicht/449927",
+"crit": {
+"type-lot": [
+"quality",
+"price"
+],
+"name-lot": {
+"nld": [
+"Beste prijs-kwaliteitsverhouding",
+"Beste prijs-kwaliteitsverhouding"
+]
+},
+"description-lot": {
+"nld": [
+"Er wordt voor elk plan per beoordelingscriterium een waardering (een W) gegeven. Er zijn vijf waarderingen mogelijk: • uitstekend, • goed, • voldoende, • matig of • onvoldoende.",
+"Onderdeel van het criterium beste prijs-kwaliteitsverhouding zijn de tarieven van de deelfietsen. Deze tarieven mogen gestelde maxima niet overschrijden. En deze tarieven worden beoordeeld met behulp van een rekentabel. Tarieven die op het maximum zitten krijgen 0 punten. Tarieven die op het gestelde minimum zitten krijgen het maximum aantal punten. Het verband tussen minimum en maximum is lineair. Lees hierover in de aanbestedingsleidraad."
+]
+},
+"number-lot": [
+"100",
+"20"
+],
+"number-fixed-lot": [
+"fix-tot",
+"fix-tot"
+]
+}
+},
 {
 "pn": "803764-2026",
 "date": "2026-11-18",
