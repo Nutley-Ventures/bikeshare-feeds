@@ -1,69 +1,82 @@
 {
- "updatedAt": "2026-11-18T11:42Z",
- "since": "2026-10-28",
+ "updatedAt": "2026-11-19T07:49Z",
+ "since": "2026-10-29",
  "sources": {
   "uk-fts": {
    "ok": true,
    "found": 2,
-   "at": "2026-11-18T11:42Z",
-   "secs": 22
+   "at": "2026-11-19T07:49Z",
+   "secs": 24
   },
   "uk-cf": {
    "ok": true,
    "found": 1,
-   "at": "2026-11-18T11:42Z",
-   "secs": 27
+   "at": "2026-11-19T07:49Z",
+   "secs": 28
   },
   "ca-seao": {
    "ok": true,
    "found": 0,
-   "at": "2026-11-18T11:42Z",
-   "secs": 7
+   "at": "2026-11-19T07:49Z",
+   "secs": 8
   },
   "br-pncp": {
    "ok": true,
    "partial": true,
    "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-18T11:42Z",
-   "found": 2,
-   "secs": 432
+   "at": "2026-11-19T07:49Z",
+   "found": 0,
+   "secs": 425
   },
   "co-secop": {
    "ok": true,
-   "found": 4,
-   "at": "2026-11-18T11:42Z",
-   "secs": 10
+   "found": 3,
+   "at": "2026-11-19T07:49Z",
+   "secs": 16
   },
   "fr-boamp": {
    "ok": true,
-   "found": 7,
-   "at": "2026-11-18T11:42Z",
-   "secs": 12
+   "found": 8,
+   "at": "2026-11-19T07:49Z",
+   "secs": 13
   },
   "de-doe": {
    "ok": true,
-   "found": 32,
-   "at": "2026-11-18T11:42Z",
-   "secs": 17
+   "found": 28,
+   "at": "2026-11-19T07:49Z",
+   "secs": 19
   },
   "es-place": {
    "ok": true,
    "partial": true,
    "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-18T11:42Z",
+   "at": "2026-11-19T07:49Z",
    "found": 0,
-   "secs": 485
+   "secs": 558
   }
  },
  "state": {
   "br-pncp": {
-   "next_page": 272
+   "next_page": 340
   },
   "es-place": {
    "done_to": "2026-11-15"
   }
  },
  "notices": [
+  {
+   "src": "fr-boamp",
+   "id": "fr-boamp:26-111835",
+   "date": "2026-11-19",
+   "title": "Fourniture, pose et exploitation et entretien du stationnement vélos sécurisés sur le territoire du Grand Annecy",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111835",
+   "buyer": "GRAND ANNECY",
+   "cc": "FRA",
+   "deadline": "2026-12-18",
+   "type": "tender",
+   "place": "74",
+   "seen": "2026-11-19T07:49Z"
+  },
   {
    "src": "uk-fts",
    "id": "uk-fts:ocds-h6vhtk-0590fe",
@@ -75,6 +88,80 @@
    "type": "award",
    "text": "The Royal Borough of Kensington and Chelsea (RBKC) has procured a Cycle Hangar Rental and Maintenance Service to support its policy objectives in relation to air quality improvement, climate action, reduced traffic congestion, and the promotion of active travel. The borough currently operates a netw",
    "seen": "2026-11-18T11:42Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-a0dfac60-e459-41b5-a862-633d653bd3c1",
+   "date": "2026-11-18",
+   "title": "S21, Freianlagen",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e6172c9d-48a7-43c2-b22d-2001c77d8b2c",
+   "buyer": "DB Projekt Stuttgart-Ulm GmbH (Bukr 5S)",
+   "cc": "DEU",
+   "type": "award",
+   "text": "Die Herstellung der Freianlagen S21 umfasst die Anlage von öffentlichen Stadtplätzen, Grünanlagen mit Rasen und Baumpflanzungen, Wegen, Parkplätzen, Vorfahrten sowie die erforderlichen technischen Anlagen zur Be- und Entwässerung sowie Beleuchtung und unterschiedlicher Ausstattung wie Bänke, Abfalle",
+   "seen": "2026-11-17T11:37Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-313edda9-6c27-430a-ace4-c5c8db3ad414",
+   "date": "2026-11-18",
+   "title": "Fahrradüberdachungen und Vordach",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5c8f5f30-80a1-49f7-8f0b-492890e59f79",
+   "buyer": "Stadt Augsburg",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Stahlbauarbeiten für Fahrradüberdachung, Stütze und Träger verzinkt und pulverbeschichtet, Wellblech, Windverband, Stahlbauarbeiten inkl. Glasdach, Dachrinnen Titanzink, Ausführung in zwei Bauabschnitten",
+   "seen": "2026-11-19T07:49Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-d681a822-dcc5-4f87-a039-e7e1f97a0fb0",
+   "date": "2026-11-18",
+   "title": "ZMT Neubau",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c81fb1e9-a2c0-480d-a3d2-468b0e742857",
+   "buyer": "Leibniz-Zentrum für Marine Tropenforschung (ZMT) GmbH",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Das Leibniz-Zentrums für Marine Tropenforschung (ZMT) beabsichtigt im Technologiepark der Universität Bremen, Otto-Hahn-Allee, 28359 Bremen ein neues interdisziplinäres Forschungsinstitut zu errichten. Die Baumaßnahme umfasst ein viergeschossiges Hauptgebäude bestehend aus Büro-, Besprechungs- und S",
+   "seen": "2026-11-19T07:49Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-46256ca8-2bec-4633-b908-70b414eb25e6",
+   "date": "2026-11-18",
+   "title": "ZMT Neubau",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9dab8435-2f7b-4bbc-8e21-66677fe57890",
+   "buyer": "Leibniz-Zentrum für Marine Tropenforschung (ZMT) GmbH",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Das Leibniz-Zentrums für Marine Tropenforschung (ZMT) beabsichtigt im Technologiepark der Universität Bremen, Otto-Hahn-Allee, 28359 Bremen ein neues interdisziplinäres Forschungsinstitut zu errichten. Die Baumaßnahme umfasst ein viergeschossiges Hauptgebäude bestehend aus Büro-, Besprechungs- und S",
+   "seen": "2026-11-19T07:49Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-e04ed9dd-49d6-4450-9916-9f7257926adb",
+   "date": "2026-11-18",
+   "title": "Betrieb eines Busersatzverkehrs über den NOK von Neuwittenbek bis Kiel-Suchsdorf vom 04.01.-19.11.2027",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bec84b95-ca18-4068-abc1-5abb24e89d23",
+   "buyer": "Wasserstraßen-Neubauamt Nord-Ostsee-Kanal",
+   "cc": "DEU",
+   "value": 1299227.45,
+   "cur": "EUR",
+   "type": "award",
+   "text": "Das Wasserstraßen-Neubauamt Nord-Ostsee-Kanal wird im Zuge der laufenden Baumaßnahme \"Ersatzneubau der Levensauer Hochbrücke\" im Jahr 2027 den Ersatz der bestehenden Alten Levensauer Hochbrücke durch eine neue Brücke vornehmen. Als Folge dieser Maßnahme werden die überführten Verkehrswege Straße und",
+   "seen": "2026-11-19T07:49Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-26051120",
+   "date": "2026-11-18",
+   "title": "Fahrradhelme",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=26051120",
+   "buyer": "KTE Kerntechnische Entsorgung Karlsruhe GmbH",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Lieferung von Fahrradhelmen in verschiedenen Größen Fahrradhelme",
+   "seen": "2026-11-19T07:49Z"
   },
   {
    "src": "uk-cf",
@@ -264,6 +351,18 @@
    "cc": "DEU",
    "type": "tender",
    "text": "Vergabe eines Rahmenvertrags über das Leasing von Fahrrädern für die Mitarbeitenden der Stadtverwaltung Ulm einschließlich des Eigenbetriebs Entsorgungsbetriebe der Stadt Ulm",
+   "seen": "2026-11-17T11:37Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-7af9b78a-1eda-46cb-8e68-0f456c23c3e4",
+   "date": "2026-11-15",
+   "title": "Rahmenvereinbarung über das Leasing von Diensträdern",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=327b1369-a4c6-47ca-9512-281d446c835f",
+   "buyer": "Team Vergabe Lieferungen/Dienstleistungen",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Rahmenvereinbarung über das Leasing von Diensträdern",
    "seen": "2026-11-17T11:37Z"
   },
   {
@@ -474,18 +573,6 @@
   },
   {
    "src": "de-doe",
-   "id": "de-doe:ocds-mnwr74-7af9b78a-1eda-46cb-8e68-0f456c23c3e4",
-   "date": "2026-11-11",
-   "title": "Rahmenvereinbarung über das Leasing von Diensträdern",
-   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a2810e1f-3bbf-447f-ab87-7208edd513bd",
-   "buyer": "Team Vergabe Lieferungen/Dienstleistungen",
-   "cc": "DEU",
-   "type": "tender",
-   "text": "Rahmenvereinbarung über das Leasing von Diensträdern",
-   "seen": "2026-11-17T11:37Z"
-  },
-  {
-   "src": "de-doe",
    "id": "de-doe:ocds-mnwr74-df3ccada-18bf-4480-ac05-18414674cd6a",
    "date": "2026-11-11",
    "title": "Neubau Feuerwehrhaus Weißenbrunn - Leistungen der Objektplanung Gebäude und Innenräume gemäß §§ 33 ff. HOAI - Leistungsphasen 3-9",
@@ -580,18 +667,6 @@
    "cc": "DEU",
    "type": "tender",
    "text": "Die Kreisverwaltung Altenkirchen beabsichtigt zur Fortführung seine Dienstfahrrad-Leasingangebots, eine Rahmenvereinbarung über die Versorgung mit Leasing-Dienstfahrrädern seiner Mitarbeiterinnen und Mitarbeiter und die damit verbundenen Abwicklungsprozesse sowie Dienstleistungen abzuschließen. Die",
-   "seen": "2026-11-17T11:37Z"
-  },
-  {
-   "src": "de-doe",
-   "id": "de-doe:ocds-mnwr74-a0dfac60-e459-41b5-a862-633d653bd3c1",
-   "date": "2026-11-11",
-   "title": "S21, Freianlagen",
-   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=28270f90-f145-4d38-a29a-1463f4a1a27f",
-   "buyer": "DB Projekt Stuttgart-Ulm GmbH (Bukr 5S)",
-   "cc": "DEU",
-   "type": "award",
-   "text": "Die Herstellung der Freianlagen S21 umfasst die Anlage von öffentlichen Stadtplätzen, Grünanlagen mit Rasen und Baumpflanzungen, Wegen, Parkplätzen, Vorfahrten sowie die erforderlichen technischen Anlagen zur Be- und Entwässerung sowie Beleuchtung und unterschiedlicher Ausstattung wie Bänke, Abfalle",
    "seen": "2026-11-17T11:37Z"
   },
   {
