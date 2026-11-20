@@ -100,17 +100,29 @@ WIDER_CPV = ("45", "71", "79", "73", "77", "66", "70", "85", "90", "92", "98")  
 LANG_ONLY = {"közbringa": ("HUN",), "κοινόχρηστα ποδήλατα": ("GRC", "CYP"), "rower miejski": ("POL",), "rowery miejskie": ("POL",), "roweru miejskiego": ("POL",)}
 
 
+# Bikeshare or micromobility in so many words (accents already stripped by norm)
+MICROW = re.compile(r"bike.?shar|bikesharing|bicycle.?shar|cycle hire|e-?scooter|trotinet|trottinet|patinete|monopattin|e-?roller|e-?tretroller|hulajnog|kolobezk|kolobez|rolobez|deelscooter|deelmobil|micro.?mobil|mikromobil|micromobilit|mobility hub|mobilitatsstation|mobilstation|mobilpunkt|mobility point|shared mobility|sharing mobility|mobilita in sharing|mobilite partagee|movilidad compartida|carsharing.{0,40}(bike|rad|velo|fiets)|lastenrad.?sharing|cargo.?bike.?shar|velos? en libre|vls\\b|vae en location|location de velos|location longue duree|fahrradvermiet|fahrradverleih|radverleih|bikesharing|leihrad|mietrad|deelfiets|ov-?fiets|kaupunkipyor|bysykkel|bycykel|lanecyk|rower(u|ow|y)? miejsk|roweru publiczn|rowerow publicznych|sdilen|zdielan|kozbring|bubi|megosztott|izposoj|javnih bicikl|dijeljen|inchiriere|partajare|bicicleta(s)? publica|bicicletas compartidas|prestamo de bicicletas|alquiler de bicicletas|bici(clette)? in sharing|bike sharing|biciclette condivise|bicicletas partilhadas|bicicletas compartilhadas|koinoxrist|public bike|city ?bike|citybike|velib|bicing|bicimad|sevici|valenbisi|μικροκινητικ|κοινοχρηστ|κοινόχρηστ")
+# Clearly something else, unless the text also names bikeshare or micromobility outright
+NOTW = re.compile(r"\b(tyres?|tires?|pneu|pneumatiques|reifen|opon|neumaticos)\b|polic|polizei|policia|politie|gendarm|\bmotor vehicles?\b|motorcycles?|sports? goods|sportartikel|cartograph|\bmaps?\b|landscap|road ?works|resurfac|asphalt|pedestrian|pietonizare|fietsenstalling|bike (racks?|shelters?|lockers?)|abris? (a|velo)|stojak|wiaty|dienstrad|jobrad|fietslease|salary sacrifice|cycle to work|childrens? bikes|kinderfahrrad|spare parts|ersatzteile|pieces detachees|recambios|uniform")
+
+
 def relevance(n):
-    """core: a bikeshare tender; wider: bikeshare is one part of a bigger project (roadworks, design, advertising); drop: a search artefact."""
+    """core: a bikeshare or micromobility tender; wider: one part of a bigger project (works, design, advertising); drop: not bikeshare or micromobility."""
     hits = set(n.get("hits", []))
     phrase_hits = hits - {"cpv"}
     if phrase_hits and all(p in LANG_ONLY and n.get("cc") not in LANG_ONLY[p] for p in phrase_hits):
         return "drop"  # a phrase from another country's language matched unrelated words
     t = norm(n.get("title", "") + " " + n.get("desc", ""))
+    strong = bool(MICROW.search(t)) or bool(BIKEW.search(t) and SHAREW.search(t) and re.search(r"shar|hire|libre|partag|compart|condivis|verleih|vermiet|leih|deel|kaupunki|bysyk|miejsk|publiczn|sdilen|megoszt|izposoj|dijelj|inchiri|public bike|city ?bike|rental|location|alquiler|noleggio|wypozycz", t))
     cpv = n.get("cpv", [])
-    bike_cpv = any(c.startswith(("3443", "3442")) for c in cpv)
-    if bike_cpv or (BIKEW.search(t) and SHAREW.search(t)):
-        return "core"
+    if not strong:
+        # Older TED notices often carry only "City: Bicycles". If a bikeshare phrase search found one with a bicycle CPV,
+        # keep it but mark it for checking.
+        if phrase_hits and any(c.startswith(("3443", "3442")) for c in cpv) and len(norm(n.get("desc", ""))) < 80 and not NOTW.search(t):
+            return "check"
+        return "drop"
+    if NOTW.search(t) and not MICROW.search(t):
+        return "drop"
     if cpv and all(c.startswith(WIDER_CPV) for c in cpv):
         return "wider"
     return "core"
@@ -187,7 +199,7 @@ for n in h["notices"]:
         continue
     x = facts(n.get("title", ""), n.get("desc", ""), n.get("duration"))
     r = {"id": n["pn"], "d": n.get("date"), "t": n.get("title"), "ty": n.get("type"), "b": n.get("buyer"), "city": n.get("city"), "cc": n.get("cc"), "v": n.get("value"), "cur": n.get("cur"),
-         "aw": n.get("award"), "awc": n.get("awardCur"), "w": n.get("winners"), "dur": n.get("duration"), "dl": n.get("deadline"), "url": n.get("url"), "desc": (n.get("desc") or "")[:1200], "x": x, "k": "wider" if rel == "wider" else None, "doc": n.get("docs") or n.get("docsLogin"), "cr": criteria(n.get("crit"))}
+         "aw": n.get("award"), "awc": n.get("awardCur"), "w": n.get("winners"), "dur": n.get("duration"), "dl": n.get("deadline"), "url": n.get("url"), "desc": (n.get("desc") or "")[:1200], "x": x, "k": rel if rel in ("wider", "check") else None, "doc": n.get("docs") or n.get("docsLogin"), "cr": criteria(n.get("crit"))}
     rows.append({k: v for k, v in r.items() if v not in (None, "", [], {})})
 parts, cur, size = [], [], 0
 for r in rows:
