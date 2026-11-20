@@ -1,12 +1,14 @@
 {
- "updatedAt": "2026-11-19T08:07Z",
- "since": "2026-10-29",
+ "updatedAt": "2026-11-20T07:56Z",
+ "since": "2026-10-30",
  "sources": {
   "uk-fts": {
    "ok": true,
-   "found": 2,
-   "at": "2026-11-19T08:07Z",
-   "secs": 26
+   "partial": true,
+   "note": "Slow portal: read part of it this run and carries on next run",
+   "at": "2026-11-20T07:56Z",
+   "found": 1,
+   "secs": 468
   },
   "uk-cf": {
    "ok": true,
@@ -24,9 +26,9 @@
    "ok": true,
    "partial": true,
    "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-19T08:07Z",
-   "found": 1,
-   "secs": 423
+   "at": "2026-11-20T07:56Z",
+   "found": 4,
+   "secs": 421
   },
   "co-secop": {
    "ok": true,
@@ -50,14 +52,14 @@
    "ok": true,
    "partial": true,
    "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-19T08:07Z",
-   "found": 0,
-   "secs": 430
+   "at": "2026-11-20T07:56Z",
+   "found": 1,
+   "secs": 601
   }
  },
  "state": {
   "br-pncp": {
-   "next_page": 340
+   "next_page": 400
   },
   "es-place": {
    "done_to": "2026-11-15"
@@ -76,6 +78,31 @@
    "type": "tender",
    "place": "74",
    "seen": "2026-11-19T07:49Z"
+  },
+  {
+   "src": "uk-fts",
+   "id": "uk-fts:ocds-h6vhtk-06659f",
+   "date": "2026-11-19",
+   "title": "Micromobility Service - Cambridge E-Scooter Trial and E-bike Service",
+   "url": "https://www.find-tender.service.gov.uk/Notice/109850-2026",
+   "buyer": "Cambridgeshire and Peterborough Combined Authority",
+   "cc": "GBR",
+   "type": "award",
+   "seen": "2026-11-20T07:56Z"
+  },
+  {
+   "src": "es-place",
+   "id": "es-place:https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20797762",
+   "date": "2026-11-19",
+   "title": "Contratación administrativa del servicio para la organización y gestión del evento denominado \"Fiesta de la Bicicleta 2027\"",
+   "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=aTWFKVrVfz5QFSeKCRun4Q%3D%3D",
+   "cc": "ESP",
+   "value": 2791402.0,
+   "cur": "EUR",
+   "buyer": "Concejalía Delegada de Deportes del Ayuntamiento de Santa Cruz de Tenerife",
+   "type": "tender",
+   "text": "Id licitación: SCT2026000269; Órgano de Contratación: Concejalía Delegada de Deportes del Ayuntamiento de Santa Cruz de Tenerife; Importe: 27914.02 EUR; Estado: EV",
+   "seen": "2026-11-20T07:56Z"
   },
   {
    "src": "uk-fts",
@@ -534,6 +561,20 @@
    "seen": "2026-11-17T11:37Z"
   },
   {
+   "src": "br-pncp",
+   "id": "br-pncp:48664304000180-1-000283/2026",
+   "date": "2026-11-13",
+   "title": "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA A MANUTENCAO PREVENTIVA E CORRETIVA DAS ESTEIRAS BICICLETAS ERGOMETRICAS ELIPTICOS E DEMAIS APARELHOS DA SELA DE MUSCULACAO DO GINASIO DE ESPORTES.",
+   "url": "https://pncp.gov.br/app/editais/48664304000180/2026/283",
+   "buyer": "MUNICIPIO DE GUARIBA",
+   "cc": "BRA",
+   "place": "Guariba, SP",
+   "cur": "BRL",
+   "deadline": "2026-11-30",
+   "type": "tender",
+   "seen": "2026-11-20T07:56Z"
+  },
+  {
    "src": "de-doe",
    "id": "de-doe:ocds-mnwr74-767317bc-e95f-49ed-93fd-8666b6022263",
    "date": "2026-11-12",
@@ -570,6 +611,50 @@
    "type": "tender",
    "text": "Rahmenvereinbarung für die Bereitstellung von fabrikneuen Fahrrädern im Wege des Leasings (Teilamortisierungsleasing) zur dienstlichen und privaten Nutzung einschließlich Versicherungs-, Schulungs- und Serviceleistungen (insbesondere Abwicklung der Bestell-, Rückgabe- und Schadenabwicklungsprozesse,",
    "seen": "2026-11-17T11:37Z"
+  },
+  {
+   "src": "br-pncp",
+   "id": "br-pncp:46374500000194-1-009525/2026",
+   "date": "2026-11-12",
+   "title": "Aquisição de Bicicleta Ergométrica Horizontal",
+   "url": "https://pncp.gov.br/app/editais/46374500000194/2026/9525",
+   "buyer": "SECRETARIA DE ESTADO DA SAUDE",
+   "cc": "BRA",
+   "place": "Mogi das Cruzes, SP",
+   "cur": "BRL",
+   "deadline": "2026-11-30",
+   "type": "tender",
+   "seen": "2026-11-20T07:56Z"
+  },
+  {
+   "src": "br-pncp",
+   "id": "br-pncp:44855443000130-1-000168/2026",
+   "date": "2026-11-12",
+   "title": "Contratação de empresa especializada para prestação de serviço de cronometragem eletrônica para prova de Mountain Bike, locação, montagem, desmontagem e operação de estruturas e equipamentos, bem como prestação de serviços necessários à realização de eventos esportivos, culturais e turísticos promov",
+   "url": "https://pncp.gov.br/app/editais/44855443000130/2026/168",
+   "buyer": "MUNICIPIO DE MARTINOPOLIS",
+   "cc": "BRA",
+   "place": "Martinópolis, SP",
+   "value": 197768.85,
+   "cur": "BRL",
+   "deadline": "2026-12-07",
+   "type": "tender",
+   "seen": "2026-11-20T07:56Z"
+  },
+  {
+   "src": "br-pncp",
+   "id": "br-pncp:46680518000114-1-000187/2026",
+   "date": "2026-11-12",
+   "title": "REGISTRO DE PREÇOS PARA FUTURA AQUISIÇÃO DE ATÉ 55 (CINQUENTA E CINCO) BICICLETAS ELÉTRICAS, NOVAS E DE PRIMEIRO USO, DESTINADAS AO DESLOCAMENTO DOS AGENTES COMUNITÁRIOS DE SAÚDE E EQUIPAMENTOS DE PROTEÇÃO, CONFORME TERMO DE REFERÊNCIA.",
+   "url": "https://pncp.gov.br/app/editais/46680518000114/2026/187",
+   "buyer": "MUNICIPIO DE APARECIDA",
+   "cc": "BRA",
+   "place": "Aparecida, SP",
+   "value": 309729.75,
+   "cur": "BRL",
+   "deadline": "2026-11-26",
+   "type": "tender",
+   "seen": "2026-11-20T07:56Z"
   },
   {
    "src": "de-doe",
