@@ -1,14 +1,12 @@
 {
- "updatedAt": "2026-11-20T07:56Z",
- "since": "2026-10-30",
+ "updatedAt": "2026-11-21T07:53Z",
+ "since": "2026-10-31",
  "sources": {
   "uk-fts": {
    "ok": true,
-   "partial": true,
-   "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-20T07:56Z",
-   "found": 1,
-   "secs": 468
+   "found": 2,
+   "at": "2026-11-21T07:53Z",
+   "secs": 91
   },
   "uk-cf": {
    "ok": true,
@@ -26,9 +24,9 @@
    "ok": true,
    "partial": true,
    "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-20T07:56Z",
-   "found": 4,
-   "secs": 421
+   "at": "2026-11-21T07:53Z",
+   "found": 0,
+   "secs": 423
   },
   "co-secop": {
    "ok": true,
@@ -52,20 +50,76 @@
    "ok": true,
    "partial": true,
    "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-20T07:56Z",
-   "found": 1,
-   "secs": 601
+   "at": "2026-11-21T07:53Z",
+   "found": 4,
+   "secs": 451
   }
  },
  "state": {
   "br-pncp": {
-   "next_page": 400
+   "next_page": 463
   },
   "es-place": {
    "done_to": "2026-11-15"
   }
  },
  "notices": [
+  {
+   "src": "es-place",
+   "id": "es-place:https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19162799",
+   "date": "2026-11-20",
+   "title": "Red de Alumbrado Público con Sistema Solar para Iluminación del Carril Bici existente en la carretera RM-F34, en el tramo comprendido entre la Glorieta del antiguo Aeropuerto hasta calle Cataluña - Santiago de la Ribera - San Javier. Plan de Recuperación Transformación y Resilencia -Financiado por U",
+   "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7nxHaTECo0FPpzdqOdhuWg%3D%3D",
+   "cc": "ESP",
+   "value": 152320.0,
+   "cur": "EUR",
+   "buyer": "Alcaldia del Ayuntamiento de San Javier",
+   "type": "tender",
+   "text": "Id licitación: 22508/2025; Órgano de Contratación: Alcaldia del Ayuntamiento de San Javier; Importe: 152320 EUR; Estado: ADJ",
+   "seen": "2026-11-17T11:37Z"
+  },
+  {
+   "src": "es-place",
+   "id": "es-place:https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20967520",
+   "date": "2026-11-20",
+   "title": "Contrato de servicios de prestación de los servicios técnicos descritos en el PPT para el desarrollo de las actuaciones pendientes del Proyecto 4, Operación 8 «Infraestructura para bicicletas», en el marco del Programa Plurirregional de España FEDER 2021-2027 y del Plan de Actuación Integrado de Alj",
+   "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4pgLCB8rqgo%2FbjW6njtWLw%3D%3D",
+   "cc": "ESP",
+   "value": 4785652.0,
+   "cur": "EUR",
+   "buyer": "Alcaldía del Ayuntamiento de Aljaraque",
+   "type": "tender",
+   "text": "Id licitación: Expte 11832/2026 Infraestructura bicicletas; Órgano de Contratación: Alcaldía del Ayuntamiento de Aljaraque; Importe: 47856.52 EUR; Estado: PUB",
+   "seen": "2026-11-21T07:53Z"
+  },
+  {
+   "src": "es-place",
+   "id": "es-place:https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20611582",
+   "date": "2026-11-20",
+   "title": "Obras contempladas en el Proyecto de carril bici y vial cívico del camí de Son Moro. TM Sant Llorenç des Cardassar",
+   "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WYhExrehpONSYrkJkLlFdw%3D%3D",
+   "cc": "ESP",
+   "value": 262535716.0,
+   "cur": "EUR",
+   "buyer": "Junta de Gobierno del Ayuntamiento de Sant Llorenç des Cardassar",
+   "type": "tender",
+   "text": "Id licitación: 2026/3163; Órgano de Contratación: Junta de Gobierno del Ayuntamiento de Sant Llorenç des Cardassar; Importe: 2625357.16 EUR; Estado: EV",
+   "seen": "2026-11-21T07:53Z"
+  },
+  {
+   "src": "es-place",
+   "id": "es-place:https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/17928947",
+   "date": "2026-11-20",
+   "title": "Obras comprendidas en el Proyecto de implementación de carril bici entre el campus universitario y la estación de tren de Guadalajara",
+   "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=igyZdVXqFiO9Hd5zqvq9cg%3D%3D",
+   "cc": "ESP",
+   "value": 51605962.0,
+   "cur": "EUR",
+   "buyer": "Alcaldía del Ayuntamiento de Guadalajara",
+   "type": "tender",
+   "text": "Id licitación: CON-4469; Órgano de Contratación: Alcaldía del Ayuntamiento de Guadalajara; Importe: 516059.62 EUR; Estado: RES",
+   "seen": "2026-11-21T07:53Z"
+  },
   {
    "src": "fr-boamp",
    "id": "fr-boamp:26-111835",
@@ -490,20 +544,6 @@
    "cur": "EUR",
    "type": "award",
    "text": "Die GSE gGmbH (Gesellschaft für Soziale Dienstleistungen Essen; nachfolgend \"Auftraggeber\") ist ein gemeinnütziges Unternehmen mit Sitz in Essen, das seit über 140 Jahren ein breites Spektrum sozialer Dienstleistungen erbringt. Als Gemeinschaftseinrichtung unter Trägerschaft der Stadt Essen sowie de",
-   "seen": "2026-11-17T11:37Z"
-  },
-  {
-   "src": "es-place",
-   "id": "es-place:https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19162799",
-   "date": "2026-11-13",
-   "title": "Red de Alumbrado Público con Sistema Solar para Iluminación del Carril Bici existente en la carretera RM-F34, en el tramo comprendido entre la Glorieta del antiguo Aeropuerto hasta calle Cataluña - Santiago de la Ribera - San Javier. Plan de Recuperación Transformación y Resilencia -Financiado por U",
-   "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7nxHaTECo0FPpzdqOdhuWg%3D%3D",
-   "cc": "ESP",
-   "value": 152320.0,
-   "cur": "EUR",
-   "buyer": "Alcaldia del Ayuntamiento de San Javier",
-   "type": "tender",
-   "text": "Id licitación: 22508/2025; Órgano de Contratación: Alcaldia del Ayuntamiento de San Javier; Importe: 152320 EUR; Estado: EV",
    "seen": "2026-11-17T11:37Z"
   },
   {
