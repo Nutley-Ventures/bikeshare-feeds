@@ -1,5 +1,5 @@
 {
-"updatedAt": "2026-11-19T07:43Z",
+"updatedAt": "2026-11-22T23:22Z",
 "from": "2016",
 "fields": [
 "publication-number",
@@ -75785,29 +75785,6 @@
 "rower miejski",
 "roweru miejskiego",
 "rowery miejskie"
-]
-},
-{
-"pn": "407432-2016",
-"date": "2016-11-18",
-"title": "United Kingdom-London: Dictionaries, maps, music books and other books",
-"type": "cn-standard",
-"buyer": "Transport for London (Commercial Services)",
-"city": "London",
-"cc": "GBR",
-"place": "UKI",
-"cpv": [
-"22114000",
-"22114200",
-"22114300",
-"22114310",
-"22121000"
-],
-"nature": "services",
-"procedure": "open",
-"url": "https://ted.europa.eu/en/notice/-/detail/407432-2016",
-"hits": [
-"cycle hire"
 ]
 }
 ]
