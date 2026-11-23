@@ -1,67 +1,115 @@
 {
- "updatedAt": "2026-11-22T07:53Z",
- "since": "2026-11-01",
+ "updatedAt": "2026-11-23T04:21Z",
+ "since": "2026-11-02",
  "sources": {
   "uk-fts": {
    "ok": true,
-   "found": 1,
-   "at": "2026-11-22T07:53Z",
-   "secs": 13
+   "found": 0,
+   "at": "2026-11-23T04:21Z",
+   "secs": 64
   },
   "uk-cf": {
    "ok": true,
    "found": 1,
-   "at": "2026-11-19T07:49Z",
-   "secs": 28
+   "at": "2026-11-23T04:21Z",
+   "secs": 25
   },
   "ca-seao": {
    "ok": true,
    "found": 0,
-   "at": "2026-11-19T07:49Z",
-   "secs": 8
+   "at": "2026-11-23T04:21Z",
+   "secs": 6
   },
   "br-pncp": {
    "ok": true,
    "partial": true,
    "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-22T07:53Z",
-   "found": 0,
-   "secs": 423
+   "at": "2026-11-23T04:21Z",
+   "found": 2,
+   "secs": 427
   },
   "co-secop": {
    "ok": true,
    "found": 3,
-   "at": "2026-11-19T07:49Z",
-   "secs": 16
+   "at": "2026-11-23T04:21Z",
+   "secs": 7
   },
   "fr-boamp": {
    "ok": true,
-   "found": 8,
-   "at": "2026-11-19T07:49Z",
-   "secs": 13
+   "found": 9,
+   "at": "2026-11-23T04:21Z",
+   "secs": 17
   },
   "de-doe": {
    "ok": true,
-   "found": 28,
-   "at": "2026-11-19T07:49Z",
-   "secs": 19
+   "found": 32,
+   "at": "2026-11-23T04:21Z",
+   "secs": 15
   },
   "es-place": {
    "ok": true,
-   "found": 5,
-   "at": "2026-11-22T07:53Z",
-   "secs": 446
+   "found": 1,
+   "at": "2026-11-23T04:21Z",
+   "secs": 38
   }
  },
  "state": {
   "br-pncp": {
-   "next_page": 532
+   "next_page": 596
   },
   "es-place": {
-   "done_to": "2026-11-21"
+   "done_to": "2026-11-22"
   }
  },
  "notices": [
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-109ea4bd-f8e1-4e66-beea-3a7505b02683",
+   "date": "2026-11-22",
+   "title": "Stadt Ostfildern - Ausschreibung Fahrradleasing",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=654c88ba-5a78-43aa-93d6-447d958c7aa3",
+   "buyer": "Stadt Ostfildern",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Gegenstand dieser Ausschreibung ist eine Dienstleistungsrahmenvereinbarung mit einem Anbieter von Fahrradleasingmodellen, die sämtliche Leistungen umfasst, die im Zusammenhang mit einem Mitarbeiter-Fahrradleasing stehen.",
+   "seen": "2026-11-23T04:21Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-033d5c98-01bf-4042-bece-c99e4149852e",
+   "date": "2026-11-22",
+   "title": "Rahmenvereinbarung Fahrradleasing für die Mitarbeitenden des Landkreises Stade",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=15b53e8b-4df9-417a-94a6-710b227fe979",
+   "buyer": "Landkreis Stade",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Rahmenvereinbarung Fahrradleasing für die Mitarbeitenden des Landkreises Stade",
+   "seen": "2026-11-23T04:21Z"
+  },
+  {
+   "src": "fr-boamp",
+   "id": "fr-boamp:26-112497",
+   "date": "2026-11-21",
+   "title": "Marché de travaux relatif au Réseau Express Vélo n°6 (REV 6)",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112497",
+   "buyer": "LE MURETAIN AGGLO",
+   "cc": "FRA",
+   "type": "tender",
+   "place": "31",
+   "seen": "2026-11-23T04:21Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-26071598",
+   "date": "2026-11-21",
+   "title": "Aufstellen von Fahrradanlehnbügeln in Iserlohn-Letmathe",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=26071598",
+   "buyer": "Stadt Iserlohn",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Aufstellen von Fahrradanlehnbügeln in Iserlohn-Letmathe",
+   "seen": "2026-11-23T04:21Z"
+  },
   {
    "src": "es-place",
    "id": "es-place:https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19162799",
@@ -119,6 +167,54 @@
    "seen": "2026-11-21T07:53Z"
   },
   {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-f83eefd2-ec55-4b5f-98c5-01b6576f24d2",
+   "date": "2026-11-20",
+   "title": "2026-0556 Rahmenvereinbarung über das Leasing von Fahrrädern und E-Bikes für Mitarbeitende der Stadt Duisburg",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=0f6ee0b1-075b-488a-be71-561d257a1ff1",
+   "buyer": "Einkauf der Stadt Duisburg (10-31)",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Abschluss einer Rahmenvereinbarung über das Leasing von Fahrrädern und E-Bikes für Mitarbeiter der Stadt Duisburg mit einer Laufzeit vom Zeitpunkt der Zuschlagserteilung, frühestens jedoch ab dem 25.04.2027 (Ende der bestehenden Rahmenvereinbarung), bis zum 31.03.2031",
+   "seen": "2026-11-17T11:37Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-a9905011-54f8-4d09-971b-5b71003f4145",
+   "date": "2026-11-20",
+   "title": "Dienstrad-Leasing",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=66f9aad3-024e-4506-b052-02a182ae2586",
+   "buyer": "Landeshauptstadt Stuttgart, Haupt- und Personalamt, Abt. Allgemeiner Service, Zentraler Einkauf",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Dienstrad-Leasing",
+   "seen": "2026-11-23T04:21Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-268da491-bdfd-463e-93b0-08ceb3e29192",
+   "date": "2026-11-20",
+   "title": "Fahrradleasing für Mitarbeiter",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=de5b4877-c959-4c93-9f0a-47cbde8dff96",
+   "buyer": "Stadt Rothenburg ob der Tauber",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Rahmenvertrag Fahrradleasing",
+   "seen": "2026-11-23T04:21Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-26067402",
+   "date": "2026-11-20",
+   "title": "Durchführung eines Kommunikationskonzepts ?BeMoZukunft?",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=26067402",
+   "buyer": "BVC Altona",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Die Freie und Hansestadt Hamburg (FHH), vertreten durch das Beschaffungs- und Vergabecenter des Bezirksamtes Altona (Vergabestelle), beabsichtigt im Auftrag des Bezirksamtes Altona, Fachamt Interner Service den Abschluss eines Vertrages über die Erstellung und Durchführung eines Kommunikationskonzep",
+   "seen": "2026-11-23T04:21Z"
+  },
+  {
    "src": "fr-boamp",
    "id": "fr-boamp:26-111835",
    "date": "2026-11-19",
@@ -155,6 +251,145 @@
    "type": "tender",
    "text": "Id licitación: SCT2026000269; Órgano de Contratación: Concejalía Delegada de Deportes del Ayuntamiento de Santa Cruz de Tenerife; Importe: 27914.02 EUR; Estado: EV",
    "seen": "2026-11-20T07:56Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-a4a39f78-9516-4ba7-bc1f-f66b1d1542cb",
+   "date": "2026-11-19",
+   "title": "Leistungen der Objektplanung Gebäude für den Neubau CAMPUS der Generationen in der Frobenstraße 27-29, 10783 Berlin Tempelhof-Schöneberg",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4c7130ff-7603-4e29-bb05-4e929459cbdf",
+   "buyer": "Bezirksamt Tempelhof-Schöneberg von Berlin",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Gegenstand der Vergabe ist die Planung und Realisierung des Neubaus „CAMPUS der Generationen“ in der Frobenstraße 27–29 in Berlin-Schöneberg. Auf dem Grundstück soll mit einem integrierten Ansatz ein Haus des Gemeinwesens mit vielfältigen, niederschwelligen Angeboten für Kinder, Jugendliche, Familie",
+   "seen": "2026-11-17T11:37Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-26026306",
+   "date": "2026-11-19",
+   "title": "Dienstfahrrad-Leasing der Kreisverwaltung Altenkirchen",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=26026306",
+   "buyer": "Wirtschaftsförderung Kreisverwaltung Altenkirchen",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Die Kreisverwaltung Altenkirchen beabsichtigt zur Fortführung seine Dienstfahrrad-Leasingangebots, eine Rahmenvereinbarung über die Versorgung mit Leasing-Dienstfahrrädern seiner Mitarbeiterinnen und Mitarbeiter und die damit verbundenen Abwicklungsprozesse sowie Dienstleistungen abzuschließen. Die",
+   "seen": "2026-11-17T11:37Z"
+  },
+  {
+   "src": "br-pncp",
+   "id": "br-pncp:03330461000110-1-000185/2026",
+   "date": "2026-11-19",
+   "title": "Aquisição de bicicletas e carrinhos de rolimã para as crianças acolhidas na Casa de Acolhimento Institucional Adiles de Figueiredo Ribeiro, utilizando atividades recreativas, esportivas e de lazer como instrumentos de desenvolvimento físico, emocional, social e de promoção da qualidade de vida. Conf",
+   "url": "https://pncp.gov.br/app/editais/03330461000110/2026/185",
+   "buyer": "MUNICIPIO DE CORUMBA",
+   "cc": "BRA",
+   "place": "Corumbá, MS",
+   "value": 12015.46,
+   "cur": "BRL",
+   "deadline": "2026-11-26",
+   "type": "tender",
+   "seen": "2026-11-23T04:21Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-f6f7ca5e-075e-4818-9d40-05789672310f",
+   "date": "2026-11-19",
+   "title": "Öffentliches Verleihsystem für E-Scooter und Pedelecs",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=6e36668b-b4b6-4524-acad-ded8e10a44e9",
+   "buyer": "VBS Verkehrsbetriebe Schussental GmbH & Co. KG",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Aufbau und Betrieb eines öffentlichen Verleihsystems für E-Scooter und Pedelecs",
+   "seen": "2026-11-23T04:21Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-05b0ddfd-bf71-49a3-802a-479a44e28ec1",
+   "date": "2026-11-19",
+   "title": "Rahmenvertag 1 - Errichtung von Fahrradabstellanlagen - Lieferleistung/Metallbau",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=05b0ddfd-bf71-49a3-802a-479a44e28ec1",
+   "buyer": "Kreis Minden-Lübbecke",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Rahmenvertag 1 - Errichtung von Fahrradabstellanlagen an Gebäuden und auf Liegenschaften des Kreises Minden-Lübbecke - Lieferleistung/Metallbau",
+   "seen": "2026-11-23T04:21Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-974ad078-e497-4841-99e4-5cec13739878",
+   "date": "2026-11-19",
+   "title": "Rahmenvertrag 2 - Errichtung von Fahrradabstellanlagen - Lieferleistung/Metallbau",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=974ad078-e497-4841-99e4-5cec13739878",
+   "buyer": "Kreis Minden-Lübbecke",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Rahmenvertrag 2 - Errichtung von Fahrradabstellanlagen an Gebäuden und auf Liegenschaften des Kreises Minden-Lübbecke - Lieferleistung/Metallbau",
+   "seen": "2026-11-23T04:21Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-928acc31-a22b-4634-8631-c7bb54d503ca",
+   "date": "2026-11-19",
+   "title": "Entwicklungs-, Liefer- und Montageleistungen des \"Velo Wave System\"",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c6702fb6-e8d4-4f82-bae2-8a9aa12db93c",
+   "buyer": "Stadt Münster - Zentrale Rechtsdienstleistungen und Vergabemanagement",
+   "cc": "DEU",
+   "value": 1143015.27,
+   "cur": "EUR",
+   "type": "award",
+   "text": "Beschaffung eines Velo Wave System zur Steigerung der Sicherheit und des Komforts von Verkehrsteilnehmenden an Lichtsignalanlagen.",
+   "seen": "2026-11-23T04:21Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-1e14b9a7-6b62-43ce-972c-93d35a7d6b54",
+   "date": "2026-11-19",
+   "title": "Rahmenvertrag 3 - Errichtung von Fahrradabstellanlagen - Tiefbau",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=1e14b9a7-6b62-43ce-972c-93d35a7d6b54",
+   "buyer": "Kreis Minden-Lübbecke",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Rahmenvertrag 3 - Errichtung von Fahrradabstellanlagen an Gebäuden und auf Liegenschaften des Kreises Minden-Lübbecke - Tiefbau",
+   "seen": "2026-11-23T04:21Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-4f162566-f498-4491-a134-3ff769e50f29",
+   "date": "2026-11-19",
+   "title": "Universitätsklinikum Münster - 1012 Sanierung und Erweiterung AWT - P29 Objektplanung LP 3 - 8",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=750a750e-e355-47a4-a414-990998b3aa4b",
+   "buyer": "UKM Infrastruktur Management GmbH",
+   "cc": "DEU",
+   "value": 475031.21,
+   "cur": "EUR",
+   "type": "award",
+   "text": "Objektplanung LP 3 - 8 für das Projekt \"MobilityHub/Fahrradgarage MF/SZ\" des Universitätsklinikum Münster",
+   "seen": "2026-11-23T04:21Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-9678fae9-d83c-49ff-bbc3-7b028e3dd79f",
+   "date": "2026-11-19",
+   "title": "Organisationseinheiten der Stadtverwaltung Erfurt - Fahrradleasing",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5bfe5447-196a-4522-a09f-df6c3900f277",
+   "buyer": "Landeshauptstadt Erfurt, Stadtverwaltung, Stadtkämmerei-Vergabestelle",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Organisationseinheiten der Stadtverwaltung Erfurt - Fahrradleasing für ca. 300 Fahrräder für die Mitarbeiter",
+   "seen": "2026-11-23T04:21Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-26059502",
+   "date": "2026-11-19",
+   "title": "Außenanlage Museumshof in Ilsenburg",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=26059502",
+   "buyer": "Stadt Halberstadt",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "a) Öffentlicher Auftraggeber (Vergabestelle) Name und Anschrift: Stadt Halberstadt Domplatz 49 38820 Halberstadt Telefon: +49 3941-551134 Fax: E-Mail: vergabestelle@halberstadt.de Internet: http://www.halberstadt.de b) Vergabeverfahren: Öffentliche Ausschreibung, VOB/A Vergabenummer: Ilsenburg-37",
+   "seen": "2026-11-23T04:21Z"
   },
   {
    "src": "uk-fts",
@@ -241,6 +476,21 @@
    "type": "tender",
    "text": "Lieferung von Fahrradhelmen in verschiedenen Größen Fahrradhelme",
    "seen": "2026-11-19T07:49Z"
+  },
+  {
+   "src": "br-pncp",
+   "id": "br-pncp:05611299000134-1-000055/2026",
+   "date": "2026-11-18",
+   "title": "Contratação de empresa de engenharia com a finalidade de reforma e manutenção da Praça Pedro Quarto Marini localizada à Av. Presidente Castelo Branco – Distrito do Pari – São Paulo / SP, abrangendo a implantação de pista de skate/bike, implantação de playground com piso emborrachado, gradil e instal",
+   "url": "https://pncp.gov.br/app/editais/05611299000134/2026/55",
+   "buyer": "SUBPREFEITURA MOOCA",
+   "cc": "BRA",
+   "place": "São Paulo, SP",
+   "value": 2103893.96,
+   "cur": "BRL",
+   "deadline": "2026-12-07",
+   "type": "tender",
+   "seen": "2026-11-23T04:21Z"
   },
   {
    "src": "uk-cf",
@@ -587,18 +837,6 @@
    "seen": "2026-11-17T12:09Z"
   },
   {
-   "src": "de-doe",
-   "id": "de-doe:ocds-mnwr74-f83eefd2-ec55-4b5f-98c5-01b6576f24d2",
-   "date": "2026-11-13",
-   "title": "2026-0556 Rahmenvereinbarung über das Leasing von Fahrrädern und E-Bikes für Mitarbeitende der Stadt Duisburg",
-   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4470d3f3-713d-4d24-b9f2-08b85a676453",
-   "buyer": "Einkauf der Stadt Duisburg (10-31)",
-   "cc": "DEU",
-   "type": "tender",
-   "text": "Abschluss einer Rahmenvereinbarung über das Leasing von Fahrrädern und E-Bikes für Mitarbeiter der Stadt Duisburg mit einer Laufzeit vom Zeitpunkt der Zuschlagserteilung, frühestens jedoch ab dem 25.04.2027 (Ende der bestehenden Rahmenvereinbarung), bis zum 31.03.2031",
-   "seen": "2026-11-17T11:37Z"
-  },
-  {
    "src": "br-pncp",
    "id": "br-pncp:48664304000180-1-000283/2026",
    "date": "2026-11-13",
@@ -758,18 +996,6 @@
   },
   {
    "src": "de-doe",
-   "id": "de-doe:ocds-mnwr74-a4a39f78-9516-4ba7-bc1f-f66b1d1542cb",
-   "date": "2026-11-11",
-   "title": "Leistungen der Objektplanung Gebäude für den Neubau CAMPUS der Generationen in der Frobenstraße 27-29, 10783 Berlin Tempelhof-Schöneberg",
-   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=6f681c72-25cf-45af-9325-8241c2218c2c",
-   "buyer": "Bezirksamt Tempelhof-Schöneberg von Berlin",
-   "cc": "DEU",
-   "type": "tender",
-   "text": "Gegenstand der Vergabe ist die Planung und Realisierung des Neubaus „CAMPUS der Generationen“ in der Frobenstraße 27–29 in BerlinSchöneberg. Auf dem Grundstück soll mit einem integrierten Ansatz ein Haus des Gemeinwesens mit vielfältigen, niederschwelligen Angeboten für Kinder, Jugendliche, Familie",
-   "seen": "2026-11-17T11:37Z"
-  },
-  {
-   "src": "de-doe",
    "id": "de-doe:ocds-mnwr74-f7b8ab03-c8f6-41c5-9fa7-6ce98c605dd3",
    "date": "2026-11-11",
    "title": "Leistungen der Objektplanung Gebäude für den Neubau CAMPUS der Generationen in der Frobenstraße 27-29, 10783 Berlin Tempelhof-Schöneberg",
@@ -778,18 +1004,6 @@
    "cc": "DEU",
    "type": "tender",
    "text": "Gegenstand der Vergabe ist die Planung und Realisierung des Neubaus „CAMPUS der Generationen“ in der Frobenstraße 27–29 in Berlin-Schöneberg. Auf dem Grundstück soll mit einem integrierten Ansatz ein Haus des Gemeinwesens mit vielfältigen, niederschwelligen Angeboten für Kinder, Jugendliche, Familie",
-   "seen": "2026-11-17T11:37Z"
-  },
-  {
-   "src": "de-doe",
-   "id": "de-doe:ocds-mnwr74-26026306",
-   "date": "2026-11-11",
-   "title": "Dienstfahrrad-Leasing der Kreisverwaltung Altenkirchen",
-   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=26026306",
-   "buyer": "Wirtschaftsförderung Kreisverwaltung Altenkirchen",
-   "cc": "DEU",
-   "type": "tender",
-   "text": "Die Kreisverwaltung Altenkirchen beabsichtigt zur Fortführung seine Dienstfahrrad-Leasingangebots, eine Rahmenvereinbarung über die Versorgung mit Leasing-Dienstfahrrädern seiner Mitarbeiterinnen und Mitarbeiter und die damit verbundenen Abwicklungsprozesse sowie Dienstleistungen abzuschließen. Die",
    "seen": "2026-11-17T11:37Z"
   },
   {
@@ -934,7 +1148,7 @@
    "place": "Líbano, Tolima",
    "value": 239482144.0,
    "cur": "COP",
-   "type": "Abierto",
+   "type": "Seleccionado",
    "text": "CONTRATAR LA INTERVENCIÓN TÉCNICA PARA EL MEJORAMIENTO DE LAS CONDICIONES DE MOVILIDAD Y SEGURIDAD VIAL EN CORREDORES ESTRATÉGICOS DE LA INFRAESTRUCTURA VIAL URBANA DEL MUNICIPIO DE LÍBANO, TOLIMA, CARACTERIZADOS POR PRESENTAR ALTO FLUJO DE VEHÍCULOS DE SERVICIO PÚBLICO DE TRANSPORTE DE PASAJEROS, C",
    "seen": "2026-11-17T11:37Z"
   },
