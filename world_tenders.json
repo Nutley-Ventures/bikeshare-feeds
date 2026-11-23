@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-11-23T04:21Z",
+ "updatedAt": "2026-11-23T08:11Z",
  "since": "2026-11-02",
  "sources": {
   "uk-fts": {
-   "ok": true,
-   "found": 0,
-   "at": "2026-11-23T04:21Z",
-   "secs": 64
+   "ok": false,
+   "error": "TimeoutError: The read operation timed out",
+   "at": "2026-11-23T08:11Z",
+   "found": 0
   },
   "uk-cf": {
    "ok": true,
@@ -21,12 +21,10 @@
    "secs": 6
   },
   "br-pncp": {
-   "ok": true,
-   "partial": true,
-   "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-23T04:21Z",
-   "found": 2,
-   "secs": 427
+   "ok": false,
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-11-23T08:11Z",
+   "found": 1
   },
   "co-secop": {
    "ok": true,
@@ -49,13 +47,13 @@
   "es-place": {
    "ok": true,
    "found": 1,
-   "at": "2026-11-23T04:21Z",
-   "secs": 38
+   "at": "2026-11-23T08:11Z",
+   "secs": 196
   }
  },
  "state": {
   "br-pncp": {
-   "next_page": 596
+   "next_page": 627
   },
   "es-place": {
    "done_to": "2026-11-22"
@@ -390,6 +388,21 @@
    "type": "tender",
    "text": "a) Öffentlicher Auftraggeber (Vergabestelle) Name und Anschrift: Stadt Halberstadt Domplatz 49 38820 Halberstadt Telefon: +49 3941-551134 Fax: E-Mail: vergabestelle@halberstadt.de Internet: http://www.halberstadt.de b) Vergabeverfahren: Öffentliche Ausschreibung, VOB/A Vergabenummer: Ilsenburg-37",
    "seen": "2026-11-23T04:21Z"
+  },
+  {
+   "src": "br-pncp",
+   "id": "br-pncp:10588040000150-1-000022/2026",
+   "date": "2026-11-19",
+   "title": "Contratação de serviços de manutenção preventiva e corretiva das bicicletas pertencentes ao Parque Municipal Refúgio dos Pássaros.",
+   "url": "https://pncp.gov.br/app/editais/10588040000150/2026/22",
+   "buyer": "FUNDACAO MUNICIPAL DO MEIO AMBIENTE - FUNDEMA",
+   "cc": "BRA",
+   "place": "Araquari, SC",
+   "value": 10866.8,
+   "cur": "BRL",
+   "deadline": "2026-11-26",
+   "type": "tender",
+   "seen": "2026-11-23T08:11Z"
   },
   {
    "src": "uk-fts",
