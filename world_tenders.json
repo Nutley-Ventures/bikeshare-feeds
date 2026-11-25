@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-11-24T08:05Z",
- "since": "2026-11-03",
+ "updatedAt": "2026-11-25T08:09Z",
+ "since": "2026-11-04",
  "sources": {
   "uk-fts": {
    "ok": true,
-   "found": 0,
-   "at": "2026-11-24T08:05Z",
-   "secs": 9
+   "found": 1,
+   "at": "2026-11-25T08:09Z",
+   "secs": 19
   },
   "uk-cf": {
    "ok": true,
@@ -23,7 +23,7 @@
   "br-pncp": {
    "ok": false,
    "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "at": "2026-11-24T08:05Z",
+   "at": "2026-11-25T08:09Z",
    "found": 0
   },
   "co-secop": {
@@ -48,9 +48,9 @@
    "ok": true,
    "partial": true,
    "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-24T08:05Z",
-   "found": 1,
-   "secs": 561
+   "at": "2026-11-25T08:09Z",
+   "found": 2,
+   "secs": 475
   }
  },
  "state": {
@@ -62,6 +62,18 @@
   }
  },
  "notices": [
+  {
+   "src": "uk-fts",
+   "id": "uk-fts:ocds-h6vhtk-06ce49",
+   "date": "2026-11-24",
+   "title": "Contract for the Provision of a Swansea Rental E-Bike Scheme",
+   "url": "https://www.find-tender.service.gov.uk/Notice/111047-2026",
+   "buyer": "City & County of Swansea",
+   "cc": "GBR",
+   "type": "award",
+   "text": "UK7 Contract Details notice for Contract for the Provision of a Swansea Rental E-Bike Scheme",
+   "seen": "2026-11-25T08:09Z"
+  },
   {
    "src": "es-place",
    "id": "es-place:https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20797916",
@@ -75,6 +87,20 @@
    "type": "tender",
    "text": "Id licitación: 806/2026; Órgano de Contratación: Alcaldía del Ayuntamiento de Xeresa; Importe: 123486.58 EUR; Estado: ADJ",
    "seen": "2026-11-24T08:05Z"
+  },
+  {
+   "src": "es-place",
+   "id": "es-place:https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20040684",
+   "date": "2026-11-23",
+   "title": "Servicio de organización y gestión de actividades de promoción del uso de la bicicleta mediante rutas culturales educativas y lúdicas, biciescuela y talleres de la Oficina Municipal de la Bicicleta",
+   "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3lrsVANPKMIS7pcxhTeWOg%3D%3D",
+   "cc": "ESP",
+   "value": 335466.0,
+   "cur": "EUR",
+   "buyer": "Junta de Gobierno del Ayuntamiento de Murcia",
+   "type": "tender",
+   "text": "Id licitación: 2026_0087; Órgano de Contratación: Junta de Gobierno del Ayuntamiento de Murcia; Importe: 33546.6 EUR; Estado: ADJ",
+   "seen": "2026-11-25T08:09Z"
   },
   {
    "src": "de-doe",
