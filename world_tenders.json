@@ -1,56 +1,56 @@
 {
- "updatedAt": "2026-11-25T08:09Z",
+ "updatedAt": "2026-11-25T11:43Z",
  "since": "2026-11-04",
  "sources": {
   "uk-fts": {
    "ok": true,
-   "found": 1,
-   "at": "2026-11-25T08:09Z",
-   "secs": 19
+   "found": 2,
+   "at": "2026-11-25T11:43Z",
+   "secs": 24
   },
   "uk-cf": {
    "ok": true,
    "found": 1,
-   "at": "2026-11-23T04:21Z",
-   "secs": 25
+   "at": "2026-11-25T11:43Z",
+   "secs": 29
   },
   "ca-seao": {
    "ok": true,
-   "found": 0,
-   "at": "2026-11-23T04:21Z",
-   "secs": 6
+   "found": 2,
+   "at": "2026-11-25T11:43Z",
+   "secs": 8
   },
   "br-pncp": {
    "ok": false,
    "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "at": "2026-11-25T08:09Z",
+   "at": "2026-11-25T11:43Z",
    "found": 0
   },
   "co-secop": {
    "ok": true,
-   "found": 3,
-   "at": "2026-11-23T04:21Z",
-   "secs": 7
+   "found": 5,
+   "at": "2026-11-25T11:43Z",
+   "secs": 9
   },
   "fr-boamp": {
    "ok": true,
    "found": 9,
-   "at": "2026-11-23T04:21Z",
-   "secs": 17
+   "at": "2026-11-25T11:43Z",
+   "secs": 13
   },
   "de-doe": {
    "ok": true,
-   "found": 32,
-   "at": "2026-11-23T04:21Z",
-   "secs": 15
+   "found": 28,
+   "at": "2026-11-25T11:43Z",
+   "secs": 21
   },
   "es-place": {
    "ok": true,
    "partial": true,
    "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-25T08:09Z",
+   "at": "2026-11-25T11:43Z",
    "found": 2,
-   "secs": 475
+   "secs": 555
   }
  },
  "state": {
@@ -64,6 +64,20 @@
  "notices": [
   {
    "src": "uk-fts",
+   "id": "uk-fts:ocds-h6vhtk-06f54f",
+   "date": "2026-11-25",
+   "title": "Office for Students: Bristol Office Cleaning",
+   "url": "https://www.find-tender.service.gov.uk/Notice/111533-2026",
+   "buyer": "Office for Students",
+   "cc": "GBR",
+   "value": 290000.0,
+   "cur": "GBP",
+   "type": "award",
+   "text": "The requirement is for a Single Contractor to provide a cleaning service that maintains a safe, comfortable and hygienic environment for the OfS’s staff and visitors for the Bristol Office. The requirements include General Cleaning, Window Cleaning (Internal & External), External Cleaning Services (",
+   "seen": "2026-11-25T11:43Z"
+  },
+  {
+   "src": "uk-fts",
    "id": "uk-fts:ocds-h6vhtk-06ce49",
    "date": "2026-11-24",
    "title": "Contract for the Provision of a Swansea Rental E-Bike Scheme",
@@ -73,6 +87,30 @@
    "type": "award",
    "text": "UK7 Contract Details notice for Contract for the Provision of a Swansea Rental E-Bike Scheme",
    "seen": "2026-11-25T08:09Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-d54d0db3-3962-4856-a862-5dd42431bc1f",
+   "date": "2026-11-24",
+   "title": "Rahmenvereinbarung für das Leasing von Fahrrädern",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=760b5b0d-4860-4c80-8389-efd7291b5464",
+   "buyer": "Landratsamt Rosenheim",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Rahmenvereinbarung für das Leasing von Fahrrädern",
+   "seen": "2026-11-25T11:43Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-26078404",
+   "date": "2026-11-24",
+   "title": "Gebäudereinigung PD Leipzig, ZentraB Fahrrad, Essener Straße 32 in 04129 Leipzig",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=26078404",
+   "buyer": "Staatsbetrieb Sächsisches Immobilien- und Baumanagement, Zentrale, Zentralstelle Vergabe- und Vertragsmanagement",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Unterhalts- und Glasreinigung, Grundreinigung als Bedarfsleistung Gebäudereinigung PD Leipzig, ZentraB Fahrrad, Essener Straße 32 in 04129 Leipzig",
+   "seen": "2026-11-25T11:43Z"
   },
   {
    "src": "es-place",
@@ -101,6 +139,18 @@
    "type": "tender",
    "text": "Id licitación: 2026_0087; Órgano de Contratación: Junta de Gobierno del Ayuntamiento de Murcia; Importe: 33546.6 EUR; Estado: ADJ",
    "seen": "2026-11-25T08:09Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-770f9a44-ef4e-43b9-b399-965fb3c4e24f",
+   "date": "2026-11-23",
+   "title": "11-0188 Erfurt, Konrad-Zuse-Str. 11, Neugestaltung Eingangsbereich - Los 1 Rufanlage, Beleuchtung und Videoüberwachung",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f0c461fd-597d-4245-828d-fe9945e3de5c",
+   "buyer": "Landesentwicklungsgesellschaft Thüringen mbH (LEG Thüringen)",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Rufanlage innen und außen - Tür-Kontroll-System inkl. Unterputzmontage - Codeschlossmodul für Tür-Kontroll-System - Versorgungs- und Steuergerät für Videoanlage - 80 Stck. Audio Innenstation zum Freisprechen Beleuchtung und Videoüberwachung - 2 Wanddurchbrüche inkl. Brandschutzabschottung - 2 Stck.",
+   "seen": "2026-11-25T11:43Z"
   },
   {
    "src": "de-doe",
@@ -253,6 +303,19 @@
    "type": "tender",
    "text": "Die Freie und Hansestadt Hamburg (FHH), vertreten durch das Beschaffungs- und Vergabecenter des Bezirksamtes Altona (Vergabestelle), beabsichtigt im Auftrag des Bezirksamtes Altona, Fachamt Interner Service den Abschluss eines Vertrages über die Erstellung und Durchführung eines Kommunikationskonzep",
    "seen": "2026-11-23T04:21Z"
+  },
+  {
+   "src": "ca-seao",
+   "id": "ca-seao:ocds-ec9k95-20185034",
+   "date": "2026-11-20",
+   "title": "Entretien des sentiers de vélo hivernaux - Parc du Mont-Sainte-Anne",
+   "url": "https://seao.gouv.qc.ca/",
+   "buyer": "Société des établissements de plein air du Québec (Sépaq).",
+   "cc": "CAN",
+   "value": 11000.0,
+   "cur": "CAD",
+   "type": "award",
+   "seen": "2026-11-25T11:43Z"
   },
   {
    "src": "fr-boamp",
@@ -546,6 +609,19 @@
    "deadline": "2026-12-07",
    "type": "tender",
    "seen": "2026-11-23T04:21Z"
+  },
+  {
+   "src": "ca-seao",
+   "id": "ca-seao:ocds-ec9k95-20184167",
+   "date": "2026-11-18",
+   "title": "Travaux de génie civil pour l'implantation d'une station de vélos en libre-service au parc Arthur-Gauthier",
+   "url": "https://seao.gouv.qc.ca/",
+   "buyer": "Ville de Sainte-Julie",
+   "cc": "CAN",
+   "value": 33359.08,
+   "cur": "CAD",
+   "type": "award",
+   "seen": "2026-11-25T11:43Z"
   },
   {
    "src": "uk-cf",
@@ -1262,6 +1338,34 @@
    "type": "Cancelado",
    "text": "Prestar servicios de apoyo a la Secretaría Distrital de Movilidad, con el fin de realizar actividades de gestión en vía y acompañamiento en bicicleta, de acuerdo con los diferentes programas y campañas que promueva la subdirección de gestión en vía.",
    "seen": "2026-11-17T11:37Z"
+  },
+  {
+   "src": "co-secop",
+   "id": "co-secop:CO1.REQ.11409375",
+   "title": "AI-SASI-4762-2026",
+   "url": "https://community.secop.gov.co/STS/Users/Login/Index",
+   "buyer": "ALCALDIA MUNICIPIO DE IBAGUE*",
+   "cc": "COL",
+   "place": "Ibagué, Tolima",
+   "value": 273700000.0,
+   "cur": "COP",
+   "type": "Borrador",
+   "text": "GOB504 CONTRATAR LA ADQUISICIÓN DE BICICLETAS TODO TERRENO CON DESTINO A LA POLICÍA METROPOLITANA DE IBAGUÉ EN EL MARCO DEL PROYECTO FORTALECIMIENTO DEL BUEN GOBIERNO Y MEJORAMIENTO DE LA PERCEPCIÓN DE LA SEGURIDAD COLECTIVA Y CONVIVENCIA CIUDADANA ARMONIOSA EN EL MUNICIPIO DE IBAGUÉ.",
+   "seen": "2026-11-25T11:43Z"
+  },
+  {
+   "src": "co-secop",
+   "id": "co-secop:CO1.REQ.11407178",
+   "title": "PRESTAR LOS SERVICIOS DE APOYO A LA GESTION PARA REALIZAR EL CONTROL; RETROALIMENTACION; ALISTAMIENTO; DIAGNOSTICO Y MANTENIMIENTO PREVENTIVO Y CORRECTIVO DE LAS BICICLETAS INSTITUCIONALES DEL IDRD Y",
+   "url": "https://community.secop.gov.co/STS/Users/Login/Index",
+   "buyer": "IDRD - ENTIDAD OFICIAL.",
+   "cc": "COL",
+   "place": "Bogotá, Distrito Capital de Bogotá",
+   "value": 12692000.0,
+   "cur": "COP",
+   "type": "Aprobado",
+   "text": "PRESTAR LOS SERVICIOS DE APOYO A LA GESTION PARA REALIZAR EL CONTROL, RETROALIMENTACION, ALISTAMIENTO, DIAGNOSTICO Y MANTENIMIENTO PREVENTIVO Y CORRECTIVO DE LAS BICICLETAS INSTITUCIONALES DEL IDRD Y DE LOS USUARIOS DE LOS PROGRAMAS BICI; COMO TAMBIEN LA ENSENANZA Y EL APOYO EN LOS DIFERENTES EVENTO",
+   "seen": "2026-11-25T11:43Z"
   }
  ]
 }

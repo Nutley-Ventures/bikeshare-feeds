@@ -1,12 +1,9 @@
 {
- "updatedAt": "2026-11-23T04:19Z",
- "since": "20261102",
+ "updatedAt": "2026-11-25T11:41Z",
+ "since": "20261104",
  "backfilled": true,
  "queries": 116,
- "failed": {
-  "abonnement vélo": "HTTP 429: <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx/1.31.9</center>\r\n</body>\r\n</html>\r\n",
-  "JobRad": "HTTP 429: <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx/1.31.9</center>\r\n</body>\r\n</html>\r\n"
- },
+ "failed": {},
  "fields": [
   "publication-number",
   "publication-date",
@@ -21,6 +18,88 @@
   "place-of-performance"
  ],
  "notices": [
+  {
+   "pn": "814556-2026",
+   "date": "2026-11-24",
+   "title": "Poland – Information and promotion products – Wykonanie i dostawa materiałów promocyjnych z logo marki Mazowsze",
+   "type": "can-standard",
+   "buyer": "Województwo Mazowieckie",
+   "cc": "POL",
+   "place": "PL911",
+   "cpv": [
+    "18420000",
+    "18440000",
+    "18921000",
+    "18929000",
+    "18930000",
+    "18931000",
+    "18931100",
+    "18936000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/814556-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-25T11:41Z"
+  },
+  {
+   "pn": "814879-2026",
+   "date": "2026-11-24",
+   "title": "Germany – Bicycles – Dienstrad-Leasing",
+   "type": "cn-standard",
+   "buyer": "Landeshauptstadt Stuttgart, Haupt- und Personalamt, Abt. Allgemeiner Service, Zentraler Einkauf",
+   "cc": "DEU",
+   "place": "DE111",
+   "cpv": [
+    "34430000"
+   ],
+   "deadline": "2026-11-27",
+   "url": "https://ted.europa.eu/en/notice/-/detail/814879-2026",
+   "hits": [
+    "Dienstrad-Leasing",
+    "Fahrradleasing",
+    "cpv"
+   ],
+   "seen": "2026-11-25T11:41Z"
+  },
+  {
+   "pn": "814953-2026",
+   "date": "2026-11-24",
+   "title": "Belgium – Bicycles – een meerjarige raamovereenkomst voor leveringen betreffende de (operationele) leasing van fietsen ten behoeve van de personeelsleden van de Geïntegreerde Politie, AIG en SSDGPI opgesteld op basis van de Wet van 17 juin 2016 (inzake klassieke sectoren)",
+   "type": "cn-standard",
+   "buyer": "Police Fédérale",
+   "cc": "BEL",
+   "place": "BEL",
+   "cpv": [
+    "34430000",
+    "66114000"
+   ],
+   "deadline": "2026-12-10",
+   "url": "https://ted.europa.eu/en/notice/-/detail/814953-2026",
+   "hits": [
+    "cpv"
+   ],
+   "seen": "2026-11-25T11:41Z"
+  },
+  {
+   "pn": "814916-2026",
+   "date": "2026-11-24",
+   "title": "Austria – Transport services (excl. Waste transport) – Dienstleistungskonzessionen zur Bereitstellung stationsloser elektrisch betriebener Klein-­ und Miniroller bzw. stationsloser Mietfahrräder zur Vermietung",
+   "type": "cn-standard",
+   "buyer": "Stadt Wien Magistratsabteilung 65 - Rechtliche Verkehrsangelegenheiten",
+   "cc": "AUT",
+   "place": "AT130",
+   "cpv": [
+    "34420000",
+    "34422000",
+    "60000000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/814916-2026",
+   "hits": [
+    "cpv-motor"
+   ],
+   "seen": "2026-11-25T11:41Z"
+  },
   {
    "pn": "812630-2026",
    "date": "2026-11-23",
@@ -1295,6 +1374,7 @@
    "deadline": "2026-12-07",
    "url": "https://ted.europa.eu/en/notice/-/detail/770532-2026",
    "hits": [
+    "JobRad",
     "cpv",
     "cpv-motor"
    ],
@@ -8325,46 +8405,6 @@
    "hits": [
     "fietslease",
     "fietsleasing"
-   ],
-   "seen": "2026-11-19T07:45Z"
-  },
-  {
-   "pn": "515965-2026",
-   "date": "2026-07-27",
-   "title": "Germany – Financial leasing services – Fahrradleasing mit Service für die Mitarbeiter des Landkreis Breisgau-Hochschwarzwald",
-   "type": "can-standard",
-   "buyer": "Landkreis Breisgau-Hochschwarzwald",
-   "cc": "DEU",
-   "place": "DE131",
-   "cpv": [
-    "34430000",
-    "66114000"
-   ],
-   "value": 839000.0,
-   "cur": "EUR",
-   "url": "https://ted.europa.eu/en/notice/-/detail/515965-2026",
-   "hits": [
-    "Fahrradleasing",
-    "cpv"
-   ],
-   "seen": "2026-11-19T07:45Z"
-  },
-  {
-   "pn": "516362-2026",
-   "date": "2026-07-27",
-   "title": "Poland – Fleet management, repair and maintenance services – „System Grudziądzkiego Roweru Miejskiego”.",
-   "type": "can-standard",
-   "buyer": "gmina-miasto Grudziądz",
-   "cc": "POL",
-   "place": "PL616",
-   "cpv": [
-    "42961100",
-    "50111000"
-   ],
-   "url": "https://ted.europa.eu/en/notice/-/detail/516362-2026",
-   "hits": [
-    "rower miejski",
-    "rowery miejskie"
    ],
    "seen": "2026-11-19T07:45Z"
   }
