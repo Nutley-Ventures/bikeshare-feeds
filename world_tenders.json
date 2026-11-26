@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-11-25T11:43Z",
- "since": "2026-11-04",
+ "updatedAt": "2026-11-26T08:08Z",
+ "since": "2026-11-05",
  "sources": {
   "uk-fts": {
    "ok": true,
-   "found": 2,
-   "at": "2026-11-25T11:43Z",
-   "secs": 24
+   "found": 3,
+   "at": "2026-11-26T08:08Z",
+   "secs": 25
   },
   "uk-cf": {
    "ok": true,
@@ -23,7 +23,7 @@
   "br-pncp": {
    "ok": false,
    "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "at": "2026-11-25T11:43Z",
+   "at": "2026-11-26T08:08Z",
    "found": 0
   },
   "co-secop": {
@@ -48,9 +48,9 @@
    "ok": true,
    "partial": true,
    "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-25T11:43Z",
+   "at": "2026-11-26T08:08Z",
    "found": 2,
-   "secs": 555
+   "secs": 518
   }
  },
  "state": {
@@ -75,6 +75,21 @@
    "type": "award",
    "text": "The requirement is for a Single Contractor to provide a cleaning service that maintains a safe, comfortable and hygienic environment for the OfS’s staff and visitors for the Bristol Office. The requirements include General Cleaning, Window Cleaning (Internal & External), External Cleaning Services (",
    "seen": "2026-11-25T11:43Z"
+  },
+  {
+   "src": "uk-fts",
+   "id": "uk-fts:ocds-h6vhtk-07c3fb",
+   "date": "2026-11-25",
+   "title": "Key Destination Secure Cycle Parking",
+   "url": "https://www.find-tender.service.gov.uk/Notice/111821-2026",
+   "buyer": "Bournemouth, Christchurch and Poole Council",
+   "cc": "GBR",
+   "value": 500000.0,
+   "cur": "GBP",
+   "deadline": "2027-01-15",
+   "type": "tender",
+   "text": "BCP Council is looking for interested parties to supply, install, operate, and maintain secure cycle parking pods, lockers, or hangars for a minimum of 30no. bikes in total at multiple agreed locations across the BCP area. The facilities will be locked and unlocked using a phone-based app, which i",
+   "seen": "2026-11-26T08:08Z"
   },
   {
    "src": "uk-fts",
