@@ -1,56 +1,56 @@
 {
- "updatedAt": "2026-11-27T08:05Z",
+ "updatedAt": "2026-11-27T13:45Z",
  "since": "2026-11-06",
  "sources": {
   "uk-fts": {
    "ok": true,
-   "found": 3,
-   "at": "2026-11-27T08:05Z",
-   "secs": 26
+   "found": 2,
+   "at": "2026-11-27T13:45Z",
+   "secs": 30
   },
   "uk-cf": {
    "ok": true,
    "found": 1,
-   "at": "2026-11-25T11:43Z",
-   "secs": 29
+   "at": "2026-11-27T13:45Z",
+   "secs": 28
   },
   "ca-seao": {
    "ok": true,
    "found": 2,
-   "at": "2026-11-25T11:43Z",
+   "at": "2026-11-27T13:45Z",
    "secs": 8
   },
   "br-pncp": {
    "ok": false,
    "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "at": "2026-11-27T08:05Z",
+   "at": "2026-11-27T13:45Z",
    "found": 0
   },
   "co-secop": {
    "ok": true,
-   "found": 5,
-   "at": "2026-11-25T11:43Z",
-   "secs": 9
+   "found": 2,
+   "at": "2026-11-27T13:45Z",
+   "secs": 10
   },
   "fr-boamp": {
    "ok": true,
-   "found": 9,
-   "at": "2026-11-25T11:43Z",
+   "found": 10,
+   "at": "2026-11-27T13:45Z",
    "secs": 13
   },
   "de-doe": {
    "ok": true,
-   "found": 28,
-   "at": "2026-11-25T11:43Z",
-   "secs": 21
+   "found": 17,
+   "at": "2026-11-27T13:45Z",
+   "secs": 20
   },
   "es-place": {
    "ok": true,
    "partial": true,
    "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-27T08:05Z",
+   "at": "2026-11-27T13:45Z",
    "found": 2,
-   "secs": 624
+   "secs": 471
   }
  },
  "state": {
@@ -91,6 +91,42 @@
    "seen": "2026-11-27T08:05Z"
   },
   {
+   "src": "fr-boamp",
+   "id": "fr-boamp:26-115006",
+   "date": "2026-11-26",
+   "title": "Realisation D'Un Amenagement Cyclable Sur Le Territoire De Vga (So Velo Portogruaro)",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-115006",
+   "buyer": "Val de Garonne Agglomération",
+   "cc": "FRA",
+   "type": "tender",
+   "place": "47",
+   "seen": "2026-11-27T13:45Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-b1000000-c0de-4000-a000-00d463424779",
+   "date": "2026-11-26",
+   "title": "Verwertung von Altreifen",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=0917bc58-e2aa-4fa3-81fe-864010f86fa6",
+   "buyer": "Zweckverband Abfallwirtschaft Region Hannover",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Verwertung von Altreifen (AVV 160103) inkl. Containergestellung und Transport von verschiedenen Standorten der Stadt Hannover und Region Hannover. Das Material stammt aus der Anlieferung von Privatkunden auf unseren Wertstoffhöfen in der gesamten Region Hannover. Hier beträgt die geschätzte Jahresme",
+   "seen": "2026-11-27T13:45Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-32e3b1ca-1d43-47f0-8e6d-70651cb1fb55",
+   "date": "2026-11-26",
+   "title": "Neuorganisation und Revitalisierung des Standortes AOK- Darmstadt \"Rückbau, Entkernung, Schadstoffsanierung\"",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=da11757f-dddb-41b8-b59a-eaa3f60da227",
+   "buyer": "AOK - Die Gesundheitskasse in Hessen",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Die AOK Hessen plant die Sanierung und Neuordnung des bestehenden Verwaltungsstandortes in der Neckarstraße 9, 64283 Darmstadt. Ziel der Maßnahme ist die Anpassung des Standortes an moderne und flexible Arbeitsstrukturen sowie die umfassende bauliche und energetische Ertüchtigung des bestehenden Geb",
+   "seen": "2026-11-27T13:45Z"
+  },
+  {
    "src": "uk-fts",
    "id": "uk-fts:ocds-h6vhtk-06f54f",
    "date": "2026-11-25",
@@ -118,6 +154,55 @@
    "type": "tender",
    "text": "BCP Council is looking for interested parties to supply, install, operate, and maintain secure cycle parking pods, lockers, or hangars for a minimum of 30no. bikes in total at multiple agreed locations across the BCP area. The facilities will be locked and unlocked using a phone-based app, which i",
    "seen": "2026-11-26T08:08Z"
+  },
+  {
+   "src": "fr-boamp",
+   "id": "fr-boamp:26-114601",
+   "date": "2026-11-25",
+   "title": "Levés topographiques du linéaire secteur 10 « Bannegon (Nord) à Saint-Just (Sud) » Pour la réalisation de l’axe structurant -« Cœur de France à vélo - canal de Berry »",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114601",
+   "buyer": "Syndicat du Canal de Berry (18)",
+   "cc": "FRA",
+   "deadline": "2026-12-14",
+   "type": "tender",
+   "place": "18",
+   "seen": "2026-11-27T13:45Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-64c56f74-425c-4863-a5ca-7d16a6a3c439",
+   "date": "2026-11-25",
+   "title": "Erweiterung GS Am Grünen Kamp - Außenanlagen",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ccb1bfc5-501c-4bb5-9771-11327e0a2ef3",
+   "buyer": "Stadt Delmenhorst",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Erweiterung der Grundschule Am Grünen Kamp - Außenanlagen Baufläche: ca. 3260 m2 Vorarbeiten/ Abbruch: Baumfällung und Strauchrodungen Erdarbeiten: ca. 3500 m3 verschiedene Böden, unterschiedliche Abtragstiefen, Kabelgräben und Fundamentgruben Oberflächenentwässerung: von Pflasterflächen und Geb",
+   "seen": "2026-11-27T13:45Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-26081656",
+   "date": "2026-11-25",
+   "title": "Substanzerhaltung von Gemeindestraße und Rad-/Fußwegen 2026",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=26081656",
+   "buyer": "Gemeinde Westoverledingen",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "-Verkehrsflächen aus Asphalt fräsen, verschiedene Flächengrößen, ca. 3.000 m² -Sanierungsflächen aus Asphalt, verschiedene Verkehrsflächen, ca. 3.000,00 m² -Asphalteinbau, Material: AC 8 DN ca. 225,00 to, AC 22 TN ca. 20,00 to, AC 11 TN ca. 150,00 to -Asphaltbewehrung liefern und einbauen, ca. 3.000",
+   "seen": "2026-11-27T13:45Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-26079132",
+   "date": "2026-11-25",
+   "title": "Salzlandkreis, Baumaßnahme zur Errichtung von zwei Fahrradstationen",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=26079132",
+   "buyer": "Salzlandkreis",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "a) Öffentlicher Auftraggeber (Vergabestelle): Name und Anschrift: Salzlandkreis Karlsplatz 37 06406 Bernburg (Saale) Telefonnummer: +49 3471684-0 E-Mail: zvs@kreis-slk.de Faxnummer: +49 3471684-561010 Internet: https://www.salzlandkreis.de b) Vergabeverfahren: Beschränkte Ausschreibung ohne Teiln",
+   "seen": "2026-11-27T13:45Z"
   },
   {
    "src": "uk-fts",
@@ -154,6 +239,18 @@
    "type": "tender",
    "text": "Unterhalts- und Glasreinigung, Grundreinigung als Bedarfsleistung Gebäudereinigung PD Leipzig, ZentraB Fahrrad, Essener Straße 32 in 04129 Leipzig",
    "seen": "2026-11-25T11:43Z"
+  },
+  {
+   "src": "de-doe",
+   "id": "de-doe:ocds-mnwr74-a4a39f78-9516-4ba7-bc1f-f66b1d1542cb",
+   "date": "2026-11-24",
+   "title": "Leistungen der Objektplanung Gebäude für den Neubau CAMPUS der Generationen in der Frobenstraße 27-29, 10783 Berlin Tempelhof-Schöneberg",
+   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4d8dbabd-cea8-4001-9ea7-a77694a541cb",
+   "buyer": "Bezirksamt Tempelhof-Schöneberg von Berlin",
+   "cc": "DEU",
+   "type": "tender",
+   "text": "Gegenstand der Vergabe ist die Planung und Realisierung des Neubaus „CAMPUS der Generationen“ in der Frobenstraße 27–29 in Berlin-Schöneberg. Auf dem Grundstück soll mit einem integrierten Ansatz ein Haus des Gemeinwesens mit vielfältigen, niederschwelligen Angeboten für Kinder, Jugendliche, Familie",
+   "seen": "2026-11-17T11:37Z"
   },
   {
    "src": "es-place",
@@ -397,18 +494,6 @@
    "type": "tender",
    "text": "Id licitación: SCT2026000269; Órgano de Contratación: Concejalía Delegada de Deportes del Ayuntamiento de Santa Cruz de Tenerife; Importe: 27914.02 EUR; Estado: EV",
    "seen": "2026-11-20T07:56Z"
-  },
-  {
-   "src": "de-doe",
-   "id": "de-doe:ocds-mnwr74-a4a39f78-9516-4ba7-bc1f-f66b1d1542cb",
-   "date": "2026-11-19",
-   "title": "Leistungen der Objektplanung Gebäude für den Neubau CAMPUS der Generationen in der Frobenstraße 27-29, 10783 Berlin Tempelhof-Schöneberg",
-   "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4c7130ff-7603-4e29-bb05-4e929459cbdf",
-   "buyer": "Bezirksamt Tempelhof-Schöneberg von Berlin",
-   "cc": "DEU",
-   "type": "tender",
-   "text": "Gegenstand der Vergabe ist die Planung und Realisierung des Neubaus „CAMPUS der Generationen“ in der Frobenstraße 27–29 in Berlin-Schöneberg. Auf dem Grundstück soll mit einem integrierten Ansatz ein Haus des Gemeinwesens mit vielfältigen, niederschwelligen Angeboten für Kinder, Jugendliche, Familie",
-   "seen": "2026-11-17T11:37Z"
   },
   {
    "src": "de-doe",
