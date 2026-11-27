@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-11-26T08:08Z",
- "since": "2026-11-05",
+ "updatedAt": "2026-11-27T08:05Z",
+ "since": "2026-11-06",
  "sources": {
   "uk-fts": {
    "ok": true,
    "found": 3,
-   "at": "2026-11-26T08:08Z",
-   "secs": 25
+   "at": "2026-11-27T08:05Z",
+   "secs": 26
   },
   "uk-cf": {
    "ok": true,
@@ -23,7 +23,7 @@
   "br-pncp": {
    "ok": false,
    "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "at": "2026-11-26T08:08Z",
+   "at": "2026-11-27T08:05Z",
    "found": 0
   },
   "co-secop": {
@@ -48,9 +48,9 @@
    "ok": true,
    "partial": true,
    "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-26T08:08Z",
+   "at": "2026-11-27T08:05Z",
    "found": 2,
-   "secs": 518
+   "secs": 624
   }
  },
  "state": {
@@ -62,6 +62,34 @@
   }
  },
  "notices": [
+  {
+   "src": "es-place",
+   "id": "es-place:https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20757535",
+   "date": "2026-11-26",
+   "title": "Servicios para la redacción del Proyecto de modificación del carril bici de la Avda. del Puerto en los tramos Avda. Aragón Avda. Cardenal Benlloch Avda. Dr. Manuel Candela Calle Serrería, en los distritos Pla del Real y Camins al Grau. Presupuestos VLCPARTICIPA 2025-2026. Propuesta de inversión nº 6",
+   "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xf5aTu%2BxuMtVYjgxA4nMUw%3D%3D",
+   "cc": "ESP",
+   "value": 6359045.0,
+   "cur": "EUR",
+   "buyer": "Concejalía Delegada de Contratación del Ajuntament de València",
+   "type": "tender",
+   "text": "Id licitación: 04101/2026/153-SEROB; Órgano de Contratación: Concejalía Delegada de Contratación del Ajuntament de València; Importe: 63590.45 EUR; Estado: EV",
+   "seen": "2026-11-17T12:09Z"
+  },
+  {
+   "src": "es-place",
+   "id": "es-place:https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20715689",
+   "date": "2026-11-26",
+   "title": "Obras de modificación del carril bici del Paseo Alameda, en el tramo Puente del Reino Puente de Monteolivete, en el distrito Camins al Grau.-",
+   "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=h1bV%2FOuOm9vzAq95uGTrDQ%3D%3D",
+   "cc": "ESP",
+   "value": 39403169.0,
+   "cur": "EUR",
+   "buyer": "Junta de Gobierno del Ajuntament de València",
+   "type": "tender",
+   "text": "Id licitación: 04101/2026/198-O; Órgano de Contratación: Junta de Gobierno del Ajuntament de València; Importe: 394031.69 EUR; Estado: EV",
+   "seen": "2026-11-27T08:05Z"
+  },
   {
    "src": "uk-fts",
    "id": "uk-fts:ocds-h6vhtk-06f54f",
@@ -967,20 +995,6 @@
    "type": "tender",
    "text": "Id licitación: 2026/0000014; Órgano de Contratación: Subdelegación del Gobierno en Albacete; Importe: 53064.17 EUR; Estado: PUB",
    "seen": "2026-11-17T11:48Z"
-  },
-  {
-   "src": "es-place",
-   "id": "es-place:https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20757535",
-   "date": "2026-11-13",
-   "title": "Servicios para la redacción del Proyecto de modificación del carril bici de la Avda. del Puerto en los tramos Avda. Aragón Avda. Cardenal Benlloch Avda. Dr. Manuel Candela Calle Serrería, en los distritos Pla del Real y Camins al Grau. Presupuestos VLCPARTICIPA 2025-2026. Propuesta de inversión nº 6",
-   "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xf5aTu%2BxuMtVYjgxA4nMUw%3D%3D",
-   "cc": "ESP",
-   "value": 6359045.0,
-   "cur": "EUR",
-   "buyer": "Concejalía Delegada de Contratación del Ajuntament de València",
-   "type": "tender",
-   "text": "Id licitación: 04101/2026/153-SEROB; Órgano de Contratación: Concejalía Delegada de Contratación del Ajuntament de València; Importe: 63590.45 EUR; Estado: EV",
-   "seen": "2026-11-17T12:09Z"
   },
   {
    "src": "br-pncp",
