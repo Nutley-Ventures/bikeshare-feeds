@@ -62,6 +62,7 @@ def poll(row):
         info_url, status_url = feeds.get("station_information"), feeds.get("station_status")
         free_url = feeds.get("vehicle_status") or feeds.get("free_bike_status")
         docked = 0
+        tclass = {}  # vehicle_type_id -> eb (e-bike), pb (pedal bike), cb (cargo bike), sc (scooter), mo (moped), ot
         # Hardware and operator, where the feed states them (system_information, vehicle_types).
         if feeds.get("system_information"):
             try:
@@ -83,6 +84,8 @@ def poll(row):
                     model = model[0].get("text") if isinstance(model, list) and model else model
                     label = " ".join(str(x).strip() for x in (make, model) if x)
                     prop = v.get("propulsion_type") or ""
+                    ff_ = v.get("form_factor") or ""
+                    tclass[str(v.get("vehicle_type_id"))] = ("cb" if ff_ == "cargo_bicycle" else ("eb" if "electric" in prop else "pb") if ff_ in ("bicycle", "") else "sc" if ff_.startswith("scooter") else "mo" if ff_ == "moped" else "ot")
                     if v.get("form_factor") in (None, "bicycle", "cargo_bicycle") and (label or prop):
                         kinds.add(f"{label or 'Unspecified bike'}" + (f" ({prop.replace('_', ' ')})" if prop else ""))
                 if kinds:
@@ -123,6 +126,15 @@ def poll(row):
             d = fdoc.get("data") or {}
             vehicles = d.get("vehicles", d.get("bikes")) or []
             free = sum(1 for v in vehicles if not v.get("station_id"))  # docked ones are already counted
+            if tclass:  # free-floating fleet by kind of vehicle, so e-bikes and scooters can be told apart
+                mix = {}
+                for v in vehicles:
+                    if v.get("station_id"):
+                        continue
+                    k = tclass.get(str(v.get("vehicle_type_id")), "ot")
+                    mix[k] = mix.get(k, 0) + 1
+                if mix:
+                    out["mx"] = mix
         if not (info_url or status_url or free_url):
             raise ValueError("no station or vehicle feeds listed")
         out["bk"] = docked + free
@@ -156,7 +168,7 @@ def main():
         old = prev.get(sid, {})
         hist = {d: n for d, n in (old.get("hist") or {}).items() if d >= oldest}
         if "err" in res:
-            rec = {k: old[k] for k in ("st", "dk", "bk", "ff", "sr", "em", "fu", "at", "lu", "op", "vt", "y", "x") if k in old}  # keep last good numbers
+            rec = {k: old[k] for k in ("st", "dk", "bk", "ff", "sr", "em", "fu", "at", "lu", "op", "vt", "mx", "y", "x") if k in old}  # keep last good numbers
             rec["err"] = res["err"]
         else:
             ok += 1
