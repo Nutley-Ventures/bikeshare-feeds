@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-11-27T13:45Z",
- "since": "2026-11-06",
+ "updatedAt": "2026-11-28T07:55Z",
+ "since": "2026-11-07",
  "sources": {
   "uk-fts": {
    "ok": true,
    "found": 2,
-   "at": "2026-11-27T13:45Z",
-   "secs": 30
+   "at": "2026-11-28T07:55Z",
+   "secs": 25
   },
   "uk-cf": {
    "ok": true,
@@ -23,7 +23,7 @@
   "br-pncp": {
    "ok": false,
    "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "at": "2026-11-27T13:45Z",
+   "at": "2026-11-28T07:55Z",
    "found": 0
   },
   "co-secop": {
@@ -48,20 +48,48 @@
    "ok": true,
    "partial": true,
    "note": "Slow portal: read part of it this run and carries on next run",
-   "at": "2026-11-27T13:45Z",
-   "found": 2,
-   "secs": 471
+   "at": "2026-11-28T07:55Z",
+   "found": 4,
+   "secs": 468
   }
  },
  "state": {
   "br-pncp": {
-   "next_page": 627
+   "next_page": 666
   },
   "es-place": {
    "done_to": "2026-11-22"
   }
  },
  "notices": [
+  {
+   "src": "es-place",
+   "id": "es-place:https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20068020",
+   "date": "2026-11-27",
+   "title": "Servicios para la ejecución de los talleres de formación prelaboral dirigidos a personas en situación o en riesgo de exclusión social, en las especialidades de auxiliar de peluquería y estética, mantenimiento de vehículos ligeros y bicicletas, pintura de fachadas e interiores, peluquería masculina y",
+   "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=T19n95ZhtJweC9GJQOEBkQ%3D%3D",
+   "cc": "ESP",
+   "value": 19652103.0,
+   "cur": "EUR",
+   "buyer": "Junta de Gobierno Local del Ayuntamiento de Alicante",
+   "type": "tender",
+   "text": "Id licitación: 48/26; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Alicante; Importe: 196521.03 EUR; Estado: RES",
+   "seen": "2026-11-28T07:55Z"
+  },
+  {
+   "src": "es-place",
+   "id": "es-place:https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/21018093",
+   "date": "2026-11-27",
+   "title": "Obras de ejecución de conexión de carril bici de Lusa a Santullán. Fase 1 (financiación mediante el Plan de Inversiones Municipales de la Comunidad Autónoma de Cantabria en el periodo 2025-2029).",
+   "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Q62Ni%2FufhN2KeVWTb9Scog%3D%3D",
+   "cc": "ESP",
+   "value": 38678426.0,
+   "cur": "EUR",
+   "buyer": "Alcaldía del Ayuntamiento de Castro-Urdiales",
+   "type": "tender",
+   "text": "Id licitación: 30970/2025; Órgano de Contratación: Alcaldía del Ayuntamiento de Castro-Urdiales; Importe: 386784.26 EUR; Estado: PUB",
+   "seen": "2026-11-28T07:55Z"
+  },
   {
    "src": "es-place",
    "id": "es-place:https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20757535",
